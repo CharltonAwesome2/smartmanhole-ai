@@ -1,0 +1,17 @@
+.app {
+  display: flex;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+/* pulsing critical alert */
+@keyframes pulse {
+  0% { transform: scale(1); opacity: 0.6; }
+  50% { transform: scale(1.4); opacity: 0.2; }
+  100% { transform: scale(1); opacity: 0.6; }
+}
+
+.critical-pulse {
+  animation: pulse 1.5s infinite;
+  border-radius: 50%;
+}
