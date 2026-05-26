@@ -16,6 +16,7 @@
       "@/*": ["./src/*"],
       "@api/*": ["./src/api/*"],
       "@components/*": ["./src/components/*"],
+      "@pages/*": ["./src/pages/*"],
       "@data/*": ["./src/data/*"],
       "@utils/*": ["./src/utils/*"],
       "@assets/*": ["./src/assets/*"]

@@ -1,0 +1,175 @@
+.panel {
+  display: grid;
+  gap: 16px;
+}
+
+.chartRow {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.detailRow {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+.bottomRow {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.chartCard,
+.detailCard {
+  min-width: 0;
+}
+
+.chartBody {
+  padding-top: 8px;
+  padding-bottom: 12px;
+}
+
+.metricGrid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 10px;
+  margin-bottom: 16px;
+}
+
+.metricTile {
+  padding: 12px;
+  border-radius: var(--radius-md);
+  background: rgb(var(--color-surface-muted-rgb));
+  border: 1px solid rgb(var(--color-border-rgb));
+  display: grid;
+  gap: 4px;
+}
+
+.metricLabel {
+  font-size: 0.72rem;
+  font-weight: var(--font-weight-medium);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: rgb(var(--color-text-muted-rgb));
+}
+
+.metricValue {
+  font-size: 1.25rem;
+  font-weight: var(--font-weight-bold);
+  color: rgb(var(--color-accent-strong-rgb));
+  font-variant-numeric: tabular-nums;
+}
+
+.signalGrid {
+  display: grid;
+  gap: 12px;
+}
+
+.signalBar {
+  display: grid;
+  gap: 6px;
+}
+
+.signalBarLabel {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  font-size: 0.86rem;
+  color: rgb(var(--color-text-muted-rgb));
+}
+
+.signalBarLabel strong {
+  color: rgb(var(--color-text-strong-rgb));
+  font-variant-numeric: tabular-nums;
+}
+
+.signalBarLabelText {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.signalBarTrack {
+  height: 8px;
+  border-radius: var(--radius-pill);
+  background: rgb(var(--color-border-rgb));
+  overflow: hidden;
+}
+
+.signalBarFill {
+  display: block;
+  height: 100%;
+  border-radius: inherit;
+  transition: width 0.25s ease;
+}
+
+.signalBarFill--water {
+  background: linear-gradient(90deg, rgb(var(--color-water-soft-rgb)), rgb(var(--color-water-rgb)));
+}
+
+.signalBarFill--gas {
+  background: linear-gradient(90deg, rgb(var(--color-gas-soft-rgb)), rgb(var(--color-gas-rgb)));
+}
+
+.signalBarFill--moisture {
+  background: linear-gradient(90deg, rgb(var(--color-accent-soft-rgb)), rgb(var(--color-accent-rgb)));
+}
+
+.triggerForm {
+  display: grid;
+  gap: 16px;
+}
+
+.triggerField {
+  display: grid;
+  gap: 10px;
+  padding: 16px 18px;
+  border-radius: var(--radius-md);
+  background: rgb(var(--color-surface-muted-rgb));
+  border: 1px solid rgb(var(--color-border-rgb));
+  font-size: 0.86rem;
+  color: rgb(var(--color-text-rgb));
+}
+
+.triggerRow {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.triggerRow strong {
+  min-width: 2.5rem;
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+.triggerRow input[type="range"] {
+  flex: 1;
+  accent-color: rgb(var(--color-accent-rgb));
+}
+
+.triggerToggle {
+  display: inline-flex !important;
+  align-items: center;
+  gap: 12px;
+  padding: 16px 18px;
+  border-radius: var(--radius-md);
+  background: rgb(var(--color-surface-muted-rgb));
+  border: 1px solid rgb(var(--color-border-rgb));
+  line-height: 1.4;
+}
+
+@media (max-width: 1100px) {
+  .chartRow,
+  .detailRow,
+  .bottomRow {
+    grid-template-columns: 1fr;
+  }
+
+  .metricGrid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}

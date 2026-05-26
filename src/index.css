@@ -1,8 +1,21 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   min-width: 320px;
   overflow: hidden;
-  background: #07111d;
+  font-family: var(--font-sans);
+  font-weight: var(--font-weight-normal);
+  font-feature-settings: "kern" 1, "liga" 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: rgb(var(--color-canvas-end-rgb));
+  color: rgb(var(--color-text-rgb));
+  line-height: 1.5;
 }
 
 #root {
@@ -12,6 +25,27 @@ body {
 }
 
 h1,
+h2,
+h3,
+strong,
+b {
+  font-weight: var(--font-weight-bold);
+  letter-spacing: -0.02em;
+}
+
+h1,
 h2 {
   margin-top: 0;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+button {
+  border-radius: var(--radius-sm);
+  box-shadow: none;
 }

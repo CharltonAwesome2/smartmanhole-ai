@@ -1,6 +1,7 @@
 import { MapContainer, TileLayer, CircleMarker, useMap } from "react-leaflet";
 import { useEffect, useMemo, useState } from "react";
 import { predictFutureRisk, getStatus } from "@utils/advancedRiskEngine";
+import styles from "./MapView.module.css";
 
 function webMercatorToLatLng(sensor) {
   if (!Number.isFinite(sensor.originalX) || !Number.isFinite(sensor.originalY)) {
@@ -58,11 +59,11 @@ export default function MapView({ manholes, rain, onSelect, activeDistrictName, 
   );
 
   if (loading && !mapData.length) {
-    return <div className="map-shell map-shell--loading">Loading CPUT Bellville sensor network…</div>;
+    return <div className={`${styles["map-shell"]} ${styles["map-shell--loading"]}`}>Loading CPUT Bellville sensor network…</div>;
   }
 
   return (
-    <MapContainer center={initialCenter} zoom={12} className="map-shell">
+    <MapContainer center={initialCenter} zoom={12} className={styles["map-shell"]}>
       <TileLayer
         attribution="&copy; OpenStreetMap contributors"
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
@@ -76,7 +77,12 @@ export default function MapView({ manholes, rain, onSelect, activeDistrictName, 
         const center = webMercatorToLatLng(m);
         const isActiveDistrict = !activeDistrictName || m.districtName === activeDistrictName;
 
-        const color = status === "NORMAL" ? "green" : status === "WARNING" ? "orange" : "red";
+        const color =
+          status === "NORMAL"
+            ? "rgb(var(--color-success-rgb))"
+            : status === "WARNING"
+              ? "rgb(var(--color-warning-rgb))"
+              : "rgb(var(--color-danger-rgb))";
 
         return (
           <CircleMarker

@@ -1,0 +1,178 @@
+.card {
+  position: relative;
+  border-radius: var(--radius-lg);
+  background: rgb(var(--color-surface-rgb));
+  border: 1px solid rgb(var(--color-border-rgb));
+  box-shadow: var(--shadow-card);
+  overflow: hidden;
+}
+
+.card--padding-sm {
+  padding: 12px 14px;
+}
+
+.card--padding-lg {
+  padding: 18px 20px;
+}
+
+.card--default:not(.card--panel):not(.card--stat) {
+  padding: 16px 18px;
+}
+
+/* KPI / stat tiles */
+.card--stat {
+  padding: 16px 18px 16px 22px;
+  display: grid;
+  gap: 6px;
+  min-height: 96px;
+}
+
+.card--stat::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 4px;
+  background: rgb(var(--color-accent-rgb));
+}
+
+.card--water::before {
+  background: linear-gradient(180deg, rgb(var(--color-water-rgb)), rgb(var(--color-water-deep-rgb)));
+}
+
+.card--gas::before {
+  background: linear-gradient(180deg, rgb(var(--color-gas-rgb)), rgb(var(--color-gas-deep-rgb)));
+}
+
+.card--risk::before {
+  background: linear-gradient(180deg, rgb(var(--color-warning-rgb)), rgb(var(--color-danger-rgb)));
+}
+
+.card--water,
+.card--gas,
+.card--risk {
+  background: rgb(var(--color-surface-rgb));
+  border-color: rgb(var(--color-border-rgb));
+}
+
+/* Panel cards — Cognos workspace tile */
+.card--panel {
+  padding: 0;
+  border-color: rgb(var(--color-border-strong-rgb));
+}
+
+.panelHeader {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+  margin: 0;
+  padding: 14px 18px;
+  background: rgb(var(--color-surface-header-rgb));
+  border-bottom: 1px solid rgb(var(--color-border-rgb));
+}
+
+.cardBody {
+  padding: 16px 18px 18px;
+}
+
+.cardBody--relaxed {
+  padding: 22px 24px 26px;
+}
+
+.card--nested {
+  padding: 14px 16px;
+  border-radius: var(--radius-md);
+  box-shadow: none;
+  background: rgb(var(--color-surface-muted-rgb));
+  border-color: rgb(var(--color-border-rgb));
+}
+
+.card--nested::before {
+  display: none;
+}
+
+.card--critical,
+.card--warning {
+  padding: 14px 16px;
+}
+
+.card--critical {
+  border-color: rgba(var(--color-danger-rgb), 0.35);
+  background: rgba(var(--color-danger-rgb), 0.06);
+}
+
+.card--critical::before {
+  background: rgb(var(--color-danger-rgb));
+}
+
+.card--warning {
+  border-color: rgba(var(--color-warning-rgb), 0.35);
+  background: rgba(var(--color-warning-rgb), 0.06);
+}
+
+.card--warning::before {
+  background: rgb(var(--color-warning-rgb));
+}
+
+.statLabel {
+  margin: 0;
+  font-size: 0.78rem;
+  font-weight: var(--font-weight-medium);
+  color: rgb(var(--color-text-muted-rgb));
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.statValue {
+  margin: 0;
+  font-size: 1.35rem;
+  font-weight: var(--font-weight-bold);
+  line-height: 1.15;
+  color: rgb(var(--color-accent-strong-rgb));
+  font-variant-numeric: tabular-nums;
+}
+
+.card--water .statValue {
+  color: rgb(var(--color-water-deep-rgb));
+}
+
+.card--gas .statValue {
+  color: rgb(var(--color-gas-deep-rgb));
+}
+
+.statValue--lg {
+  font-size: 2rem;
+  letter-spacing: -0.02em;
+}
+
+.statHint {
+  margin: 0;
+  font-size: 0.8rem;
+  color: rgb(var(--color-text-soft-rgb));
+  line-height: 1.35;
+}
+
+.eyebrow {
+  margin: 0 0 4px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 0.68rem;
+  font-weight: var(--font-weight-semibold);
+  color: rgb(var(--color-accent-strong-rgb));
+}
+
+.panelTitle {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: var(--font-weight-semibold);
+  color: rgb(var(--color-text-strong-rgb));
+}
+
+.panelNote {
+  font-size: 0.78rem;
+  color: rgb(var(--color-text-soft-rgb));
+  white-space: nowrap;
+  padding-top: 2px;
+}

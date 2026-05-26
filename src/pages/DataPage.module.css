@@ -1,0 +1,212 @@
+.dataPanel,
+.dataFeedPanel {
+  height: 100%;
+}
+
+.dataPanelBody {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.sourceToggle {
+  display: inline-flex;
+  padding: 4px;
+  border-radius: 999px;
+  background: rgb(var(--color-surface-rgb));
+  border: 1px solid rgba(var(--color-border-rgb), 0.85);
+  width: fit-content;
+}
+
+.sourceToggleButton {
+  min-width: 92px;
+  padding: 10px 16px;
+  border: 0;
+  border-radius: 999px;
+  background: transparent;
+  color: rgb(var(--color-text-muted-rgb));
+  cursor: pointer;
+  font-weight: var(--font-weight-semibold);
+  transition: background 0.15s ease, color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.sourceToggleButton:hover {
+  color: rgb(var(--color-text-rgb));
+}
+
+.sourceToggleButton--active {
+  background: rgb(var(--color-background-rgb));
+  color: rgb(var(--color-text-rgb));
+  box-shadow: var(--shadow-sm);
+}
+
+.sourceDescription {
+  margin: 0;
+  color: rgb(var(--color-text-muted-rgb));
+  line-height: 1.55;
+}
+
+.sourceError {
+  margin: 0;
+  padding: 12px 14px;
+  border-radius: var(--radius-lg);
+  background: rgba(var(--color-danger-rgb), 0.12);
+  color: rgb(var(--color-danger-rgb));
+  border: 1px solid rgba(var(--color-danger-rgb), 0.2);
+}
+
+.metaGrid {
+  display: grid;
+  gap: 12px;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.metaCard {
+  padding: 14px 16px;
+  border-radius: var(--radius-xl);
+  background: rgb(var(--color-background-rgb));
+  border: 1px solid rgba(var(--color-border-rgb), 0.85);
+}
+
+.metaCard__header,
+.feedCard__header,
+.comparisonRow__meta,
+.metricTrack__labelRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.metaCard strong,
+.feedCard strong,
+.comparisonRow__meta strong {
+  color: rgb(var(--color-text-rgb));
+}
+
+.metaCard p,
+.feedCard p,
+.comparisonRow__meta span {
+  margin: 6px 0 0;
+  color: rgb(var(--color-text-muted-rgb));
+}
+
+.metaCard small,
+.feedCard__metrics span {
+  color: rgb(var(--color-text-soft-rgb));
+}
+
+.comparisonChart {
+  display: grid;
+  gap: 14px;
+}
+
+.comparisonRow {
+  display: grid;
+  gap: 10px;
+  padding: 14px;
+  border-radius: var(--radius-xl);
+  background: rgb(var(--color-background-rgb));
+  border: 1px solid rgba(var(--color-border-rgb), 0.85);
+}
+
+.comparisonRow__tracks {
+  display: grid;
+  gap: 10px;
+}
+
+.metricTrack {
+  display: grid;
+  gap: 6px;
+}
+
+.metricTrack__rail {
+  height: 10px;
+  border-radius: 999px;
+  overflow: hidden;
+  background: rgba(var(--color-border-rgb), 0.7);
+}
+
+.metricTrack__fill--water,
+.metricTrack__fill--gas,
+.metricTrack__fill--warning,
+.metricTrack__fill--risk,
+.metricTrack__fill--danger {
+  height: 100%;
+  border-radius: inherit;
+}
+
+.metricTrack__fill--water {
+  background: linear-gradient(90deg, rgb(var(--color-water-rgb)), rgba(var(--color-water-rgb), 0.6));
+}
+
+.metricTrack__fill--gas {
+  background: linear-gradient(90deg, rgb(var(--color-gas-rgb)), rgba(var(--color-gas-rgb), 0.6));
+}
+
+.metricTrack__fill--warning {
+  background: linear-gradient(90deg, rgb(var(--color-warning-rgb)), rgba(var(--color-warning-rgb), 0.6));
+}
+
+.metricTrack__fill--risk {
+  background: linear-gradient(90deg, rgb(var(--color-risk-rgb)), rgba(var(--color-risk-rgb), 0.6));
+}
+
+.metricTrack__fill--danger {
+  background: linear-gradient(90deg, rgb(var(--color-danger-rgb)), rgba(var(--color-danger-rgb), 0.6));
+}
+
+.feedGrid {
+  display: grid;
+  gap: 12px;
+}
+
+.feedCard {
+  padding: 14px 16px;
+  border-radius: var(--radius-xl);
+  border: 1px solid rgba(var(--color-border-rgb), 0.85);
+  background: rgb(var(--color-background-rgb));
+}
+
+.feedCard__header {
+  align-items: flex-start;
+}
+
+.feedCard__metrics {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 14px;
+  margin-top: 12px;
+}
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 64px;
+  padding: 5px 10px;
+  border-radius: 999px;
+  font-size: 0.78rem;
+  font-weight: var(--font-weight-semibold);
+}
+
+.badge--healthy {
+  background: rgba(var(--color-success-rgb), 0.14);
+  color: rgb(var(--color-success-rgb));
+}
+
+.badge--warning {
+  background: rgba(var(--color-warning-rgb), 0.14);
+  color: rgb(var(--color-warning-rgb));
+}
+
+.badge--critical {
+  background: rgba(var(--color-danger-rgb), 0.14);
+  color: rgb(var(--color-danger-rgb));
+}
+
+@media (max-width: 1100px) {
+  .metaGrid {
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,0 +1,78 @@
+/* Second-row overview panels — roomier interior rhythm */
+
+.overviewPanel {
+  display: flex;
+  flex-direction: column;
+}
+
+.overviewPanelHeader {
+  padding: 18px 28px !important;
+}
+
+.overviewPanelBody {
+  padding: 28px 28px 32px !important;
+  flex: 1;
+}
+
+.overviewList {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.overviewRow {
+  display: grid;
+  gap: 8px;
+  padding: 18px 22px;
+  margin: 0;
+  border-radius: var(--radius-md);
+  background: rgb(var(--color-surface-muted-rgb));
+  border: 1px solid rgb(var(--color-border-rgb));
+}
+
+.overviewRow strong {
+  margin: 0;
+  font-size: 0.95rem;
+  font-weight: var(--font-weight-semibold);
+  line-height: 1.35;
+  color: rgb(var(--color-text-strong-rgb));
+}
+
+.overviewRow span {
+  margin: 0;
+  font-size: 0.86rem;
+  line-height: 1.45;
+  color: rgb(var(--color-text-muted-rgb));
+}
+
+.overviewRow small {
+  margin: 0;
+  font-size: 0.8rem;
+  line-height: 1.4;
+  color: rgb(var(--color-text-soft-rgb));
+}
+
+.overviewRow--critical {
+  border-color: rgba(var(--color-danger-rgb), 0.35);
+  background: rgba(var(--color-danger-rgb), 0.06);
+}
+
+.overviewRow--warning {
+  border-color: rgba(var(--color-warning-rgb), 0.35);
+  background: rgba(var(--color-warning-rgb), 0.06);
+}
+
+.overviewEmpty {
+  margin: 0;
+  padding: 28px 24px;
+  text-align: center;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  color: rgb(var(--color-text-muted-rgb));
+  background: rgb(var(--color-surface-muted-rgb));
+  border: 1px dashed rgb(var(--color-border-rgb));
+  border-radius: var(--radius-md);
+}

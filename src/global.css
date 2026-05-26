@@ -1,0 +1,98 @@
+/* ============================================
+   SmartManhole — dashboard design tokens
+   ============================================ */
+
+:root {
+  color-scheme: light;
+
+  --font-sans: "Plus Jakarta Sans", "Segoe UI", system-ui, sans-serif;
+  --font-weight-normal: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+
+  --color-header-rgb: 0, 112, 192;
+  --color-header-deep-rgb: 0, 90, 158;
+  --color-rail-rgb: 38, 50, 64;
+  --color-rail-muted-rgb: 52, 66, 86;
+  --color-rail-border-rgb: 68, 84, 106;
+
+  --color-canvas-start-rgb: 237, 242, 248;
+  --color-canvas-end-rgb: 230, 236, 245;
+  --color-canvas-rgb: 235, 240, 247;
+  --color-background-rgb: 235, 240, 247;
+  --color-surface-rgb: 255, 255, 255;
+  --color-surface-strong-rgb: 255, 255, 255;
+  --color-surface-muted-rgb: 247, 250, 253;
+  --color-surface-header-rgb: 241, 246, 252;
+
+  --color-text-rgb: 51, 65, 85;
+  --color-text-strong-rgb: 15, 39, 68;
+  --color-text-on-dark-rgb: 255, 255, 255;
+  --color-text-muted-rgb: 91, 110, 133;
+  --color-text-soft-rgb: 130, 148, 170;
+
+  --color-border-rgb: 207, 219, 234;
+  --color-border-strong-rgb: 186, 202, 222;
+  --color-shadow-rgb: 15, 39, 68;
+
+  --color-accent-rgb: 0, 112, 192;
+  --color-accent-strong-rgb: 0, 90, 158;
+  --color-accent-deep-rgb: 0, 72, 128;
+  --color-accent-soft-rgb: 224, 242, 254;
+
+  --color-water-rgb: 0, 153, 216;
+  --color-water-deep-rgb: 0, 119, 182;
+  --color-water-soft-rgb: 186, 230, 253;
+
+  --color-gas-rgb: 91, 124, 157;
+  --color-gas-deep-rgb: 61, 94, 125;
+  --color-gas-soft-rgb: 214, 226, 238;
+
+  --color-info-rgb: 59, 130, 246;
+  --color-risk-rgb: 0, 112, 192;
+  --color-danger-rgb: 220, 38, 38;
+  --color-danger-deep-rgb: 185, 28, 28;
+  --color-danger-strong-rgb: 185, 28, 28;
+  --color-warning-rgb: 234, 88, 12;
+  --color-warning-deep-rgb: 194, 65, 12;
+  --color-success-rgb: 22, 163, 74;
+  --color-success-deep-rgb: 21, 128, 61;
+  --color-success-soft-rgb: 134, 239, 172;
+  --color-neutral-dim-rgb: 100, 116, 139;
+
+  --radius-sm: 6px;
+  --radius-md: 8px;
+  --radius-lg: 10px;
+  --radius-pill: 6px;
+  --shadow-card: 0 1px 3px rgba(var(--color-shadow-rgb), 0.06), 0 4px 12px rgba(var(--color-shadow-rgb), 0.04);
+  --shadow-elevated: 0 8px 24px rgba(var(--color-shadow-rgb), 0.1);
+  --header-height: 52px;
+}
+
+:root[data-theme="dark"] {
+  color-scheme: dark;
+
+  --color-canvas-start-rgb: 22, 28, 38;
+  --color-canvas-end-rgb: 18, 24, 34;
+  --color-canvas-rgb: 20, 26, 36;
+  --color-background-rgb: 20, 26, 36;
+  --color-surface-rgb: 32, 42, 58;
+  --color-surface-muted-rgb: 28, 36, 50;
+  --color-surface-header-rgb: 26, 34, 48;
+
+  --color-text-rgb: 226, 232, 240;
+  --color-text-strong-rgb: 248, 250, 252;
+  --color-text-muted-rgb: 163, 180, 198;
+  --color-text-soft-rgb: 120, 140, 165;
+
+  --color-border-rgb: 55, 70, 90;
+  --color-border-strong-rgb: 70, 88, 110;
+  --color-shadow-rgb: 0, 0, 0;
+
+  --color-accent-rgb: 56, 152, 220;
+  --color-accent-soft-rgb: 20, 50, 80;
+  --color-water-soft-rgb: 12, 74, 110;
+  --color-gas-soft-rgb: 40, 55, 75;
+  --color-risk-rgb: 56, 152, 220;
+}

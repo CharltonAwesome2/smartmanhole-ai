@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>SmartManhole — Stats Monitor</title>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Barlow:wght@400;500;600;700&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+
+    <style>
+        :root {
+          --bg-base:    #0a0f14;
+          --bg-panel:   #10161d;
+          --bg-card:    #161f28;
+          --border:     #222f3e;
+          --cyan:       #00e5ff;
+          --green:      #00e676;
+          --amber:      #ffab00;
+          --red:        #ff1744;
+          --text-main:  #f0f4f8;
+          --text-dim:   #8a9cae;
+          --text-dark:  #4f6374;
+        }
+
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+
+        body {
+          background: var(--bg-base);
+          color: var(--text-main);
+          font-family: 'Barlow', sans-serif;
+          padding: 24px;
+          line-height: 1.5;
+        }
+
+        .container {
+          max-width: 1200px;
+          margin: 0 auto;
+        }
+
+        /* ─── HEADER AREA ─── */
+        header {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          padding-bottom: 20px;
+          border-bottom: 2px solid var(--border);
+          margin-bottom: 24px;
+        }
+
+        .brand h1 {
+          font-size: 24px;
+          font-weight: 700;
+          letter-spacing: -0.5px;
+        }
+        .brand h1 span { color: var(--cyan); }
+        .brand p { font-size: 13px; color: var(--text-dim); font-family: 'JetBrains Mono', monospace; }
+
+        .system-clock {
+          text-align: right;
+          font-family: 'JetBrains Mono', monospace;
+          font-size: 12px;
+          color: var(--text-dim);
+        }
+        .live-pulse {
+          display: inline-block;
+          width: 8px;
+          height: 8px;
+          background: var(--cyan);
+          border-radius: 50%;
+          margin-right: 6px;
+          box-shadow: 0 0 8px var(--cyan);
+        }
+
+        /* ─── GLOBAL SYSTEM STATUS STATS ─── */
+        .summary-bar {
+          display: grid;
+          grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+          gap: 16px;
+          margin-bottom: 32px;
+        }
+
+        .summary-card {
+          background: var(--bg-panel);
+          border: 1px solid var(--border);
+          border-radius: 6px;
+          padding: 16px;
+          display: flex;
+          align-items: center;
+          gap: 16px;
+        }
+        .summary-card i { font-size: 24px; color: var(--text-dark); }
+        .summary-data h3 { font-size: 24px; line-height: 1.2; font-family: 'JetBrains Mono', monospace; }
+        .summary-data p { font-size: 11px; text-transform: uppercase; color: var(--text-dim); letter-spacing: 1px; }
+
+        /* Status colors for summaries */
+        #stat-critical-count { color: var(--red); }
+        #stat-warning-count { color: var(--amber); }
+        #stat-healthy-count { color: var(--green); }
+
+        /* ─── SECTION TITLE ─── */
+        .section-title {
+          font-size: 14px;
+          text-transform: uppercase;
+          letter-spacing: 1.5px;
+          color: var(--text-dim);
+          margin-bottom: 16px;
+          font-family: 'JetBrains Mono', monospace;
+          display: flex;
+          align-items: center;
+          gap: 8px;
+        }
+
+        /* ─── DYNAMIC NODE STATS GRID ─── */
+        .nodes-grid {
+          display: grid;
+          grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+          gap: 20px;
+        }
+
+        .node-card {
+          background: var(--bg-panel);
+          border: 1px solid var(--border);
+          border-radius: 8px;
+          padding: 20px;
+          position: relative;
+          display: flex;
+          flex-direction: column;
+          gap: 16px;
+        }
+
+        /* Risk strip indicator on the left edge */
+        .node-card::before {
+          content: '';
+          position: absolute;
+          top: 0; bottom: 0; left: 0;
+          width: 4px;
+          border-radius: 8px 0 0 8px;
+        }
+        .node-card.CRITICAL::before { background: var(--red); }
+        .node-card.WARNING::before { background: var(--amber); }
+        .node-card.NORMAL::before { background: var(--green); }
+
+        .node-header {
+          display: flex;
+          justify-content: space-between;
+          align-items: flex-start;
+        }
+        .node-title h2 { font-size: 18px; font-weight: 700; color: var(--text-main); }
+        .node-title p { font-size: 12px; color: var(--text-dim); margin-top: 2px; }
+
+        .risk-badge {
+          font-family: 'JetBrains Mono', monospace;
+          font-size: 11px;
+          font-weight: 700;
+          padding: 4px 10px;
+          border-radius: 4px;
+          text-transform: uppercase;
+        }
+        .CRITICAL .risk-badge { background: rgba(255,23,68,0.15); color: var(--red); border: 1px solid rgba(255,23,68,0.3); }
+        .WARNING .risk-badge { background: rgba(255,171,0,0.15); color: var(--amber); border: 1px solid rgba(255,171,0,0.3); }
+        .NORMAL .risk-badge { background: rgba(0,230,118,0.15); color: var(--green); border: 1px solid rgba(0,230,118,0.3); }
+
+        /* Stat Grid Inside Cards */
+        .metric-group {
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          gap: 12px;
+        }
+
+        .metric-box {
+          background: var(--bg-card);
+          border: 1px solid var(--border);
+          border-radius: 4px;
+          padding: 12px;
+        }
+        .metric-label {
+          font-size: 10px;
+          color: var(--text-dim);
+          text-transform: uppercase;
+          letter-spacing: 0.5px;
+          margin-bottom: 4px;
+          display: flex;
+          align-items: center;
+          gap: 6px;
+        }
+        .metric-value {
+          font-family: 'JetBrains Mono', monospace;
+          font-size: 20px;
+          font-weight: 700;
+        }
+        .metric-unit { font-size: 12px; color: var(--text-dark); font-weight: 400; margin-left: 2px; }
+
+        /* Hardware Actuator Triggers status indicators */
+        .hardware-flags {
+          display: flex;
+          gap: 12px;
+          border-top: 1px solid var(--border);
+          padding-top: 12px;
+          font-family: 'JetBrains Mono', monospace;
+          font-size: 11px;
+        }
+        .flag { display: flex; align-items: center; gap: 6px; color: var(--text-dark); }
+        .flag.active { color: var(--cyan); }
+        .flag.active i { color: var(--cyan); }
+
+        #loading-message {
+          grid-column: 1 / -1;
+          text-align: center;
+          padding: 40px;
+          color: var(--text-dim);
+          font-family: 'JetBrains Mono', monospace;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+
+    <header>
+        <div class="brand">
+            <h1>SmartManhole <span>AI</span></h1>
+            <p>MUNICIPAL OPERATIONS MONITOR</p>
+        </div>
+        <div class="system-clock">
+            <span class="live-pulse"></span>LIVE FEED: <span id="runtime-clock">Connecting...</span>
+        </div>
+    </header>
+
+    <section class="summary-bar">
+        <div class="summary-card">
+            <i class="fa-solid fa-network-wired"></i>
+            <div class="summary-data">
+                <h3 id="stat-total-nodes">0</h3>
+                <p>Total Areas</p>
+            </div>
+        </div>
+        <div class="summary-card">
+            <i class="fa-solid fa-triangle-exclamation" style="color: var(--red);"></i>
+            <div class="summary-data">
+                <h3 id="stat-critical-count">0</h3>
+                <p>Critical Threats</p>
+            </div>
+        </div>
+        <div class="summary-card">
+            <i class="fa-solid fa-circle-exclamation" style="color: var(--amber);"></i>
+            <div class="summary-data">
+                <h3 id="stat-warning-count">0</h3>
+                <p>Warning Areas</p>
+            </div>
+        </div>
+        <div class="summary-card">
+            <i class="fa-solid fa-circle-check" style="color: var(--green);"></i>
+            <div class="summary-data">
+                <h3 id="stat-healthy-count">0</h3>
+                <p>Healthy Areas</p>
+            </div>
+        </div>
+    </section>
+
+    <main>
+        <div class="section-title">
+            <i class="fa-solid fa-chart-simple"></i> Area Infrastructure Live Metrics
+        </div>
+        <div class="nodes-grid" id="nodes-container">
+            <div id="loading-message">
+                <i class="fa-solid fa-spinner fa-spin"></i> Fetching records from Firebase instance...
+            </div>
+        </div>
+    </main>
+
+</div>
+
+<script>
+    const FIREBASE_DB_URL = "https://smartmanhole-xyz-default-rtdb.firebaseio.com/smartmanhole/nodes.json";
+
+    async function streamTelemetry() {
+        try {
+            const response = await fetch(FIREBASE_DB_URL);
+            if (!response.ok) throw new Error("Database offline or blocked request.");
+
+            const data = await response.json();
+            if (!data) {
+                document.getElementById('nodes-container').innerHTML = '<div id="loading-message">No active data profiles found in Firebase.</div>';
+                return;
+            }
+
+            // Reset summary tally arrays
+            let totalNodes = 0;
+            let criticalCount = 0;
+            let warningCount = 0;
+            let healthyCount = 0;
+
+            let htmlBuffer = "";
+
+            // Loop through each distinct node entry parsed from Firebase
+            for (const nodeId in data) {
+                const nodeProfile = data[nodeId];
+                if (!nodeProfile.live) continue; // Check for live payload safety block
+
+                const live = nodeProfile.live;
+                totalNodes++;
+
+                // Track operational statuses across structural zones
+                const risk = (live.risk_level || "NORMAL").toUpperCase();
+                if (risk === "CRITICAL") criticalCount++;
+                else if (risk === "WARNING") warningCount++;
+                else healthyCount++;
+
+                // Build metric layouts injecting semantic FontAwesome icons safely
+                htmlBuffer += `
+                    <div class="node-card ${risk}">
+                        <div class="node-header">
+                            <div class="node-title">
+                                <h2>${live.node_id || nodeId}</h2>
+                                <p><i class="fa-solid fa-location-dot"></i> ${live.location || "Unknown Coordinates"}</p>
+                            </div>
+                            <span class="risk-badge">${risk}</span>
+                        </div>
+
+                        <div class="metric-group">
+                            <div class="metric-box">
+                                <div class="metric-label"><i class="fa-solid fa-droplet"></i> Water Level</div>
+                                <div class="metric-value">${live.water_level_cm !== undefined ? live.water_level_cm : '--'}<span class="metric-unit">cm</span></div>
+                            </div>
+                            <div class="metric-box">
+                                <div class="metric-label"><i class="fa-solid fa-ruler"></i> Gap Dist</div>
+                                <div class="metric-value">${live.water_distance !== undefined ? live.water_distance : '--'}<span class="metric-unit">cm</span></div>
+                            </div>
+                            <div class="metric-box">
+                                <div class="metric-label"><i class="fa-solid fa-cloud-meatball"></i> Gas Reading</div>
+                                <div class="metric-value">${live.gas_raw !== undefined ? live.gas_raw : '--'}<span class="metric-unit">raw</span></div>
+                            </div>
+                            <div class="metric-box">
+                                <div class="metric-label"><i class="fa-solid fa-shield-halved"></i> Gas Risk</div>
+                                <div class="metric-value" style="font-size: 14px; text-transform: uppercase; color: ${live.gas_risk === 'CRITICAL' ? 'var(--red)' : live.gas_risk === 'WARNING' ? 'var(--amber)' : 'var(--green)'}">${live.gas_risk || 'UNKNOWN'}</div>
+                            </div>
+                        </div>
+
+                        <div class="hardware-flags">
+                            <div class="flag ${live.servo_open ? 'active' : ''}">
+                                <i class="fa-solid ${live.servo_open ? 'fa-door-open' : 'fa-door-closed'}"></i> Valve Cover: ${live.servo_open ? 'OPEN' : 'CLOSED'}
+                            </div>
+                            <div class="flag ${live.fan_on ? 'active' : ''}">
+                                <i class="fa-solid fa-fan ${live.fan_on ? 'fa-spin' : ''}"></i> Exhaust Fan: ${live.fan_on ? 'RUNNING' : 'IDLE'}
+                            </div>
+                        </div>
+                    </div>
+                `;
+            }
+
+            // Sync structural DOM components efficiently
+            document.getElementById('nodes-container').innerHTML = htmlBuffer;
+            document.getElementById('stat-total-nodes').innerText = totalNodes;
+            document.getElementById('stat-critical-count').innerText = criticalCount;
+            document.getElementById('stat-warning-count').innerText = warningCount;
+            document.getElementById('stat-healthy-count').innerText = healthyCount;
+
+            // Set sync timing string
+            document.getElementById('runtime-clock').innerText = new Date().toLocaleTimeString();
+
+        } catch (err) {
+            console.error("Dashboard Poll Interrupted:", err);
+            document.getElementById('runtime-clock').innerText = "DISCONNECTED";
+        }
+    }
+
+    // Initialize telemetry background looping every 3 seconds
+    streamTelemetry();
+    setInterval(streamTelemetry, 3000);
+</script>
+
+</body>
+</html>

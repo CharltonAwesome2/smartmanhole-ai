@@ -1,0 +1,426 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Barlow:wght@400;500;600;700&display=swap');
+
+.container {
+  padding: 24px;
+  font-family: 'Barlow', sans-serif;
+  background: #0a0f14;
+  color: #f0f4f8;
+  min-height: 100%;
+}
+
+.innerWrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* ─── HEADER AREA ─── */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #222f3e;
+  margin-bottom: 24px;
+}
+
+.brand h1 {
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+}
+
+.brand h1 span {
+  color: #00e5ff;
+}
+
+.brand p {
+  font-size: 13px;
+  color: #8a9cae;
+  font-family: 'JetBrains Mono', monospace;
+}
+
+.systemClock {
+  text-align: right;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 12px;
+  color: #8a9cae;
+}
+
+.livePulse {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  background: #00e5ff;
+  border-radius: 50%;
+  margin-right: 6px;
+  box-shadow: 0 0 8px #00e5ff;
+}
+
+/* ─── GLOBAL SYSTEM STATUS STATS ─── */
+.summaryBar {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 16px;
+  margin-bottom: 32px;
+}
+
+.summaryCard {
+  background: #10161d;
+  border: 1px solid #222f3e;
+  border-radius: 6px;
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.summaryCard svg {
+  font-size: 24px;
+  color: #4f6374;
+  float: inline;
+}
+
+.summaryData h3 {
+  font-size: 24px;
+  line-height: 1.2;
+  font-family: 'JetBrains Mono', monospace;
+}
+
+.summaryData p {
+  font-size: 11px;
+  text-transform: uppercase;
+  color: #8a9cae;
+  letter-spacing: 1px;
+}
+
+/* ─── SECTION TITLE ─── */
+.sectionTitle {
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  color: #8a9cae;
+  margin-bottom: 16px;
+  font-family: 'JetBrains Mono', monospace;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.refreshControls {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 14px;
+}
+
+.refreshLabel {
+  font-size: 12px;
+  color: #8a9cae;
+  font-family: 'JetBrains Mono', monospace;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.refreshButton {
+  border: 1px solid #2c3a4a;
+  background: #111922;
+  color: #c6d2de;
+  padding: 6px 10px;
+  border-radius: 6px;
+  font-size: 11px;
+  font-family: 'JetBrains Mono', monospace;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.refreshButton:hover {
+  border-color: #00e5ff;
+  color: #f0f4f8;
+}
+
+.refreshButtonActive {
+  border-color: #00e5ff;
+  background: rgba(0, 229, 255, 0.12);
+  color: #00e5ff;
+}
+
+/* ─── DYNAMIC NODE STATS GRID ─── */
+.nodesGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+  gap: 20px;
+}
+
+.nodeCard {
+  background: #10161d;
+  border: 1px solid #222f3e;
+  border-radius: 8px;
+  padding: 20px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+/* Risk strip indicator on the left edge */
+.nodeCard::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 4px;
+  border-radius: 8px 0 0 8px;
+}
+
+.critical::before {
+  background: #ff1744;
+}
+
+.warning::before {
+  background: #ffab00;
+}
+
+.normal::before {
+  background: #00e676;
+}
+
+.nodeHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.nodeTitle h2 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #f0f4f8;
+}
+
+.nodeTitle h3 {
+  font-size: 14px;
+  font-weight: 600;
+  color: #c6d2de;
+  margin-top: 2px;
+}
+
+.nodeTitle p {
+  font-size: 12px;
+  color: #8a9cae;
+  margin-top: 2px;
+}
+
+.riskBadge {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 11px;
+  font-weight: 700;
+  padding: 4px 10px;
+  border-radius: 4px;
+  text-transform: uppercase;
+}
+
+.critical .riskBadge {
+  background: rgba(255, 23, 68, 0.15);
+  color: #ff1744;
+  border: 1px solid rgba(255, 23, 68, 0.3);
+}
+
+.warning .riskBadge {
+  background: rgba(255, 171, 0, 0.15);
+  color: #ffab00;
+  border: 1px solid rgba(255, 171, 0, 0.3);
+}
+
+.normal .riskBadge {
+  background: rgba(0, 230, 118, 0.15);
+  color: #00e676;
+  border: 1px solid rgba(0, 230, 118, 0.3);
+}
+
+/* Stat Grid Inside Cards */
+.metricGroup {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+.metricBox {
+  background: #161f28;
+  border: 1px solid #222f3e;
+  border-radius: 4px;
+  padding: 12px;
+}
+
+.metricLabel {
+  font-size: 10px;
+  color: #8a9cae;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-bottom: 4px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.metricValue {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.metricUnit {
+  font-size: 12px;
+  color: #4f6374;
+  font-weight: 400;
+  margin-left: 2px;
+}
+
+/* Hardware Actuator Triggers status indicators */
+.hardwareFlags {
+  display: flex;
+  gap: 12px;
+  border-top: 1px solid #222f3e;
+  padding-top: 12px;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 11px;
+}
+
+.flag {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: #4f6374;
+}
+
+.flagActive {
+  color: #00e5ff;
+}
+
+.flagActive svg {
+  color: #00e5ff;
+}
+
+/* Loading message */
+.loadingMessage {
+  grid-column: 1 / -1;
+  text-align: center;
+  padding: 40px;
+  color: #8a9cae;
+  font-family: 'JetBrains Mono', monospace;
+}
+
+/* Spinner animation */
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.spinner {
+  animation: spin 1s linear infinite;
+}
+
+.liveBadge {
+  display: inline-block;
+  margin-left: 12px;
+  font-size: 10px;
+  padding: 2px 8px;
+  background: rgba(0, 229, 255, 0.1);
+  border: 1px solid var(--cyan, #00e5ff);
+  border-radius: 12px;
+  color: var(--cyan, #00e5ff);
+}
+
+.mockBadge {
+  display: inline-block;
+  margin-left: 12px;
+  font-size: 10px;
+  padding: 2px 8px;
+  background: rgba(255, 171, 0, 0.1);
+  border: 1px solid var(--amber, #ffab00);
+  border-radius: 12px;
+  color: var(--amber, #ffab00);
+}
+
+.errorBadge {
+  display: inline-block;
+  margin-left: 12px;
+  font-size: 10px;
+  padding: 2px 8px;
+  background: rgba(255, 23, 68, 0.1);
+  border: 1px solid var(--red, #ff1744);
+  border-radius: 12px;
+  color: var(--red, #ff1744);
+}
+
+.mockHint {
+  font-size: 11px;
+  margin-left: 12px;
+  color: var(--amber, #ffab00);
+  font-weight: normal;
+}
+
+.mockNodeBadge {
+  font-size: 10px;
+  margin-left: 8px;
+  padding: 2px 6px;
+  background: rgba(255, 171, 0, 0.1);
+  border-radius: 4px;
+  color: var(--amber, #ffab00);
+  font-weight: normal;
+}
+
+.warningPulse {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  background: var(--amber, #ffab00);
+  border-radius: 50%;
+  margin-right: 6px;
+  animation: pulse 1.5s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.3; }
+}
+
+.liveMockBadge {
+  display: inline-block;
+  margin-left: 12px;
+  font-size: 10px;
+  padding: 2px 8px;
+  background: linear-gradient(135deg, rgba(0, 229, 255, 0.1), rgba(255, 171, 0, 0.1));
+  border: 1px solid var(--cyan, #00e5ff);
+  border-radius: 12px;
+  color: var(--cyan, #00e5ff);
+}
+
+.mockSeparator {
+  grid-column: 1 / -1;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin: 20px 0 12px 0;
+}
+
+.mockSeparator hr {
+  flex: 1;
+  border: none;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--amber, #ffab00), transparent);
+}
+
+.mockSeparatorText {
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  color: var(--amber, #ffab00);
+  text-transform: uppercase;
+  font-family: 'JetBrains Mono', monospace;
+}

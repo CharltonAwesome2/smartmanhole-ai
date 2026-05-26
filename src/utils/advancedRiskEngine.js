@@ -9,7 +9,6 @@ export function calculateRisk(sensor) {
   return Math.min(100, Math.round(base));
 }
 
-// 🔥 NEW: trend prediction engine
 export function predictFutureRisk(sensor) {
   const id = sensor.id;
 
@@ -46,4 +45,9 @@ export function getStatus(risk) {
   if (risk <= 40) return "NORMAL";
   if (risk <= 70) return "WARNING";
   return "CRITICAL";
+}
+
+export function getRiskHistory(sensorId) {
+  if (!sensorId) return [];
+  return [...(historyMap.get(sensorId) ?? [])];
 }

@@ -1,5 +1,15 @@
 import { useEffect, useMemo, useState } from "react";
+import {
+  HiChevronDown,
+  HiChevronRight,
+  HiOutlineCloud,
+  HiOutlineMagnifyingGlass,
+  HiOutlineXMark,
+} from "react-icons/hi2";
 import { calculateRisk, getStatus, predictFutureRisk } from "@utils/advancedRiskEngine";
+import Icon from "@components/ui/Icon";
+import iconStyles from "@components/ui/icon.module.css";
+import styles from "./Sidebar.module.css";
 
 function toPercent(value) {
   return `${Math.round(value)}%`;
@@ -18,10 +28,23 @@ function summarize(manholes) {
   };
 }
 
-export default function Sidebar({ loading, error, rain, manholes, selected, activeDistrictName, onSelect, onDistrictSelect, onClearSelection, onRainToggle }) {
+export default function Sidebar({
+  variant = "default",
+  loading,
+  error,
+  rain,
+  manholes,
+  selected,
+  activeDistrictName,
+  onSelect,
+  onDistrictSelect,
+  onClearSelection,
+  onRainToggle,
+}) {
   const [expandedDistricts, setExpandedDistricts] = useState({});
   const [searchQuery, setSearchQuery] = useState("");
   const { averageRisk, criticalCount } = summarize(manholes);
+  const isRail = variant === "rail";
 
   const groupedManholes = useMemo(() => {
     const groups = new Map();
@@ -95,122 +118,171 @@ export default function Sidebar({ loading, error, rain, manholes, selected, acti
   const hasSearch = searchQuery.trim().length > 0;
 
   return (
-    <div className="sidebar">
-      <div className="sidebar__hero">
-        <p className="sidebar__eyebrow">SmartManhole AI</p>
-        <h1>Live infrastructure risk monitoring</h1>
-        <p className="sidebar__lede">Mock sensors, rolling risk predictions, and a map that updates while the rain simulation is on.</p>
-      </div>
+    <aside className={`${styles.sidebar} ${isRail ? styles["sidebar--rail"] : ""}`}>
+      <div className={styles.sidebarTop}>
+        {!isRail ? (
+          <div className={styles["sidebar__hero"]}>
+            <p className={styles["sidebar__eyebrow"]}>SmartManhole AI</p>
+            <h2>Live infrastructure risk monitoring</h2>
+            <p className={styles["sidebar__lede"]}>
+              Mock sensors, rolling risk predictions, and a map that updates while the rain simulation is on.
+            </p>
+          </div>
+        ) : (
+          <p className={styles["sidebar__rail-title"]}>Sensor network</p>
+        )}
 
-      <button className={`rain-toggle ${rain ? "rain-toggle--active" : ""}`} onClick={() => onRainToggle((prev) => !prev)}>
-        {rain ? "Rain simulation active" : "Enable rain simulation"}
-      </button>
+        <button
+          type="button"
+          className={`${styles["rain-toggle"]} ${rain ? styles["rain-toggle--active"] : ""}`}
+          onClick={() => onRainToggle((prev) => !prev)}
+          aria-pressed={rain}
+        >
+          <Icon as={HiOutlineCloud} size={18} className={iconStyles.icon} />
+          <span>{rain ? "Rain simulation on" : "Rain simulation off"}</span>
+        </button>
 
-      <label className="sidebar-search">
-        <span>Search district or node</span>
-        <input
-          type="search"
-          value={searchQuery}
-          onChange={(event) => setSearchQuery(event.target.value)}
-          placeholder="Type to filter the list"
-        />
-      </label>
+        <label className={styles["sidebar-search"]}>
+          <span>Search district or node</span>
+          <div className={styles["sidebar-search__field"]}>
+            <Icon as={HiOutlineMagnifyingGlass} size={16} className={styles["sidebar-search__icon"]} />
+            <input
+              type="search"
+              value={searchQuery}
+              onChange={(event) => setSearchQuery(event.target.value)}
+              placeholder="Type to filter the list"
+            />
+          </div>
+        </label>
 
-      <div className="sidebar__stats">
-        <div>
-          <span className="sidebar__stat-label">Average risk</span>
-          <strong>{toPercent(averageRisk)}</strong>
-        </div>
-        <div>
-          <span className="sidebar__stat-label">Critical nodes</span>
-          <strong>{criticalCount}</strong>
-        </div>
-      </div>
-
-      {error ? <div className="sidebar__alert">{error}</div> : null}
-
-      <div className="sidebar__section">
-        <div className="sidebar__section-header">
-          <h2>Sensor list</h2>
-          <div className="sidebar__section-actions">
-            <span>{loading ? "Loading" : hasSearch ? `${groupedManholes.reduce((sum, [, districtManholes]) => sum + districtManholes.length, 0)} matches` : `${manholes.length} nodes`}</span>
-            <button type="button" className="sidebar-clear" onClick={onClearSelection}>Clear selection</button>
+        <div className={styles["sidebar__stats"]}>
+          <div>
+            <span className={styles["sidebar__stat-label"]}>Average risk</span>
+            <strong>{toPercent(averageRisk)}</strong>
+          </div>
+          <div>
+            <span className={styles["sidebar__stat-label"]}>Critical nodes</span>
+            <strong>{criticalCount}</strong>
           </div>
         </div>
 
-        <div className="sidebar-legend" aria-label="Map legend">
-          <span><i className="legend-dot legend-dot--normal" /> Normal</span>
-          <span><i className="legend-dot legend-dot--warning" /> Warning</span>
-          <span><i className="legend-dot legend-dot--critical" /> Critical</span>
-          <span><i className="legend-dot legend-dot--dim" /> Outside active district</span>
-        </div>
+        {error ? <div className={styles["sidebar__alert"]}>{error}</div> : null}
+      </div>
 
-        <div className="sidebar__list sidebar__list--grouped">
-          {groupedManholes.map(([districtName, districtManholes]) => {
-            const isExpanded = hasSearch || Boolean(expandedDistricts[districtName]);
-            const riskCounts = getRiskCounts(districtManholes);
-            const averageDistrictRisk = summarize(districtManholes).averageRisk;
+      <div className={styles.sidebarScroll}>
+        <div className={styles["sidebar__section"]}>
+          <div className={styles["sidebar__section-header"]}>
+            <h2>Sensor list</h2>
+            <div className={styles["sidebar__section-actions"]}>
+              <span>
+                {loading
+                  ? "Loading"
+                  : hasSearch
+                    ? `${groupedManholes.reduce((sum, [, districtManholes]) => sum + districtManholes.length, 0)} matches`
+                    : `${manholes.length} nodes`}
+              </span>
+              <button
+                type="button"
+                className={styles["sidebar-clear"]}
+                onClick={onClearSelection}
+                aria-label="Clear selection"
+              >
+                <Icon as={HiOutlineXMark} size={14} className={iconStyles.icon} />
+                <span>Clear</span>
+              </button>
+            </div>
+          </div>
 
-            return (
-              <div key={districtName} className="sidebar-group">
-                <button
-                  type="button"
-                  className={`sidebar-group__header ${activeDistrictName === districtName ? "sidebar-group__header--active" : ""}`}
-                  onClick={() => {
-                    toggleDistrict(districtName);
-                    onDistrictSelect(districtName);
-                  }}
-                  aria-expanded={isExpanded}
-                >
-                  <div>
-                    <strong>{districtName}</strong>
-                    <span>{districtManholes.length} node{districtManholes.length === 1 ? "" : "s"}</span>
+          <div className={styles["sidebar-legend"]} aria-label="Map legend">
+            <span>
+              <i className={`${styles["legend-dot"]} ${styles["legend-dot--normal"]}`} /> Normal
+            </span>
+            <span>
+              <i className={`${styles["legend-dot"]} ${styles["legend-dot--warning"]}`} /> Warning
+            </span>
+            <span>
+              <i className={`${styles["legend-dot"]} ${styles["legend-dot--critical"]}`} /> Critical
+            </span>
+            <span>
+              <i className={`${styles["legend-dot"]} ${styles["legend-dot--dim"]}`} /> Inactive district
+            </span>
+          </div>
+
+          <div className={`${styles["sidebar__list"]} ${styles["sidebar__list--grouped"]}`}>
+            {groupedManholes.map(([districtName, districtManholes]) => {
+              const isExpanded = hasSearch || Boolean(expandedDistricts[districtName]);
+              const riskCounts = getRiskCounts(districtManholes);
+              const averageDistrictRisk = summarize(districtManholes).averageRisk;
+
+              return (
+                <div key={districtName} className={styles["sidebar-group"]}>
+                  <button
+                    type="button"
+                    className={`${styles["sidebar-group__header"]} ${activeDistrictName === districtName ? styles["sidebar-group__header--active"] : ""}`}
+                    onClick={() => {
+                      toggleDistrict(districtName);
+                      onDistrictSelect(districtName);
+                    }}
+                    aria-expanded={isExpanded}
+                  >
+                    <div>
+                      <strong>{districtName}</strong>
+                      <span>
+                        {districtManholes.length} node{districtManholes.length === 1 ? "" : "s"}
+                      </span>
+                    </div>
+                    <div className={styles["sidebar-group__badges"]}>
+                      <span className={`${styles["sidebar-badge"]} ${styles["sidebar-badge--normal"]}`}>{riskCounts.normal}</span>
+                      <span className={`${styles["sidebar-badge"]} ${styles["sidebar-badge--warning"]}`}>{riskCounts.warning}</span>
+                      <span className={`${styles["sidebar-badge"]} ${styles["sidebar-badge--critical"]}`}>{riskCounts.critical}</span>
+                      <Icon
+                        as={isExpanded ? HiChevronDown : HiChevronRight}
+                        size={16}
+                        className={styles["sidebar-group__chevron"]}
+                      />
+                    </div>
+                  </button>
+
+                  <div className={styles["sidebar-group__summary"]}>
+                    <span>Avg risk {toPercent(averageDistrictRisk)}</span>
+                    <span>
+                      {riskCounts.normal} normal · {riskCounts.warning} warning · {riskCounts.critical} critical
+                    </span>
                   </div>
-                  <div className="sidebar-group__badges">
-                    <span className="sidebar-badge sidebar-badge--normal">{riskCounts.normal}</span>
-                    <span className="sidebar-badge sidebar-badge--warning">{riskCounts.warning}</span>
-                    <span className="sidebar-badge sidebar-badge--critical">{riskCounts.critical}</span>
-                    <b>{isExpanded ? "−" : "+"}</b>
-                  </div>
-                </button>
 
-                <div className="sidebar-group__summary">
-                  <span>Avg risk {toPercent(averageDistrictRisk)}</span>
-                  <span>{riskCounts.normal} normal · {riskCounts.warning} warning · {riskCounts.critical} critical</span>
+                  {isExpanded ? (
+                    <div className={styles["sidebar-group__items"]}>
+                      {districtManholes.map((manhole) => {
+                        const risk = calculateRisk(manhole);
+                        const status = getStatus(risk);
+                        const isSelected = selected?.id === manhole.id;
+
+                        return (
+                          <button
+                            type="button"
+                            key={manhole.id}
+                            className={`${styles["sidebar-card"]} ${isSelected ? styles["sidebar-card--selected"] : ""}`}
+                            onClick={() => {
+                              onDistrictSelect(districtName);
+                              onSelect({ ...manhole, ...predictFutureRisk(manhole) });
+                            }}
+                          >
+                            <div>
+                              <strong>{manhole.name}</strong>
+                              <span>{status}</span>
+                            </div>
+                            <span className={styles["sidebar-card__risk"]}>{toPercent(risk)}</span>
+                          </button>
+                        );
+                      })}
+                    </div>
+                  ) : null}
                 </div>
-
-                {isExpanded ? (
-                  <div className="sidebar-group__items">
-                    {districtManholes.map((manhole) => {
-                      const risk = calculateRisk(manhole);
-                      const status = getStatus(risk);
-                      const isSelected = selected?.id === manhole.id;
-
-                      return (
-                        <button
-                          type="button"
-                          key={manhole.id}
-                          className={`sidebar-card ${isSelected ? "sidebar-card--selected" : ""}`}
-                          onClick={() => {
-                            onDistrictSelect(districtName);
-                            onSelect({ ...manhole, ...predictFutureRisk(manhole) });
-                          }}
-                        >
-                          <div>
-                            <strong>{manhole.name}</strong>
-                            <span>{status}</span>
-                          </div>
-                          <b>{toPercent(risk)}</b>
-                        </button>
-                      );
-                    })}
-                  </div>
-                ) : null}
-              </div>
-            );
-          })}
+              );
+            })}
+          </div>
         </div>
       </div>
-    </div>
+    </aside>
   );
 }
