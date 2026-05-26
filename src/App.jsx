@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from "react";
+import { lazy, Suspense, useEffect, useMemo, useState } from "react";
 import {
   HiOutlineAdjustmentsHorizontal,
   HiOutlineMap,
@@ -11,11 +11,11 @@ import { calculateRisk } from "@utils/advancedRiskEngine";
 import { StatCard } from "@components/ui/Card";
 import Icon from "@components/ui/Icon";
 import iconStyles from "@components/ui/icon.module.css";
-import OverviewPage from "@pages/OverviewPage";
-import Overview2Page from "@pages/Overview2Page";
-import DataPage from "@pages/DataPage";
-import MapPage from "@pages/MapPage";
-import OperationsPage from "@pages/OperationsPage";
+// const OverviewPage = lazy(() => import("@pages/OverviewPage"));
+const Overview2Page = lazy(() => import("@pages/Overview2Page"));
+const DataPage = lazy(() => import("@pages/DataPage"));
+const MapPage = lazy(() => import("@pages/MapPage"));
+const OperationsPage = lazy(() => import("@pages/OperationsPage"));
 
 function formatPercent(value) {
   return `${Math.round(value)}%`;
@@ -25,7 +25,11 @@ export default function App() {
   const [rain, setRain] = useState(false);
   const [selected, setSelected] = useState(null);
   const [activeDistrictName, setActiveDistrictName] = useState("");
-  const [activePage, setActivePage] = useState("overview");
+  const [activePage, setActivePage] = useState(() => {
+    if (typeof window === "undefined") return "overview";
+
+    return window.localStorage.getItem("smartmanhole-active-page") ?? "overview";
+  });
   const [runtimeClock, setRuntimeClock] = useState("");
   const [themeMode, setThemeMode] = useState(() => {
     if (typeof window === "undefined") return "light";
@@ -47,6 +51,10 @@ export default function App() {
     document.documentElement.dataset.theme = themeMode;
     window.localStorage.setItem("smartmanhole-theme", themeMode);
   }, [themeMode]);
+
+  useEffect(() => {
+    window.localStorage.setItem("smartmanhole-active-page", activePage);
+  }, [activePage]);
 
   useEffect(() => {
     const updateClock = () => {
@@ -230,7 +238,7 @@ export default function App() {
   }
 
   const navItems = [
-    { id: "overview", label: "Overview", Icon: HiOutlineSquares2X2 },
+    // { id: "overview", label: "Overview", Icon: HiOutlineSquares2X2 },
     { id: "overview2", label: "Overview 2", Icon: HiOutlineSquares2X2 },
     { id: "map", label: "Map", Icon: HiOutlineMap },
     { id: "operations", label: "Operations", Icon: HiOutlineAdjustmentsHorizontal },
@@ -312,36 +320,44 @@ export default function App() {
               : "dashboard-body"
         }
       >
-        {activePage === "overview" ? <OverviewPage /> : null}
-        {activePage === "overview2" ? (
-          <Overview2Page dashboardStats={dashboardStats} formatPercent={formatPercent} />
-        ) : null}
-        {activePage === "map" ? (
-          <MapPage
-            loading={loading}
-            error={error}
-            rain={rain}
-            manholes={manholes}
-            selected={selected}
-            activeDistrictName={activeDistrictName}
-            onSelect={handleSelection}
-            onDistrictSelect={setActiveDistrictName}
-            onClearSelection={clearSelection}
-            onRainToggle={setRain}
-          />
-        ) : null}
-        {activePage === "operations" ? (
-          <OperationsPage
-            selected={selected}
-            dashboardStats={dashboardStats}
-            districtSummaries={districtSummaries}
-            alerts={alerts}
-            triggerSettings={triggerSettings}
-            onTriggerChange={updateTriggerSetting}
-            activeDistrictName={activeDistrictName}
-          />
-        ) : null}
-        {activePage === "data" ? <DataPage /> : null}
+        <Suspense
+          fallback={
+            <div className="dashboard-loading-shell">
+              Loading section...
+            </div>
+          }
+        >
+          {/* {activePage === "overview" ? <OverviewPage /> : null} */}
+          {activePage === "overview2" ? (
+            <Overview2Page dashboardStats={dashboardStats} formatPercent={formatPercent} />
+          ) : null}
+          {activePage === "map" ? (
+            <MapPage
+              loading={loading}
+              error={error}
+              rain={rain}
+              manholes={manholes}
+              selected={selected}
+              activeDistrictName={activeDistrictName}
+              onSelect={handleSelection}
+              onDistrictSelect={setActiveDistrictName}
+              onClearSelection={clearSelection}
+              onRainToggle={setRain}
+            />
+          ) : null}
+          {activePage === "operations" ? (
+            <OperationsPage
+              selected={selected}
+              dashboardStats={dashboardStats}
+              districtSummaries={districtSummaries}
+              alerts={alerts}
+              triggerSettings={triggerSettings}
+              onTriggerChange={updateTriggerSetting}
+              activeDistrictName={activeDistrictName}
+            />
+          ) : null}
+          {activePage === "data" ? <DataPage /> : null}
+        </Suspense>
       </main>
     </div>
   );

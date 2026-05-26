@@ -146,6 +146,101 @@
   color: #00e5ff;
 }
 
+.controlRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-bottom: 12px;
+}
+
+.sourceControls,
+.filterControls {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.filterControls {
+  margin-bottom: 12px;
+}
+
+.pauseToggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 11px;
+  color: #8a9cae;
+  font-family: 'JetBrains Mono', monospace;
+}
+
+.pauseToggle input {
+  accent-color: #00e5ff;
+}
+
+.refreshProgressWrap {
+  margin-bottom: 14px;
+}
+
+.refreshProgressMeta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 11px;
+  color: #8a9cae;
+  font-family: 'JetBrains Mono', monospace;
+  margin-bottom: 6px;
+}
+
+.refreshProgressTrack {
+  width: 100%;
+  height: 6px;
+  border-radius: 999px;
+  background: #1a2530;
+  overflow: hidden;
+  border: 1px solid #2b3a4a;
+}
+
+.refreshProgressFill {
+  height: 100%;
+  border-radius: inherit;
+  background: linear-gradient(90deg, #00e5ff 0%, #3cbcff 100%);
+  transition: width 0.1s linear;
+}
+
+.fetchMetaRow {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+  flex-wrap: wrap;
+}
+
+.fetchMetaPill,
+.fetchMetaPillError {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 10px;
+  padding: 3px 8px;
+  border-radius: 999px;
+  font-family: 'JetBrains Mono', monospace;
+}
+
+.fetchMetaPill {
+  color: #7bd8ff;
+  border: 1px solid rgba(0, 229, 255, 0.4);
+  background: rgba(0, 229, 255, 0.08);
+}
+
+.fetchMetaPillError {
+  color: #ffb3c1;
+  border: 1px solid rgba(255, 23, 68, 0.35);
+  background: rgba(255, 23, 68, 0.1);
+}
+
 /* ─── DYNAMIC NODE STATS GRID ─── */
 .nodesGrid {
   display: grid;
@@ -275,6 +370,66 @@
   color: #4f6374;
   font-weight: 400;
   margin-left: 2px;
+}
+
+.metricDelta {
+  margin-top: 6px;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 10px;
+  color: #8a9cae;
+  font-family: 'JetBrains Mono', monospace;
+}
+
+.deltaUpIcon {
+  color: #00e676;
+}
+
+.deltaDownIcon {
+  color: #ff1744;
+}
+
+.deltaNeutralIcon {
+  color: #8a9cae;
+}
+
+.sparklineRow {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+.sparklineBox {
+  border-top: 1px dashed #2d3c4b;
+  padding-top: 8px;
+  display: grid;
+  gap: 4px;
+}
+
+.sparklineBox span {
+  font-size: 10px;
+  color: #8a9cae;
+  font-family: 'JetBrains Mono', monospace;
+  text-transform: uppercase;
+}
+
+.sparkline {
+  width: 100%;
+  height: 24px;
+}
+
+.sparklineWater,
+.sparklineGas {
+  stroke-width: 1.8;
+}
+
+.sparklineWater {
+  stroke: #00e5ff;
+}
+
+.sparklineGas {
+  stroke: #ffab00;
 }
 
 /* Hardware Actuator Triggers status indicators */
@@ -423,4 +578,10 @@
   color: var(--amber, #ffab00);
   text-transform: uppercase;
   font-family: 'JetBrains Mono', monospace;
+}
+
+@media (max-width: 900px) {
+  .sparklineRow {
+    grid-template-columns: 1fr;
+  }
 }
