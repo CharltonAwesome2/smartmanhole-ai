@@ -7,11 +7,16 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
+    "convert-data": "node src/scripts/convertStormwaterData.js"
   },
   "dependencies": {
+    "csv-parser": "^3.2.1",
     "leaflet": "^1.9.4",
     "leaflet.heat": "^0.2.0",
+    "proj4": "^2.20.8",
     "react": "^19.2.6",
     "react-dom": "^19.2.6",
     "react-leaflet": "^5.0.0"
@@ -24,7 +29,9 @@
     "eslint": "^10.3.0",
     "eslint-plugin-react-hooks": "^7.1.1",
     "eslint-plugin-react-refresh": "^0.5.2",
+    "gh-pages": "^6.3.0",
     "globals": "^17.6.0",
     "vite": "^8.0.12"
-  }
+  },
+  "homepage": "https://CharltonAwesome2.github.io/smartmanhole-ai"
 }

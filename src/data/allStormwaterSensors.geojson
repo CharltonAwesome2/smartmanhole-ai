@@ -1,0 +1,4698 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.32236702412234,
+          -34.36398176950688
+        ]
+      },
+      "properties": {
+        "id": 147,
+        "name": "Mitchells Plain stormwater west discharge",
+        "district": "6",
+        "districtName": "Bellville",
+        "waterLevel": 18,
+        "gasLevel": 23,
+        "riskLevel": "NORMAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.17298058692967,
+          -34.43334602376266
+        ]
+      },
+      "properties": {
+        "id": 162,
+        "name": "Muizenberg Station stormwater discharge",
+        "district": "8",
+        "districtName": "Muizenberg",
+        "waterLevel": 22,
+        "gasLevel": 35,
+        "riskLevel": "NORMAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.172161901125854,
+          -34.43698059543242
+        ]
+      },
+      "properties": {
+        "id": 165,
+        "name": "Bailey's Cottage stormwater discharge",
+        "district": "8",
+        "districtName": "Muizenberg",
+        "waterLevel": 42,
+        "gasLevel": 30,
+        "riskLevel": "NORMAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.02032385832675,
+          -34.28519328141982
+        ]
+      },
+      "properties": {
+        "id": 173,
+        "name": "Bakoven stormwater discharge",
+        "district": "5",
+        "districtName": "Central",
+        "waterLevel": 38,
+        "gasLevel": 45,
+        "riskLevel": "NORMAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.021039015328505,
+          -34.27752978657777
+        ]
+      },
+      "properties": {
+        "id": 179,
+        "name": "Camps Bay stormwater discharge",
+        "district": "5",
+        "districtName": "Central",
+        "waterLevel": 41,
+        "gasLevel": 39,
+        "riskLevel": "NORMAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.01413965887436,
+          -34.24418461292006
+        ]
+      },
+      "properties": {
+        "id": 187,
+        "name": "Saunders Rocks stormwater discharge",
+        "district": "5",
+        "districtName": "Central",
+        "waterLevel": 29,
+        "gasLevel": 63,
+        "riskLevel": "WARNING"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.02132555575705,
+          -34.23065710910013
+        ]
+      },
+      "properties": {
+        "id": 193,
+        "name": "Graaff's Pool stormwater 1 discharge",
+        "district": "5",
+        "districtName": "Central",
+        "waterLevel": 52,
+        "gasLevel": 19,
+        "riskLevel": "WARNING"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.02200804255435,
+          -34.229802154964915
+        ]
+      },
+      "properties": {
+        "id": 194,
+        "name": "Graaff's Pool stormwater 2 discharge",
+        "district": "5",
+        "districtName": "Central",
+        "waterLevel": 54,
+        "gasLevel": 51,
+        "riskLevel": "WARNING"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.02223155994022,
+          -34.22847405475399
+        ]
+      },
+      "properties": {
+        "id": 195,
+        "name": "Graaff's Pool stormwater 3 discharge",
+        "district": "5",
+        "districtName": "Central",
+        "waterLevel": 54,
+        "gasLevel": 60,
+        "riskLevel": "WARNING"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.02667384674447,
+          -34.223433181515766
+        ]
+      },
+      "properties": {
+        "id": 197,
+        "name": "Rocklands stormwater pipe discharge",
+        "district": "5",
+        "districtName": "Central",
+        "waterLevel": 17,
+        "gasLevel": 24,
+        "riskLevel": "NORMAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.03060658977534,
+          -34.219974169533636
+        ]
+      },
+      "properties": {
+        "id": 201,
+        "name": "Three Anchor Bay stormwater pipe discharge at rocks (left from top) - A",
+        "district": "5",
+        "districtName": "Central",
+        "waterLevel": 23,
+        "gasLevel": 55,
+        "riskLevel": "WARNING"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.031148038583794,
+          -34.21908673672884
+        ]
+      },
+      "properties": {
+        "id": 202,
+        "name": "Three Anchor Bay stormwater pipe discharge at rocks (west of subway) - E",
+        "district": "5",
+        "districtName": "Central",
+        "waterLevel": 29,
+        "gasLevel": 50,
+        "riskLevel": "NORMAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.03062147213585,
+          -34.21997434015273
+        ]
+      },
+      "properties": {
+        "id": 228,
+        "name": "Three Anchor Bay stormwater pipe discharge at rocks (centre) - B",
+        "district": "5",
+        "districtName": "Central",
+        "waterLevel": 40,
+        "gasLevel": 43,
+        "riskLevel": "NORMAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.030635519778855,
+          -34.21997437994352
+        ]
+      },
+      "properties": {
+        "id": 229,
+        "name": "Three Anchor Bay stormwater pipe discharge at rocks (right from top) - C",
+        "district": "5",
+        "districtName": "Central",
+        "waterLevel": 18,
+        "gasLevel": 33,
+        "riskLevel": "NORMAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.15685689300021,
+          -34.45801770722054
+        ]
+      },
+      "properties": {
+        "id": 234,
+        "name": "Kalk Bay Harbour Beach stormwater discharge",
+        "district": "8",
+        "districtName": "Muizenberg",
+        "waterLevel": 46,
+        "gasLevel": 23,
+        "riskLevel": "NORMAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.14591568003751,
+          -34.464842633331735
+        ]
+      },
+      "properties": {
+        "id": 235,
+        "name": "Silvermine River East stormwater discharge",
+        "district": "8",
+        "districtName": "Muizenberg",
+        "waterLevel": 38,
+        "gasLevel": 38,
+        "riskLevel": "NORMAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.14573814595947,
+          -34.464921875441455
+        ]
+      },
+      "properties": {
+        "id": 236,
+        "name": "Silvermine River West stormwater discharge",
+        "district": "8",
+        "districtName": "Muizenberg",
+        "waterLevel": 32,
+        "gasLevel": 14,
+        "riskLevel": "NORMAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.14257583136565,
+          -34.47498861490659
+        ]
+      },
+      "properties": {
+        "id": 237,
+        "name": "Fish Hoek stormwater culvert discharge",
+        "district": "8",
+        "districtName": "Muizenberg",
+        "waterLevel": 53,
+        "gasLevel": 49,
+        "riskLevel": "WARNING"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.142907033404214,
+          -34.47260831808699
+        ]
+      },
+      "properties": {
+        "id": 238,
+        "name": "Fish Hoek lighthouse stormwater discharge",
+        "district": "8",
+        "districtName": "Muizenberg",
+        "waterLevel": 25,
+        "gasLevel": 22,
+        "riskLevel": "NORMAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.20958675075942,
+          -34.358783846958026
+        ]
+      },
+      "properties": {
+        "id": 239,
+        "name": "Zeekoevlei opposite inlet of Big Lotus River",
+        "district": "6",
+        "districtName": "Bellville",
+        "waterLevel": 54,
+        "gasLevel": 27,
+        "riskLevel": "WARNING"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.202862519107214,
+          -34.371418671200914
+        ]
+      },
+      "properties": {
+        "id": 240,
+        "name": "Zeekoevlei Home Bay in front of Zeekoevlei Yacht Club",
+        "district": "6",
+        "districtName": "Bellville",
+        "waterLevel": 54,
+        "gasLevel": 65,
+        "riskLevel": "WARNING"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.2146113614632,
+          -34.37866846927339
+        ]
+      },
+      "properties": {
+        "id": 241,
+        "name": "Zeekoevlei in front of Cape Peninsula Aquatic Club",
+        "district": "6",
+        "districtName": "Bellville",
+        "waterLevel": 62,
+        "gasLevel": 36,
+        "riskLevel": "WARNING"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.20348167683329,
+          -34.379436759692986
+        ]
+      },
+      "properties": {
+        "id": 242,
+        "name": "Zeekoevlei SW corner approximately 200m from weir",
+        "district": "6",
+        "districtName": "Bellville",
+        "waterLevel": 60,
+        "gasLevel": 72,
+        "riskLevel": "CRITICAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.21009331701835,
+          -34.3524134846885
+        ]
+      },
+      "properties": {
+        "id": 243,
+        "name": "Lotus River at Fisherman's Walk bridge (just upstream of vlei)",
+        "district": "6",
+        "districtName": "Bellville",
+        "waterLevel": 78,
+        "gasLevel": 32,
+        "riskLevel": "CRITICAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.20344424422969,
+          -34.33704213929256
+        ]
+      },
+      "properties": {
+        "id": 245,
+        "name": "Lotus River at Klip Road",
+        "district": "6",
+        "districtName": "Bellville",
+        "waterLevel": 37,
+        "gasLevel": 52,
+        "riskLevel": "WARNING"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.20001604181824,
+          -34.318972794975245
+        ]
+      },
+      "properties": {
+        "id": 246,
+        "name": "Woodlands Canal at New Ottery Road (near Ottery Hypermarket)",
+        "district": "6",
+        "districtName": "Bellville",
+        "waterLevel": 60,
+        "gasLevel": 49,
+        "riskLevel": "WARNING"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.2009329495153,
+          -34.31623309281326
+        ]
+      },
+      "properties": {
+        "id": 247,
+        "name": "Lotus River at entrance to depot on Old Strandfontein Road",
+        "district": "6",
+        "districtName": "Bellville",
+        "waterLevel": 35,
+        "gasLevel": 32,
+        "riskLevel": "NORMAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.20760905154251,
+          -34.297612022611375
+        ]
+      },
+      "properties": {
+        "id": 248,
+        "name": "Lotus River at Govan Mbeki Road",
+        "district": "6",
+        "districtName": "Bellville",
+        "waterLevel": 53,
+        "gasLevel": 67,
+        "riskLevel": "WARNING"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.24011955483675,
+          -34.29250254398938
+        ]
+      },
+      "properties": {
+        "id": 249,
+        "name": "Lotus River at corner Duinefontein and Govan Mbeki Road",
+        "district": "6",
+        "districtName": "Bellville",
+        "waterLevel": 30,
+        "gasLevel": 16,
+        "riskLevel": "NORMAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.25285604961504,
+          -34.2554787061876
+        ]
+      },
+      "properties": {
+        "id": 250,
+        "name": "Lotus River on Settler's Way (N2) about 500m from Airport Approach Road",
+        "district": "6",
+        "districtName": "Bellville",
+        "waterLevel": 26,
+        "gasLevel": 22,
+        "riskLevel": "NORMAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.190815234698995,
+          -34.341263111128754
+        ]
+      },
+      "properties": {
+        "id": 252,
+        "name": "Little Lotus River at Klip Road (near Montagues Gift Road)",
+        "district": "6",
+        "districtName": "Bellville",
+        "waterLevel": 32,
+        "gasLevel": 45,
+        "riskLevel": "NORMAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.19679718015662,
+          -34.35538972070619
+        ]
+      },
+      "properties": {
+        "id": 254,
+        "name": "Little Lotus River at Eighth Avenue",
+        "district": "6",
+        "districtName": "Bellville",
+        "waterLevel": 63,
+        "gasLevel": 17,
+        "riskLevel": "WARNING"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.18518877731832,
+          -34.37047117076951
+        ]
+      },
+      "properties": {
+        "id": 255,
+        "name": "Italian Road canal leading to Rondevlei",
+        "district": "6",
+        "districtName": "Bellville",
+        "waterLevel": 40,
+        "gasLevel": 50,
+        "riskLevel": "NORMAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.197623586287214,
+          -34.37572136681809
+        ]
+      },
+      "properties": {
+        "id": 256,
+        "name": "Rondevlei at weir",
+        "district": "6",
+        "districtName": "Bellville",
+        "waterLevel": 61,
+        "gasLevel": 55,
+        "riskLevel": "WARNING"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.20134945305607,
+          -34.381651336012844
+        ]
+      },
+      "properties": {
+        "id": 258,
+        "name": "Vlei sample at Zeekoevlei weir",
+        "district": "6",
+        "districtName": "Bellville",
+        "waterLevel": 61,
+        "gasLevel": 39,
+        "riskLevel": "WARNING"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.120539640953695,
+          -34.40172820126949
+        ]
+      },
+      "properties": {
+        "id": 259,
+        "name": "Westlake River at Steenberg Road",
+        "district": "8",
+        "districtName": "Muizenberg",
+        "waterLevel": 76,
+        "gasLevel": 15,
+        "riskLevel": "CRITICAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.138576278075185,
+          -34.39761767450975
+        ]
+      },
+      "properties": {
+        "id": 260,
+        "name": "Westlake River at Altenburg Road - Kirstenhof",
+        "district": "8",
+        "districtName": "Muizenberg",
+        "waterLevel": 78,
+        "gasLevel": 28,
+        "riskLevel": "CRITICAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.14228949485093,
+          -34.39806791524126
+        ]
+      },
+      "properties": {
+        "id": 261,
+        "name": "Westlake River at Orange Street - Kirstenhof",
+        "district": "8",
+        "districtName": "Muizenberg",
+        "waterLevel": 45,
+        "gasLevel": 28,
+        "riskLevel": "NORMAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.15034880257969,
+          -34.40384057894393
+        ]
+      },
+      "properties": {
+        "id": 262,
+        "name": "Westlake River corner Main Road and Chenel Way",
+        "district": "8",
+        "districtName": "Muizenberg",
+        "waterLevel": 79,
+        "gasLevel": 21,
+        "riskLevel": "CRITICAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.100349507845536,
+          -34.361516170840176
+        ]
+      },
+      "properties": {
+        "id": 265,
+        "name": "Downstream confluence between Grootboschkloof and Belsiebos Stream",
+        "district": "8",
+        "districtName": "Muizenberg",
+        "waterLevel": 76,
+        "gasLevel": 37,
+        "riskLevel": "CRITICAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.13060507626941,
+          -34.375473653882814
+        ]
+      },
+      "properties": {
+        "id": 269,
+        "name": "Spaanschemat River in greenbelt off Lismore Road (close to M3)",
+        "district": "8",
+        "districtName": "Muizenberg",
+        "waterLevel": 48,
+        "gasLevel": 20,
+        "riskLevel": "NORMAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.15351363906482,
+          -34.373620804321575
+        ]
+      },
+      "properties": {
+        "id": 273,
+        "name": "Langevlei - vlei inlet",
+        "district": "8",
+        "districtName": "Muizenberg",
+        "waterLevel": 31,
+        "gasLevel": 28,
+        "riskLevel": "NORMAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.15503054720447,
+          -34.37666997199425
+        ]
+      },
+      "properties": {
+        "id": 274,
+        "name": "Langevlei - vlei outlet",
+        "district": "8",
+        "districtName": "Muizenberg",
+        "waterLevel": 53,
+        "gasLevel": 44,
+        "riskLevel": "WARNING"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.155088652398675,
+          -34.35907084309515
+        ]
+      },
+      "properties": {
+        "id": 275,
+        "name": "Diep River at Roscommon Road",
+        "district": "8",
+        "districtName": "Muizenberg",
+        "waterLevel": 48,
+        "gasLevel": 14,
+        "riskLevel": "NORMAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.16029739153478,
+          -34.35892259186123
+        ]
+      },
+      "properties": {
+        "id": 276,
+        "name": "Little Princessvlei - north",
+        "district": "8",
+        "districtName": "Muizenberg",
+        "waterLevel": 26,
+        "gasLevel": 33,
+        "riskLevel": "NORMAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.16196560585871,
+          -34.36441868271488
+        ]
+      },
+      "properties": {
+        "id": 277,
+        "name": "Little Princessvlei - south",
+        "district": "8",
+        "districtName": "Muizenberg",
+        "waterLevel": 21,
+        "gasLevel": 14,
+        "riskLevel": "NORMAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.1680067648679,
+          -34.398575723573096
+        ]
+      },
+      "properties": {
+        "id": 279,
+        "name": "Sand River at Oudevlei Road (downstream of Langevlei & Sand River confluence)",
+        "district": "8",
+        "districtName": "Muizenberg",
+        "waterLevel": 39,
+        "gasLevel": 28,
+        "riskLevel": "NORMAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.156882887997476,
+          -34.3959455151633
+        ]
+      },
+      "properties": {
+        "id": 280,
+        "name": "Keysers River at Military Road",
+        "district": "8",
+        "districtName": "Muizenberg",
+        "waterLevel": 20,
+        "gasLevel": 46,
+        "riskLevel": "NORMAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.12443899554008,
+          -34.32848604703951
+        ]
+      },
+      "properties": {
+        "id": 282,
+        "name": "Diep River at Alphen Road in canal",
+        "district": "8",
+        "districtName": "Muizenberg",
+        "waterLevel": 50,
+        "gasLevel": 33,
+        "riskLevel": "NORMAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.163308986033755,
+          -34.40563057550927
+        ]
+      },
+      "properties": {
+        "id": 284,
+        "name": "Zandvlei - north, surface",
+        "district": "8",
+        "districtName": "Muizenberg",
+        "waterLevel": 75,
+        "gasLevel": 35,
+        "riskLevel": "CRITICAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.16741354722981,
+          -34.410581625361566
+        ]
+      },
+      "properties": {
+        "id": 285,
+        "name": "Zandvlei - centre (opposite Imperial Yacht Club), surface",
+        "district": "8",
+        "districtName": "Muizenberg",
+        "waterLevel": 45,
+        "gasLevel": 20,
+        "riskLevel": "NORMAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.17020025876971,
+          -34.41666630532603
+        ]
+      },
+      "properties": {
+        "id": 286,
+        "name": "Zandvlei - south (opposite Playwaters), surface",
+        "district": "8",
+        "districtName": "Muizenberg",
+        "waterLevel": 21,
+        "gasLevel": 26,
+        "riskLevel": "NORMAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.17229027832027,
+          -34.42137644245343
+        ]
+      },
+      "properties": {
+        "id": 287,
+        "name": "Outlet channel - midway to mouth, surface",
+        "district": "8",
+        "districtName": "Muizenberg",
+        "waterLevel": 33,
+        "gasLevel": 13,
+        "riskLevel": "NORMAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.17904655489429,
+          -34.42451282849609
+        ]
+      },
+      "properties": {
+        "id": 288,
+        "name": "Outlet channel near Royal Road bridge, surface",
+        "district": "8",
+        "districtName": "Muizenberg",
+        "waterLevel": 30,
+        "gasLevel": 27,
+        "riskLevel": "NORMAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.17191363331112,
+          -34.41202688893926
+        ]
+      },
+      "properties": {
+        "id": 289,
+        "name": "South entrance to Marina da Gama canals, surface",
+        "district": "8",
+        "districtName": "Muizenberg",
+        "waterLevel": 59,
+        "gasLevel": 31,
+        "riskLevel": "WARNING"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.17879430517836,
+          -34.41306200808388
+        ]
+      },
+      "properties": {
+        "id": 290,
+        "name": "Marina da Gama canal near The Anchorage, surface",
+        "district": "8",
+        "districtName": "Muizenberg",
+        "waterLevel": 20,
+        "gasLevel": 17,
+        "riskLevel": "NORMAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.16845143663061,
+          -34.404889667779464
+        ]
+      },
+      "properties": {
+        "id": 291,
+        "name": "North entrance to Marina da Gama canals, surface",
+        "district": "8",
+        "districtName": "Muizenberg",
+        "waterLevel": 28,
+        "gasLevel": 27,
+        "riskLevel": "NORMAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.128353533285235,
+          -34.23678379395744
+        ]
+      },
+      "properties": {
+        "id": 294,
+        "name": "Liesbeek River downstream of Lake weir opposite Hartleyvale",
+        "district": "5",
+        "districtName": "Central",
+        "waterLevel": 43,
+        "gasLevel": 71,
+        "riskLevel": "CRITICAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.13441536119001,
+          -34.235185577695624
+        ]
+      },
+      "properties": {
+        "id": 295,
+        "name": "Black River on footbridge to Alexandra Institute",
+        "district": "5",
+        "districtName": "Central",
+        "waterLevel": 25,
+        "gasLevel": 60,
+        "riskLevel": "WARNING"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.12478826881237,
+          -34.22395920702606
+        ]
+      },
+      "properties": {
+        "id": 296,
+        "name": "Salt River Canal at Voortrekker Road bridge",
+        "district": "5",
+        "districtName": "Central",
+        "waterLevel": 50,
+        "gasLevel": 38,
+        "riskLevel": "NORMAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.11811156783882,
+          -34.20714070051875
+        ]
+      },
+      "properties": {
+        "id": 297,
+        "name": "Salt River Canal at Marine Drive Bridge - Paarden Eiland",
+        "district": "5",
+        "districtName": "Central",
+        "waterLevel": 23,
+        "gasLevel": 72,
+        "riskLevel": "CRITICAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.143012595658206,
+          -34.246575204120205
+        ]
+      },
+      "properties": {
+        "id": 298,
+        "name": "Black River at Raapenberg Road bridge",
+        "district": "8",
+        "districtName": "Muizenberg",
+        "waterLevel": 67,
+        "gasLevel": 42,
+        "riskLevel": "WARNING"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.16537975053797,
+          -34.23550067209146
+        ]
+      },
+      "properties": {
+        "id": 299,
+        "name": "Elsieskraal River at Nightingale Way",
+        "district": "5",
+        "districtName": "Central",
+        "waterLevel": 20,
+        "gasLevel": 67,
+        "riskLevel": "WARNING"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.158180998747795,
+          -34.25636636192005
+        ]
+      },
+      "properties": {
+        "id": 300,
+        "name": "Black River in Rondebosch Golf Course",
+        "district": "8",
+        "districtName": "Muizenberg",
+        "waterLevel": 20,
+        "gasLevel": 32,
+        "riskLevel": "NORMAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.15630911838744,
+          -34.25160275431603
+        ]
+      },
+      "properties": {
+        "id": 301,
+        "name": "Vygekraal River downstream of Elsieskraal but upstream of Black River",
+        "district": "8",
+        "districtName": "Muizenberg",
+        "waterLevel": 28,
+        "gasLevel": 39,
+        "riskLevel": "NORMAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.161914857772274,
+          -34.24747898284183
+        ]
+      },
+      "properties": {
+        "id": 302,
+        "name": "Vygekraal River downstream of Athlone WWTW",
+        "district": "6",
+        "districtName": "Bellville",
+        "waterLevel": 22,
+        "gasLevel": 35,
+        "riskLevel": "NORMAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.11631772394346,
+          -34.29160686278457
+        ]
+      },
+      "properties": {
+        "id": 304,
+        "name": "Liesbeek River on Paradise Road",
+        "district": "8",
+        "districtName": "Muizenberg",
+        "waterLevel": 47,
+        "gasLevel": 14,
+        "riskLevel": "NORMAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.21675308802111,
+          -34.1929162705979
+        ]
+      },
+      "properties": {
+        "id": 308,
+        "name": "Elsieskraal River on Chelsea Street",
+        "district": "3",
+        "districtName": "Brackenfell/Kuils River",
+        "waterLevel": 24,
+        "gasLevel": 27,
+        "riskLevel": "NORMAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.18783575479759,
+          -34.25067277059244
+        ]
+      },
+      "properties": {
+        "id": 311,
+        "name": "Vygekraal River at Cornflower Street upstream of Blomvlei Canal confluence",
+        "district": "6",
+        "districtName": "Bellville",
+        "waterLevel": 52,
+        "gasLevel": 36,
+        "riskLevel": "WARNING"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.18218084091498,
+          -34.25096873525449
+        ]
+      },
+      "properties": {
+        "id": 312,
+        "name": "Blomvlei Canal at Koodoo Street upstream of Vygekraal River confluence",
+        "district": "6",
+        "districtName": "Bellville",
+        "waterLevel": 51,
+        "gasLevel": 69,
+        "riskLevel": "WARNING"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.179071812406534,
+          -34.24366349440189
+        ]
+      },
+      "properties": {
+        "id": 313,
+        "name": "Langa Canal at N2",
+        "district": "6",
+        "districtName": "Bellville",
+        "waterLevel": 75,
+        "gasLevel": 20,
+        "riskLevel": "CRITICAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.17502534458768,
+          -34.24527073377618
+        ]
+      },
+      "properties": {
+        "id": 317,
+        "name": "Vygekraal River upstream of Athlone WWTW",
+        "district": "6",
+        "districtName": "Bellville",
+        "waterLevel": 20,
+        "gasLevel": 39,
+        "riskLevel": "NORMAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.16986541079481,
+          -34.36105847122217
+        ]
+      },
+      "properties": {
+        "id": 319,
+        "name": "Princessvlei - centre",
+        "district": "8",
+        "districtName": "Muizenberg",
+        "waterLevel": 45,
+        "gasLevel": 26,
+        "riskLevel": "NORMAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.17312740750569,
+          -34.36212587490365
+        ]
+      },
+      "properties": {
+        "id": 322,
+        "name": "Princessvlei near outlet weir",
+        "district": "8",
+        "districtName": "Muizenberg",
+        "waterLevel": 45,
+        "gasLevel": 49,
+        "riskLevel": "NORMAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.040520058071166,
+          -34.48156530226689
+        ]
+      },
+      "properties": {
+        "id": 326,
+        "name": "Wildevoelvlei mouth to sea",
+        "district": "8",
+        "districtName": "Muizenberg",
+        "waterLevel": 50,
+        "gasLevel": 28,
+        "riskLevel": "NORMAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.059259636766356,
+          -34.484638575820604
+        ]
+      },
+      "properties": {
+        "id": 327,
+        "name": "Centre of east vlei",
+        "district": "8",
+        "districtName": "Muizenberg",
+        "waterLevel": 72,
+        "gasLevel": 45,
+        "riskLevel": "CRITICAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.05037652296323,
+          -34.48773356078782
+        ]
+      },
+      "properties": {
+        "id": 328,
+        "name": "Centre of west vlei",
+        "district": "8",
+        "districtName": "Muizenberg",
+        "waterLevel": 25,
+        "gasLevel": 27,
+        "riskLevel": "NORMAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.14272857764076,
+          -34.49492953318077
+        ]
+      },
+      "properties": {
+        "id": 342,
+        "name": "Glencairn vlei centre - at concrete berm",
+        "district": "8",
+        "districtName": "Muizenberg",
+        "waterLevel": 66,
+        "gasLevel": 22,
+        "riskLevel": "WARNING"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.3584191338608,
+          -34.169073954787315
+        ]
+      },
+      "properties": {
+        "id": 346,
+        "name": "Bottelary River at Amandel Road",
+        "district": "4",
+        "districtName": "Cape Town (City)",
+        "waterLevel": 64,
+        "gasLevel": 27,
+        "riskLevel": "WARNING"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.34867358903012,
+          -34.18414441224679
+        ]
+      },
+      "properties": {
+        "id": 347,
+        "name": "Kuils River at Carinus Street bridge",
+        "district": "4",
+        "districtName": "Cape Town (City)",
+        "waterLevel": 26,
+        "gasLevel": 12,
+        "riskLevel": "NORMAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.34728357189983,
+          -34.190536451375124
+        ]
+      },
+      "properties": {
+        "id": 348,
+        "name": "Kuils River downstream of Belville WWTW discharge at Rietvlei Road",
+        "district": "4",
+        "districtName": "Cape Town (City)",
+        "waterLevel": 51,
+        "gasLevel": 19,
+        "riskLevel": "WARNING"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.348641425479585,
+          -34.211410711500996
+        ]
+      },
+      "properties": {
+        "id": 349,
+        "name": "Kuils River in canal upstream of Stellenbosch Arterial Road",
+        "district": "4",
+        "districtName": "Cape Town (City)",
+        "waterLevel": 32,
+        "gasLevel": 27,
+        "riskLevel": "NORMAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.43877159537052,
+          -34.28129560888067
+        ]
+      },
+      "properties": {
+        "id": 352,
+        "name": "Kleinvlei canal",
+        "district": "4",
+        "districtName": "Cape Town (City)",
+        "waterLevel": 67,
+        "gasLevel": 11,
+        "riskLevel": "WARNING"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.43612967088411,
+          -34.30343319496639
+        ]
+      },
+      "properties": {
+        "id": 353,
+        "name": "Kuils River downstream of Baden Powell Drive bridge",
+        "district": "7",
+        "districtName": "Parow",
+        "waterLevel": 21,
+        "gasLevel": 41,
+        "riskLevel": "NORMAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.44903554744041,
+          -34.3107457796882
+        ]
+      },
+      "properties": {
+        "id": 355,
+        "name": "Kuils River downstream of Zandvliet discharge (dirt road bridge)",
+        "district": "4",
+        "districtName": "Cape Town (City)",
+        "waterLevel": 69,
+        "gasLevel": 28,
+        "riskLevel": "WARNING"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.454609635403415,
+          -34.30076235717697
+        ]
+      },
+      "properties": {
+        "id": 356,
+        "name": "Eerste River on N2 Freeway (upstream of Kuils confluence)",
+        "district": "4",
+        "districtName": "Cape Town (City)",
+        "waterLevel": 45,
+        "gasLevel": 48,
+        "riskLevel": "NORMAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.492375664156356,
+          -34.324543984247434
+        ]
+      },
+      "properties": {
+        "id": 358,
+        "name": "Eerste River upstream of Macassar WWTW (downstream of Kuils confluence)",
+        "district": "4",
+        "districtName": "Cape Town (City)",
+        "waterLevel": 32,
+        "gasLevel": 44,
+        "riskLevel": "NORMAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.02647335644147,
+          -34.3808447846528
+        ]
+      },
+      "properties": {
+        "id": 359,
+        "name": "Hout Bay River at Princess Street",
+        "district": "8",
+        "districtName": "Muizenberg",
+        "waterLevel": 35,
+        "gasLevel": 45,
+        "riskLevel": "NORMAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.01992429344419,
+          -34.36857539118434
+        ]
+      },
+      "properties": {
+        "id": 360,
+        "name": "Hout Bay River at Victoria Road",
+        "district": "8",
+        "districtName": "Muizenberg",
+        "waterLevel": 72,
+        "gasLevel": 43,
+        "riskLevel": "CRITICAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.05295699378442,
+          -34.339682994841965
+        ]
+      },
+      "properties": {
+        "id": 362,
+        "name": "Hout Bay River at Longkloof Road",
+        "district": "8",
+        "districtName": "Muizenberg",
+        "waterLevel": 23,
+        "gasLevel": 34,
+        "riskLevel": "NORMAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.147126724175976,
+          -34.1121265099995
+        ]
+      },
+      "properties": {
+        "id": 363,
+        "name": "Diep River at Blaauwberg Road bridge (upstream of Potsdam WWTW)",
+        "district": "1",
+        "districtName": "Atlantis",
+        "waterLevel": 52,
+        "gasLevel": 24,
+        "riskLevel": "WARNING"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.11575648986267,
+          -34.12091837482191
+        ]
+      },
+      "properties": {
+        "id": 364,
+        "name": "Rietvlei - sample collected from pier in watersport area of vlei",
+        "district": "1",
+        "districtName": "Atlantis",
+        "waterLevel": 36,
+        "gasLevel": 30,
+        "riskLevel": "NORMAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.10610738267507,
+          -34.11508395473664
+        ]
+      },
+      "properties": {
+        "id": 365,
+        "name": "Stormwater channel from Bayside Mall, below pumpstation",
+        "district": "1",
+        "districtName": "Atlantis",
+        "waterLevel": 68,
+        "gasLevel": 25,
+        "riskLevel": "WARNING"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.130336509941536,
+          -34.1444835792608
+        ]
+      },
+      "properties": {
+        "id": 366,
+        "name": "Diep River at Otto du Plessis Drive bridge",
+        "district": "1",
+        "districtName": "Atlantis",
+        "waterLevel": 30,
+        "gasLevel": 37,
+        "riskLevel": "NORMAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.1497247063535,
+          -34.12865682764774
+        ]
+      },
+      "properties": {
+        "id": 367,
+        "name": "Stormwater canal from Theo Marais Park (Montague Gardens)",
+        "district": "1",
+        "districtName": "Atlantis",
+        "waterLevel": 50,
+        "gasLevel": 43,
+        "riskLevel": "NORMAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.12403232153577,
+          -34.196618091568574
+        ]
+      },
+      "properties": {
+        "id": 368,
+        "name": "Zoarvlei (centre) at Wemyss Road footbridge",
+        "district": "1",
+        "districtName": "Atlantis",
+        "waterLevel": 26,
+        "gasLevel": 38,
+        "riskLevel": "NORMAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.12044491950091,
+          -34.20517947954054
+        ]
+      },
+      "properties": {
+        "id": 369,
+        "name": "Zoarvlei (south end) at corner of Vrystraat and Grey Street",
+        "district": "1",
+        "districtName": "Atlantis",
+        "waterLevel": 29,
+        "gasLevel": 48,
+        "riskLevel": "NORMAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.12606326975108,
+          -34.185675912296546
+        ]
+      },
+      "properties": {
+        "id": 370,
+        "name": "Zoarvlei at Bancroft Street",
+        "district": "1",
+        "districtName": "Atlantis",
+        "waterLevel": 42,
+        "gasLevel": 23,
+        "riskLevel": "NORMAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.28448320117938,
+          -34.14672197712077
+        ]
+      },
+      "properties": {
+        "id": 372,
+        "name": "Elsieskraal River at Carl Cronje Road",
+        "district": "2",
+        "districtName": "Blaauwberg",
+        "waterLevel": 41,
+        "gasLevel": 46,
+        "riskLevel": "NORMAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.231708942116725,
+          -34.23668029436267
+        ]
+      },
+      "properties": {
+        "id": 373,
+        "name": "Kalksteenfontein Canal near Netreg Station",
+        "district": "3",
+        "districtName": "Brackenfell/Kuils River",
+        "waterLevel": 64,
+        "gasLevel": 24,
+        "riskLevel": "WARNING"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.18590625778326,
+          -34.24256484226564
+        ]
+      },
+      "properties": {
+        "id": 374,
+        "name": "Jakkalsvlei Canal at N2",
+        "district": "6",
+        "districtName": "Bellville",
+        "waterLevel": 55,
+        "gasLevel": 62,
+        "riskLevel": "WARNING"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.17420941030748,
+          -34.34697096378643
+        ]
+      },
+      "properties": {
+        "id": 376,
+        "name": "Southfield Canal at Victoria Road",
+        "district": "8",
+        "districtName": "Muizenberg",
+        "waterLevel": 72,
+        "gasLevel": 22,
+        "riskLevel": "CRITICAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.629408954006536,
+          -34.30911510105788
+        ]
+      },
+      "properties": {
+        "id": 378,
+        "name": "Lourens River at Vergelegen Estate",
+        "district": "4",
+        "districtName": "Cape Town (City)",
+        "waterLevel": 41,
+        "gasLevel": 11,
+        "riskLevel": "NORMAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.61378876345342,
+          -34.316383489291816
+        ]
+      },
+      "properties": {
+        "id": 379,
+        "name": "Lourens River in P.O.S Hillcrest Road (Radloff Park)",
+        "district": "4",
+        "districtName": "Cape Town (City)",
+        "waterLevel": 51,
+        "gasLevel": 24,
+        "riskLevel": "WARNING"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.599807438335326,
+          -34.324036046781266
+        ]
+      },
+      "properties": {
+        "id": 380,
+        "name": "Lourens River at Main Road - Somerset West",
+        "district": "4",
+        "districtName": "Cape Town (City)",
+        "waterLevel": 73,
+        "gasLevel": 24,
+        "riskLevel": "CRITICAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.57099663656708,
+          -34.34239890285201
+        ]
+      },
+      "properties": {
+        "id": 381,
+        "name": "Lourens River at Broadway Road",
+        "district": "4",
+        "districtName": "Cape Town (City)",
+        "waterLevel": 50,
+        "gasLevel": 35,
+        "riskLevel": "NORMAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.558847767385565,
+          -34.348187463878766
+        ]
+      },
+      "properties": {
+        "id": 382,
+        "name": "Lourens River on Beach Road",
+        "district": "4",
+        "districtName": "Cape Town (City)",
+        "waterLevel": 22,
+        "gasLevel": 42,
+        "riskLevel": "NORMAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.15830932045035,
+          -34.409143546451084
+        ]
+      },
+      "properties": {
+        "id": 383,
+        "name": "Westlake Wetland opposite Rutter Road (old WLW)",
+        "district": "8",
+        "districtName": "Muizenberg",
+        "waterLevel": 60,
+        "gasLevel": 18,
+        "riskLevel": "WARNING"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.66508347982677,
+          -34.261059158264864
+        ]
+      },
+      "properties": {
+        "id": 391,
+        "name": "Lourens River in Lourensford Estate at Red Bridge",
+        "district": "4",
+        "districtName": "Cape Town (City)",
+        "waterLevel": 21,
+        "gasLevel": 12,
+        "riskLevel": "NORMAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.493722326657505,
+          -34.335934342115756
+        ]
+      },
+      "properties": {
+        "id": 392,
+        "name": "Eerste River estuary",
+        "district": "4",
+        "districtName": "Cape Town (City)",
+        "waterLevel": 59,
+        "gasLevel": 39,
+        "riskLevel": "WARNING"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.13683379973658,
+          -34.46208823338167
+        ]
+      },
+      "properties": {
+        "id": 395,
+        "name": "Silvermine River at wooden bridge near Winkle Road - Clovelly",
+        "district": "8",
+        "districtName": "Muizenberg",
+        "waterLevel": 27,
+        "gasLevel": 18,
+        "riskLevel": "NORMAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.10774295313234,
+          -34.44714916909997
+        ]
+      },
+      "properties": {
+        "id": 397,
+        "name": "Silvermine River near Sunbird Environmental Centre - Silvermine Nature Reserve",
+        "district": "8",
+        "districtName": "Muizenberg",
+        "waterLevel": 73,
+        "gasLevel": 21,
+        "riskLevel": "CRITICAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.02722151954572,
+          -34.383995951710006
+        ]
+      },
+      "properties": {
+        "id": 398,
+        "name": "Hout Bay River estuary",
+        "district": "8",
+        "districtName": "Muizenberg",
+        "waterLevel": 52,
+        "gasLevel": 49,
+        "riskLevel": "WARNING"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.49542854937941,
+          -34.31909864662067
+        ]
+      },
+      "properties": {
+        "id": 399,
+        "name": "Moddergat Spruit River at Macassar Road",
+        "district": "4",
+        "districtName": "Cape Town (City)",
+        "waterLevel": 51,
+        "gasLevel": 33,
+        "riskLevel": "WARNING"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.130375038780855,
+          -34.36845930596969
+        ]
+      },
+      "properties": {
+        "id": 406,
+        "name": "Die Oog at Midwood Avenue in Bergvliet",
+        "district": "8",
+        "districtName": "Muizenberg",
+        "waterLevel": 47,
+        "gasLevel": 49,
+        "riskLevel": "NORMAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.16353757914927,
+          -34.058042587232684
+        ]
+      },
+      "properties": {
+        "id": 407,
+        "name": "Diep River downstream of N7 road bridge",
+        "district": "1",
+        "districtName": "Atlantis",
+        "waterLevel": 32,
+        "gasLevel": 31,
+        "riskLevel": "NORMAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.150687907876375,
+          -34.1271825701699
+        ]
+      },
+      "properties": {
+        "id": 409,
+        "name": "Duikersvlei Stream upstream of confluence with Theo Marais Canal",
+        "district": "1",
+        "districtName": "Atlantis",
+        "waterLevel": 24,
+        "gasLevel": 46,
+        "riskLevel": "NORMAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.127323243815994,
+          -34.173030256945765
+        ]
+      },
+      "properties": {
+        "id": 410,
+        "name": "Diep River estuary at Woodbridge Island (Loxton Road)",
+        "district": "1",
+        "districtName": "Atlantis",
+        "waterLevel": 55,
+        "gasLevel": 27,
+        "riskLevel": "WARNING"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.12352860296347,
+          -34.183894519994176
+        ]
+      },
+      "properties": {
+        "id": 411,
+        "name": "Diep River estuary at mouth",
+        "district": "1",
+        "districtName": "Atlantis",
+        "waterLevel": 28,
+        "gasLevel": 43,
+        "riskLevel": "NORMAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.09694834033918,
+          -34.55701800503954
+        ]
+      },
+      "properties": {
+        "id": 413,
+        "name": "Schuster's River at Schuster's Kraal Reserve entrance",
+        "district": "8",
+        "districtName": "Muizenberg",
+        "waterLevel": 44,
+        "gasLevel": 18,
+        "riskLevel": "NORMAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.094017115030766,
+          -34.55330449615167
+        ]
+      },
+      "properties": {
+        "id": 415,
+        "name": "Pound canal (stormwater)",
+        "district": "8",
+        "districtName": "Muizenberg",
+        "waterLevel": 37,
+        "gasLevel": 49,
+        "riskLevel": "NORMAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.04768365557952,
+          -34.50004831834084
+        ]
+      },
+      "properties": {
+        "id": 416,
+        "name": "Bokramspruit River upstream of Slangkop Road",
+        "district": "8",
+        "districtName": "Muizenberg",
+        "waterLevel": 66,
+        "gasLevel": 20,
+        "riskLevel": "WARNING"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.031889146547115,
+          -34.49126866394504
+        ]
+      },
+      "properties": {
+        "id": 417,
+        "name": "Bokramspruit River a short distance downstream of Flamingo Road",
+        "district": "8",
+        "districtName": "Muizenberg",
+        "waterLevel": 35,
+        "gasLevel": 20,
+        "riskLevel": "NORMAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.06388061457174,
+          -34.509000180791865
+        ]
+      },
+      "properties": {
+        "id": 418,
+        "name": "Bokramspruit River upstream of Aries Street",
+        "district": "8",
+        "districtName": "Muizenberg",
+        "waterLevel": 67,
+        "gasLevel": 40,
+        "riskLevel": "WARNING"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.17919869266602,
+          -34.409388065004734
+        ]
+      },
+      "properties": {
+        "id": 419,
+        "name": "Marina da Gama canal - south of Spearhead Quay Street, surface",
+        "district": "8",
+        "districtName": "Muizenberg",
+        "waterLevel": 37,
+        "gasLevel": 28,
+        "riskLevel": "NORMAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.67919608443028,
+          -34.33714601671177
+        ]
+      },
+      "properties": {
+        "id": 420,
+        "name": "Sir Lowry's Pass River at Wedderwill Farm",
+        "district": "4",
+        "districtName": "Cape Town (City)",
+        "waterLevel": 26,
+        "gasLevel": 49,
+        "riskLevel": "NORMAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.64927801211446,
+          -34.358279941672414
+        ]
+      },
+      "properties": {
+        "id": 421,
+        "name": "Sir Lowry's Pass River downstream of N2",
+        "district": "4",
+        "districtName": "Cape Town (City)",
+        "waterLevel": 48,
+        "gasLevel": 48,
+        "riskLevel": "NORMAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.641378129215504,
+          -34.377857501713656
+        ]
+      },
+      "properties": {
+        "id": 422,
+        "name": "Sir Lowry's at Gustrouw Road (upstream of Gordon's Bay WWTW)",
+        "district": "4",
+        "districtName": "Cape Town (City)",
+        "waterLevel": 29,
+        "gasLevel": 32,
+        "riskLevel": "NORMAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.63639237116942,
+          -34.385893827879976
+        ]
+      },
+      "properties": {
+        "id": 423,
+        "name": "Sir Lowry's Pass River (original river) at Admirals Way",
+        "district": "4",
+        "districtName": "Cape Town (City)",
+        "waterLevel": 50,
+        "gasLevel": 49,
+        "riskLevel": "NORMAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.6302077493706,
+          -34.384084401304456
+        ]
+      },
+      "properties": {
+        "id": 424,
+        "name": "Sir Lowry's Pass River downstream of Gordon's Bay WWTW (diversion canal)",
+        "district": "4",
+        "districtName": "Cape Town (City)",
+        "waterLevel": 36,
+        "gasLevel": 29,
+        "riskLevel": "NORMAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.63333193922753,
+          -34.39747170985546
+        ]
+      },
+      "properties": {
+        "id": 425,
+        "name": "Sir Lowry's Pass River (original river channel) Hendon Park",
+        "district": "4",
+        "districtName": "Cape Town (City)",
+        "waterLevel": 44,
+        "gasLevel": 26,
+        "riskLevel": "NORMAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.622777952926924,
+          -34.386603038790405
+        ]
+      },
+      "properties": {
+        "id": 426,
+        "name": "Sir Lowry's Pass River at Hibiscus Road (diversion canal)",
+        "district": "4",
+        "districtName": "Cape Town (City)",
+        "waterLevel": 63,
+        "gasLevel": 25,
+        "riskLevel": "WARNING"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.59171859462515,
+          -34.37337360190387
+        ]
+      },
+      "properties": {
+        "id": 428,
+        "name": "Soet River upstream of Greenways Road (St Andrews Drive)",
+        "district": "4",
+        "districtName": "Cape Town (City)",
+        "waterLevel": 29,
+        "gasLevel": 10,
+        "riskLevel": "NORMAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.341286406378345,
+          -34.01700432998896
+        ]
+      },
+      "properties": {
+        "id": 429,
+        "name": "Mosselbank tributary downstream of Fisantekraal Western stream on R312 before bridge",
+        "district": "2",
+        "districtName": "Blaauwberg",
+        "waterLevel": 27,
+        "gasLevel": 19,
+        "riskLevel": "NORMAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.34577913955109,
+          -34.05822824468633
+        ]
+      },
+      "properties": {
+        "id": 430,
+        "name": "Maastricht Canal downstream of Kraaifontein WWTW",
+        "district": "2",
+        "districtName": "Blaauwberg",
+        "waterLevel": 27,
+        "gasLevel": 34,
+        "riskLevel": "NORMAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.34918707257419,
+          -34.0645837940581
+        ]
+      },
+      "properties": {
+        "id": 431,
+        "name": "Maastricht Canal upstream of Kraaifontein WWTW",
+        "district": "2",
+        "districtName": "Blaauwberg",
+        "waterLevel": 41,
+        "gasLevel": 27,
+        "riskLevel": "NORMAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.025492566634675,
+          -33.993744454818284
+        ]
+      },
+      "properties": {
+        "id": 432,
+        "name": "Sout River at Otto du Plessis Drive",
+        "district": "1",
+        "districtName": "Atlantis",
+        "waterLevel": 46,
+        "gasLevel": 13,
+        "riskLevel": "NORMAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.03655986043617,
+          -33.988577557621284
+        ]
+      },
+      "properties": {
+        "id": 433,
+        "name": "Sout River at R27 (downstream of Melkbos WWTW)",
+        "district": "1",
+        "districtName": "Atlantis",
+        "waterLevel": 38,
+        "gasLevel": 39,
+        "riskLevel": "NORMAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.33940666045894,
+          -34.165199202614346
+        ]
+      },
+      "properties": {
+        "id": 435,
+        "name": "Kuils River downstream of R300 off old bridge",
+        "district": "4",
+        "districtName": "Cape Town (City)",
+        "waterLevel": 60,
+        "gasLevel": 19,
+        "riskLevel": "WARNING"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.1471997030362,
+          -34.12691226327913
+        ]
+      },
+      "properties": {
+        "id": 436,
+        "name": "Theo Marais Canal downstream of Duikersvlei Stream",
+        "district": "1",
+        "districtName": "Atlantis",
+        "waterLevel": 23,
+        "gasLevel": 31,
+        "riskLevel": "NORMAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.14593805395114,
+          -34.1260516350683
+        ]
+      },
+      "properties": {
+        "id": 437,
+        "name": "Diep River downstream of Potsdam WWTW",
+        "district": "1",
+        "districtName": "Atlantis",
+        "waterLevel": 63,
+        "gasLevel": 23,
+        "riskLevel": "WARNING"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.204007808811376,
+          -33.927042718019905
+        ]
+      },
+      "properties": {
+        "id": 438,
+        "name": "Mosselbank River upstream of Diep River confluence",
+        "district": "2",
+        "districtName": "Blaauwberg",
+        "waterLevel": 47,
+        "gasLevel": 42,
+        "riskLevel": "NORMAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.192607667161084,
+          -33.92028972432323
+        ]
+      },
+      "properties": {
+        "id": 439,
+        "name": "Diep River upstream of Mosselbank River confluence",
+        "district": "2",
+        "districtName": "Blaauwberg",
+        "waterLevel": 47,
+        "gasLevel": 36,
+        "riskLevel": "NORMAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.307237847251045,
+          -33.93101061390146
+        ]
+      },
+      "properties": {
+        "id": 440,
+        "name": "Mosselbank River near Klipheuwel",
+        "district": "2",
+        "districtName": "Blaauwberg",
+        "waterLevel": 39,
+        "gasLevel": 41,
+        "riskLevel": "NORMAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.15922836934832,
+          -34.40573882000504
+        ]
+      },
+      "properties": {
+        "id": 441,
+        "name": "Downstream of Westlake River and Keysers River near railway before Zandvlei",
+        "district": "8",
+        "districtName": "Muizenberg",
+        "waterLevel": 39,
+        "gasLevel": 48,
+        "riskLevel": "NORMAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.159924066931666,
+          -34.35741849060176
+        ]
+      },
+      "properties": {
+        "id": 442,
+        "name": "Mocke River inflow to Little Princessvlei",
+        "district": "8",
+        "districtName": "Muizenberg",
+        "waterLevel": 44,
+        "gasLevel": 33,
+        "riskLevel": "NORMAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.17971612046539,
+          -34.42595847608631
+        ]
+      },
+      "properties": {
+        "id": 443,
+        "name": "Zandvlei outlet channel at Rubble Weir, surface",
+        "district": "8",
+        "districtName": "Muizenberg",
+        "waterLevel": 58,
+        "gasLevel": 15,
+        "riskLevel": "WARNING"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.17325932206656,
+          -34.408439492770135
+        ]
+      },
+      "properties": {
+        "id": 444,
+        "name": "Marina da Gama canals - under Park Island Bridge (old BM23), surface",
+        "district": "8",
+        "districtName": "Muizenberg",
+        "waterLevel": 72,
+        "gasLevel": 36,
+        "riskLevel": "CRITICAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.17684405101799,
+          -34.403540328526326
+        ]
+      },
+      "properties": {
+        "id": 445,
+        "name": "Marina da Gama canals - Baalen Way, surface",
+        "district": "8",
+        "districtName": "Muizenberg",
+        "waterLevel": 44,
+        "gasLevel": 49,
+        "riskLevel": "NORMAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.177244244105204,
+          -34.41196618347574
+        ]
+      },
+      "properties": {
+        "id": 446,
+        "name": "Marina da Gama canals - East Lake, surface",
+        "district": "8",
+        "districtName": "Muizenberg",
+        "waterLevel": 50,
+        "gasLevel": 16,
+        "riskLevel": "NORMAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.145597020899466,
+          -34.464729073556256
+        ]
+      },
+      "properties": {
+        "id": 448,
+        "name": "Silvermine River at bridge on Main Road - Clovelly",
+        "district": "8",
+        "districtName": "Muizenberg",
+        "waterLevel": 46,
+        "gasLevel": 47,
+        "riskLevel": "NORMAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.10655446664629,
+          -34.10940188833011
+        ]
+      },
+      "properties": {
+        "id": 449,
+        "name": "Stormwater channel from Bayside Mall downstream of Blaauwberg Road",
+        "district": "1",
+        "districtName": "Atlantis",
+        "waterLevel": 36,
+        "gasLevel": 20,
+        "riskLevel": "NORMAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.62887715944209,
+          -34.357062404384756
+        ]
+      },
+      "properties": {
+        "id": 451,
+        "name": "Soet River in open concrete channel, corner of Broadlands Road - next to Pryde Group",
+        "district": "4",
+        "districtName": "Cape Town (City)",
+        "waterLevel": 44,
+        "gasLevel": 24,
+        "riskLevel": "NORMAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.61189665757031,
+          -34.34610053967064
+        ]
+      },
+      "properties": {
+        "id": 452,
+        "name": "Soet River in concrete channel - in front of BP garage corner of N2 and Hlathi Road",
+        "district": "4",
+        "districtName": "Cape Town (City)",
+        "waterLevel": 52,
+        "gasLevel": 30,
+        "riskLevel": "WARNING"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.60547910286835,
+          -34.35725304524815
+        ]
+      },
+      "properties": {
+        "id": 453,
+        "name": "Soet River in open channel near Erf 32524 (Combined channel 20 metres downstream of confluence)",
+        "district": "4",
+        "districtName": "Cape Town (City)",
+        "waterLevel": 73,
+        "gasLevel": 46,
+        "riskLevel": "CRITICAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.2611978207021,
+          -34.12153120160118
+        ]
+      },
+      "properties": {
+        "id": 454,
+        "name": "Angelier Park Amandel upper dam near Van Riebeekshof Road",
+        "district": "2",
+        "districtName": "Blaauwberg",
+        "waterLevel": 42,
+        "gasLevel": 24,
+        "riskLevel": "NORMAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.26781880150626,
+          -34.1207542275123
+        ]
+      },
+      "properties": {
+        "id": 455,
+        "name": "Angelier Park Fynbos lower dam near Van Riebeekshof Road",
+        "district": "2",
+        "districtName": "Blaauwberg",
+        "waterLevel": 76,
+        "gasLevel": 44,
+        "riskLevel": "CRITICAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.279466044016765,
+          -34.12332605233461
+        ]
+      },
+      "properties": {
+        "id": 456,
+        "name": "Door De Kraal Dam at large stormwater outlet on Angelier Street",
+        "district": "2",
+        "districtName": "Blaauwberg",
+        "waterLevel": 64,
+        "gasLevel": 14,
+        "riskLevel": "WARNING"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.27842750665851,
+          -34.125465675794906
+        ]
+      },
+      "properties": {
+        "id": 459,
+        "name": "Door De Kraal Dam at South end by the dam wall",
+        "district": "2",
+        "districtName": "Blaauwberg",
+        "waterLevel": 34,
+        "gasLevel": 38,
+        "riskLevel": "NORMAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.41153035235148,
+          -34.335402488584954
+        ]
+      },
+      "properties": {
+        "id": 460,
+        "name": "Canal inlet to detention pond near litter device",
+        "district": "7",
+        "districtName": "Parow",
+        "waterLevel": 59,
+        "gasLevel": 17,
+        "riskLevel": "WARNING"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.41704444242185,
+          -34.3372302412901
+        ]
+      },
+      "properties": {
+        "id": 461,
+        "name": "Detention pond near outlet on Baden Powell Drive",
+        "district": "7",
+        "districtName": "Parow",
+        "waterLevel": 54,
+        "gasLevel": 32,
+        "riskLevel": "WARNING"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.41998263241083,
+          -34.341344743601546
+        ]
+      },
+      "properties": {
+        "id": 462,
+        "name": "Outlet from Khayelitsha stormwater system to sea",
+        "district": "7",
+        "districtName": "Parow",
+        "waterLevel": 21,
+        "gasLevel": 49,
+        "riskLevel": "NORMAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.35467495998839,
+          -34.28881366760141
+        ]
+      },
+      "properties": {
+        "id": 463,
+        "name": "Pond Site C on Mew Way",
+        "district": "7",
+        "districtName": "Parow",
+        "waterLevel": 74,
+        "gasLevel": 48,
+        "riskLevel": "CRITICAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.34035161777042,
+          -33.99237805363649
+        ]
+      },
+      "properties": {
+        "id": 485,
+        "name": "Mosselbank River upstream of Fisantekraal WWTW",
+        "district": "2",
+        "districtName": "Blaauwberg",
+        "waterLevel": 76,
+        "gasLevel": 20,
+        "riskLevel": "CRITICAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.321956223283145,
+          -33.95973374758027
+        ]
+      },
+      "properties": {
+        "id": 486,
+        "name": "Mosselbank River downstream of Fisantekraal WWTW",
+        "district": "2",
+        "districtName": "Blaauwberg",
+        "waterLevel": 31,
+        "gasLevel": 29,
+        "riskLevel": "NORMAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.030869038378334,
+          -34.35337398124701
+        ]
+      },
+      "properties": {
+        "id": 487,
+        "name": "Disa River at Bethal Road",
+        "district": "8",
+        "districtName": "Muizenberg",
+        "waterLevel": 61,
+        "gasLevel": 47,
+        "riskLevel": "WARNING"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.20353144283999,
+          -34.38485669504134
+        ]
+      },
+      "properties": {
+        "id": 488,
+        "name": "At cut-off drain outfall to Zeekoe outlet canal",
+        "district": "6",
+        "districtName": "Bellville",
+        "waterLevel": 40,
+        "gasLevel": 46,
+        "riskLevel": "NORMAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.60989509516404,
+          -34.36288899640367
+        ]
+      },
+      "properties": {
+        "id": 496,
+        "name": "Soet River in open channel Erf 7810 next to Onverwacht Road",
+        "district": "4",
+        "districtName": "Cape Town (City)",
+        "waterLevel": 45,
+        "gasLevel": 38,
+        "riskLevel": "NORMAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.33810178357926,
+          -34.03331289215509
+        ]
+      },
+      "properties": {
+        "id": 499,
+        "name": "Concrete water structure on farm Bakoor Jakkalsdraai",
+        "district": "2",
+        "districtName": "Blaauwberg",
+        "waterLevel": 66,
+        "gasLevel": 10,
+        "riskLevel": "WARNING"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.317970752527316,
+          -33.93380830360555
+        ]
+      },
+      "properties": {
+        "id": 501,
+        "name": "Radio Street just off R304 at Klipheuwel",
+        "district": "2",
+        "districtName": "Blaauwberg",
+        "waterLevel": 58,
+        "gasLevel": 12,
+        "riskLevel": "WARNING"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.12855486995297,
+          -34.16108507065872
+        ]
+      },
+      "properties": {
+        "id": 517,
+        "name": "Diep River estuary opposite Broad Way (North of the island)",
+        "district": "1",
+        "districtName": "Atlantis",
+        "waterLevel": 32,
+        "gasLevel": 15,
+        "riskLevel": "NORMAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.16093133003777,
+          -34.24612680616083
+        ]
+      },
+      "properties": {
+        "id": 519,
+        "name": "Elsieskraal River at N2 Bridge",
+        "district": "5",
+        "districtName": "Central",
+        "waterLevel": 37,
+        "gasLevel": 40,
+        "riskLevel": "NORMAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.2094933430675,
+          -34.410336553483475
+        ]
+      },
+      "properties": {
+        "id": 520,
+        "name": "Zeekoevlei canal mouth at Baden Powell Drive",
+        "district": "6",
+        "districtName": "Bellville",
+        "waterLevel": 57,
+        "gasLevel": 52,
+        "riskLevel": "WARNING"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.1264928281895,
+          -34.172426279964796
+        ]
+      },
+      "properties": {
+        "id": 532,
+        "name": "Milnerton Canoe Club (Diep River)",
+        "district": "1",
+        "districtName": "Atlantis",
+        "waterLevel": 50,
+        "gasLevel": 44,
+        "riskLevel": "NORMAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.203578741049995,
+          -34.19681889889462
+        ]
+      },
+      "properties": {
+        "id": 535,
+        "name": "Elsieskraal River near GrandWest and Goodwood Station",
+        "district": "3",
+        "districtName": "Brackenfell/Kuils River",
+        "waterLevel": 29,
+        "gasLevel": 49,
+        "riskLevel": "NORMAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.59962948408585,
+          -34.324186661672385
+        ]
+      },
+      "properties": {
+        "id": 536,
+        "name": "Lourens at Main Road -  between old bridge and new bridge",
+        "district": "4",
+        "districtName": "Cape Town (City)",
+        "waterLevel": 36,
+        "gasLevel": 42,
+        "riskLevel": "NORMAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.352149018605935,
+          -34.008924077567094
+        ]
+      },
+      "properties": {
+        "id": 537,
+        "name": "Mosselbank tributary downstream of Fisantekraal Eastern sample on R312 East stream",
+        "district": "2",
+        "districtName": "Blaauwberg",
+        "waterLevel": 56,
+        "gasLevel": 29,
+        "riskLevel": "WARNING"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.14403934614532,
+          -34.26917710802824
+        ]
+      },
+      "properties": {
+        "id": 538,
+        "name": "Black River at Sandown Road",
+        "district": "8",
+        "districtName": "Muizenberg",
+        "waterLevel": 60,
+        "gasLevel": 11,
+        "riskLevel": "WARNING"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.169376929846315,
+          -34.24623049734702
+        ]
+      },
+      "properties": {
+        "id": 539,
+        "name": "Vygekraal River downstream of Athlone WWTW before Jan Smuts Drive",
+        "district": "6",
+        "districtName": "Bellville",
+        "waterLevel": 52,
+        "gasLevel": 62,
+        "riskLevel": "WARNING"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.221775389168826,
+          -34.24549961053688
+        ]
+      },
+      "properties": {
+        "id": 540,
+        "name": "Jakkelsvlei downstream of Borcherds Quarry WWTW (N/W corner of Robert Sobukwe/N2 intersection)",
+        "district": "3",
+        "districtName": "Brackenfell/Kuils River",
+        "waterLevel": 58,
+        "gasLevel": 28,
+        "riskLevel": "WARNING"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.219559413529616,
+          -34.35840091875019
+        ]
+      },
+      "properties": {
+        "id": 541,
+        "name": "Top of Philippi stormwater outlet channel",
+        "district": "6",
+        "districtName": "Bellville",
+        "waterLevel": 24,
+        "gasLevel": 33,
+        "riskLevel": "NORMAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.215522687176865,
+          -34.3719611354253
+        ]
+      },
+      "properties": {
+        "id": 542,
+        "name": "Zeekoevlei Eastern shore near stormwater outlet from picnic area at traffic circle",
+        "district": "6",
+        "districtName": "Bellville",
+        "waterLevel": 56,
+        "gasLevel": 16,
+        "riskLevel": "WARNING"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.16978190100568,
+          -34.395113316922476
+        ]
+      },
+      "properties": {
+        "id": 543,
+        "name": "Sand River at Coniston Road (upstream of litter trap)",
+        "district": "8",
+        "districtName": "Muizenberg",
+        "waterLevel": 38,
+        "gasLevel": 24,
+        "riskLevel": "NORMAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.144043057061154,
+          -34.12811265622886
+        ]
+      },
+      "properties": {
+        "id": 544,
+        "name": "100m downstream of Theo Marais Park RTV System",
+        "district": "1",
+        "districtName": "Atlantis",
+        "waterLevel": 76,
+        "gasLevel": 16,
+        "riskLevel": "CRITICAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.62737417148952,
+          -34.306770448043686
+        ]
+      },
+      "properties": {
+        "id": 545,
+        "name": "Stormwater outlet from wetland on Vergelegen Road",
+        "district": "4",
+        "districtName": "Cape Town (City)",
+        "waterLevel": 68,
+        "gasLevel": 12,
+        "riskLevel": "WARNING"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.113987547127685,
+          -34.12353967650673
+        ]
+      },
+      "properties": {
+        "id": 546,
+        "name": "Water Sport Area middle; Rietvlei",
+        "district": "1",
+        "districtName": "Atlantis",
+        "waterLevel": 37,
+        "gasLevel": 30,
+        "riskLevel": "NORMAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.10975792398544,
+          -34.121918418055536
+        ]
+      },
+      "properties": {
+        "id": 547,
+        "name": "Rietvlei North West near Bayside canal outlet",
+        "district": "1",
+        "districtName": "Atlantis",
+        "waterLevel": 68,
+        "gasLevel": 20,
+        "riskLevel": "WARNING"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.11660777332347,
+          -34.12248743177153
+        ]
+      },
+      "properties": {
+        "id": 548,
+        "name": "Milnerton Aquatic Club (Rietvlei)",
+        "district": "1",
+        "districtName": "Atlantis",
+        "waterLevel": 37,
+        "gasLevel": 16,
+        "riskLevel": "NORMAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.11040085927839,
+          -34.122868458238905
+        ]
+      },
+      "properties": {
+        "id": 549,
+        "name": "Rietvlei Water Body @ Buoy2",
+        "district": "1",
+        "districtName": "Atlantis",
+        "waterLevel": 73,
+        "gasLevel": 27,
+        "riskLevel": "CRITICAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.1135862104068,
+          -34.12687325261882
+        ]
+      },
+      "properties": {
+        "id": 550,
+        "name": "Rietvlei Water Body @ Buoy4",
+        "district": "1",
+        "districtName": "Atlantis",
+        "waterLevel": 26,
+        "gasLevel": 11,
+        "riskLevel": "NORMAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.118701779384786,
+          -34.124626576130325
+        ]
+      },
+      "properties": {
+        "id": 551,
+        "name": "Rietvlei Water Body @ Buoy6",
+        "district": "1",
+        "districtName": "Atlantis",
+        "waterLevel": 64,
+        "gasLevel": 42,
+        "riskLevel": "WARNING"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.11355431393768,
+          -34.12138033789379
+        ]
+      },
+      "properties": {
+        "id": 552,
+        "name": "Rietvlei Water Body @ Buoy1",
+        "district": "1",
+        "districtName": "Atlantis",
+        "waterLevel": 78,
+        "gasLevel": 44,
+        "riskLevel": "CRITICAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.020375371112664,
+          -34.28601846608785
+        ]
+      },
+      "properties": {
+        "id": 583,
+        "name": "Bakoven stormwater next to pump station",
+        "district": "5",
+        "districtName": "Central",
+        "waterLevel": 28,
+        "gasLevel": 66,
+        "riskLevel": "WARNING"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.02046708846112,
+          -34.38729021917953
+        ]
+      },
+      "properties": {
+        "id": 584,
+        "name": "Yacht Club stormwater discharge",
+        "district": "8",
+        "districtName": "Muizenberg",
+        "waterLevel": 47,
+        "gasLevel": 19,
+        "riskLevel": "NORMAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.15011889405283,
+          -34.08560191192067
+        ]
+      },
+      "properties": {
+        "id": 585,
+        "name": "Diep River at Railway Bridge from Parklands",
+        "district": "1",
+        "districtName": "Atlantis",
+        "waterLevel": 77,
+        "gasLevel": 10,
+        "riskLevel": "CRITICAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.06604423222837,
+          -34.25615696915744
+        ]
+      },
+      "properties": {
+        "id": 588,
+        "name": "Platteklip Stream at corner of Homeleigh and Capel Road, Vredehoek",
+        "district": "5",
+        "districtName": "Central",
+        "waterLevel": 75,
+        "gasLevel": 70,
+        "riskLevel": "CRITICAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.025586888702406,
+          -34.29017925625769
+        ]
+      },
+      "properties": {
+        "id": 589,
+        "name": "Kasteelpoort River at 21 Fulham Road, Bakoven",
+        "district": "5",
+        "districtName": "Central",
+        "waterLevel": 70,
+        "gasLevel": 54,
+        "riskLevel": "WARNING"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.02655880712498,
+          -34.279416399131385
+        ]
+      },
+      "properties": {
+        "id": 590,
+        "name": "Little Glen Playground at end of 1st Crescent Street, Camps Bay",
+        "district": "5",
+        "districtName": "Central",
+        "waterLevel": 41,
+        "gasLevel": 17,
+        "riskLevel": "NORMAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.56006722948198,
+          -34.295590751801825
+        ]
+      },
+      "properties": {
+        "id": 591,
+        "name": "Detention Pond at Poinsettia Park, Pyracantha Street, Somerset West",
+        "district": "4",
+        "districtName": "Cape Town (City)",
+        "waterLevel": 44,
+        "gasLevel": 29,
+        "riskLevel": "NORMAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.546392687224966,
+          -34.31643237868173
+        ]
+      },
+      "properties": {
+        "id": 592,
+        "name": "Lourens River off the N2 and Old Paardevlei Road",
+        "district": "4",
+        "districtName": "Cape Town (City)",
+        "waterLevel": 51,
+        "gasLevel": 41,
+        "riskLevel": "WARNING"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.55304129772834,
+          -34.287082757432984
+        ]
+      },
+      "properties": {
+        "id": 593,
+        "name": "Stream opposite 3 Berghowe Road, Helderberg Village",
+        "district": "4",
+        "districtName": "Cape Town (City)",
+        "waterLevel": 51,
+        "gasLevel": 11,
+        "riskLevel": "WARNING"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.58935863852077,
+          -34.30396371147431
+        ]
+      },
+      "properties": {
+        "id": 594,
+        "name": "Geelsloot Stream on Jakaranda Street, Parel Vallei, Somerset West",
+        "district": "4",
+        "districtName": "Cape Town (City)",
+        "waterLevel": 21,
+        "gasLevel": 26,
+        "riskLevel": "NORMAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.507189846889894,
+          -34.30012120232494
+        ]
+      },
+      "properties": {
+        "id": 595,
+        "name": "Stream between the Huntsman and Acorn Creek on R102",
+        "district": "4",
+        "districtName": "Cape Town (City)",
+        "waterLevel": 75,
+        "gasLevel": 41,
+        "riskLevel": "CRITICAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.203522635634975,
+          -33.86441496916673
+        ]
+      },
+      "properties": {
+        "id": 596,
+        "name": "Diep River adjacent to Old Malmesbury Road",
+        "district": "2",
+        "districtName": "Blaauwberg",
+        "waterLevel": 59,
+        "gasLevel": 47,
+        "riskLevel": "WARNING"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.39304648877226,
+          -34.114522546097255
+        ]
+      },
+      "properties": {
+        "id": 597,
+        "name": "Botfontein pond inlet",
+        "district": "2",
+        "districtName": "Blaauwberg",
+        "waterLevel": 48,
+        "gasLevel": 23,
+        "riskLevel": "NORMAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.39486792807377,
+          -34.11709466971153
+        ]
+      },
+      "properties": {
+        "id": 598,
+        "name": "Botfontein pond outlet",
+        "district": "2",
+        "districtName": "Blaauwberg",
+        "waterLevel": 45,
+        "gasLevel": 15,
+        "riskLevel": "NORMAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.394592835374965,
+          -34.11511540916183
+        ]
+      },
+      "properties": {
+        "id": 599,
+        "name": "Botfontein pond 3",
+        "district": "2",
+        "districtName": "Blaauwberg",
+        "waterLevel": 62,
+        "gasLevel": 46,
+        "riskLevel": "WARNING"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.39717036518722,
+          -34.1181340613645
+        ]
+      },
+      "properties": {
+        "id": 600,
+        "name": "Botfontein pond 4",
+        "district": "2",
+        "districtName": "Blaauwberg",
+        "waterLevel": 38,
+        "gasLevel": 28,
+        "riskLevel": "NORMAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.38892627612858,
+          -34.071389373949636
+        ]
+      },
+      "properties": {
+        "id": 601,
+        "name": "Sandringham pond South Western inflow",
+        "district": "2",
+        "districtName": "Blaauwberg",
+        "waterLevel": 54,
+        "gasLevel": 48,
+        "riskLevel": "WARNING"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.38886296073203,
+          -34.069690673759624
+        ]
+      },
+      "properties": {
+        "id": 602,
+        "name": "Sandringham pond central outflow",
+        "district": "2",
+        "districtName": "Blaauwberg",
+        "waterLevel": 30,
+        "gasLevel": 20,
+        "riskLevel": "NORMAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.39130076234044,
+          -34.06775538534516
+        ]
+      },
+      "properties": {
+        "id": 603,
+        "name": "Sandringham pond minor inflow",
+        "district": "2",
+        "districtName": "Blaauwberg",
+        "waterLevel": 24,
+        "gasLevel": 11,
+        "riskLevel": "NORMAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.39184496251914,
+          -34.06704907976631
+        ]
+      },
+      "properties": {
+        "id": 604,
+        "name": "Sandringham pond North inflow",
+        "district": "2",
+        "districtName": "Blaauwberg",
+        "waterLevel": 26,
+        "gasLevel": 28,
+        "riskLevel": "NORMAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.40454109143588,
+          -34.128419294901384
+        ]
+      },
+      "properties": {
+        "id": 605,
+        "name": "Bottelary river upstream confluence",
+        "district": "2",
+        "districtName": "Blaauwberg",
+        "waterLevel": 72,
+        "gasLevel": 13,
+        "riskLevel": "CRITICAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.41197494482532,
+          -34.12311668327544
+        ]
+      },
+      "properties": {
+        "id": 606,
+        "name": "Botterlary river at Botterlary Road (upstream point)",
+        "district": "2",
+        "districtName": "Blaauwberg",
+        "waterLevel": 75,
+        "gasLevel": 43,
+        "riskLevel": "CRITICAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.2295137146319,
+          -34.13785788686771
+        ]
+      },
+      "properties": {
+        "id": 607,
+        "name": "Plattekloof Dam at Meyboom Avenue in Plattekloof",
+        "district": "3",
+        "districtName": "Brackenfell/Kuils River",
+        "waterLevel": 70,
+        "gasLevel": 22,
+        "riskLevel": "WARNING"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.24325370603461,
+          -34.12584781624766
+        ]
+      },
+      "properties": {
+        "id": 608,
+        "name": "Dam downstream of Kanonberg Dam on Riesling Street",
+        "district": "2",
+        "districtName": "Blaauwberg",
+        "waterLevel": 24,
+        "gasLevel": 31,
+        "riskLevel": "NORMAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.253644696175556,
+          -34.14024127659266
+        ]
+      },
+      "properties": {
+        "id": 609,
+        "name": "Welgemoed Dam in Tygerberg Nature Reserve",
+        "district": "2",
+        "districtName": "Blaauwberg",
+        "waterLevel": 51,
+        "gasLevel": 13,
+        "riskLevel": "WARNING"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.263785895459286,
+          -34.17680168928135
+        ]
+      },
+      "properties": {
+        "id": 610,
+        "name": "De Kock Street at bend of M16",
+        "district": "3",
+        "districtName": "Brackenfell/Kuils River",
+        "waterLevel": 45,
+        "gasLevel": 21,
+        "riskLevel": "NORMAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.33208646455018,
+          -34.13580356742946
+        ]
+      },
+      "properties": {
+        "id": 611,
+        "name": "Kuils River at end of Eikenhout Avenue, Bellville",
+        "district": "3",
+        "districtName": "Brackenfell/Kuils River",
+        "waterLevel": 34,
+        "gasLevel": 48,
+        "riskLevel": "NORMAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.27520339701049,
+          -34.119700105712866
+        ]
+      },
+      "properties": {
+        "id": 612,
+        "name": "Elsieskraal River, off Van Riebeeckshof Road, just before Doordekraal Dam at bridge",
+        "district": "2",
+        "districtName": "Blaauwberg",
+        "waterLevel": 41,
+        "gasLevel": 10,
+        "riskLevel": "NORMAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.41387401271686,
+          -34.03611623890193
+        ]
+      },
+      "properties": {
+        "id": 613,
+        "name": "Mosselbank River near County Fair farm on R304",
+        "district": "2",
+        "districtName": "Blaauwberg",
+        "waterLevel": 29,
+        "gasLevel": 15,
+        "riskLevel": "NORMAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.314692260810155,
+          -34.094743961189806
+        ]
+      },
+      "properties": {
+        "id": 614,
+        "name": "Kuils River at Fairtrees public open space, at bridge on Ibis Street",
+        "district": "2",
+        "districtName": "Blaauwberg",
+        "waterLevel": 31,
+        "gasLevel": 14,
+        "riskLevel": "NORMAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.39045988637243,
+          -34.147795160039124
+        ]
+      },
+      "properties": {
+        "id": 615,
+        "name": "Off Bottelary Road at Hazendal Farm, Kuilsriver",
+        "district": "2",
+        "districtName": "Blaauwberg",
+        "waterLevel": 77,
+        "gasLevel": 18,
+        "riskLevel": "CRITICAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.06978889148639,
+          -33.89596519307488
+        ]
+      },
+      "properties": {
+        "id": 616,
+        "name": "Donkergat River, downstream of Wesfleur WWTW discharge point, off Brakkefontein Road",
+        "district": "1",
+        "districtName": "Atlantis",
+        "waterLevel": 54,
+        "gasLevel": 40,
+        "riskLevel": "WARNING"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.02773811857696,
+          -34.267662720614084
+        ]
+      },
+      "properties": {
+        "id": 617,
+        "name": "Camps Bay Stream, opposite 26 Shanklin Crescent at Shanklin Crescent Park",
+        "district": "5",
+        "districtName": "Central",
+        "waterLevel": 56,
+        "gasLevel": 25,
+        "riskLevel": "WARNING"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.02489983431697,
+          -34.2667294359045
+        ]
+      },
+      "properties": {
+        "id": 618,
+        "name": "Diepsloot Stream at footbridge of the Glen near Camps Bay Retreat, Camps Bay",
+        "district": "5",
+        "districtName": "Central",
+        "waterLevel": 71,
+        "gasLevel": 55,
+        "riskLevel": "CRITICAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.967834171071885,
+          -33.761548845656336
+        ]
+      },
+      "properties": {
+        "id": 619,
+        "name": "Louwskloof River, tributary of Modder River downstream of Mamre town",
+        "district": "1",
+        "districtName": "Atlantis",
+        "waterLevel": 73,
+        "gasLevel": 15,
+        "riskLevel": "CRITICAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.104252044629575,
+          -34.11576455307543
+        ]
+      },
+      "properties": {
+        "id": 620,
+        "name": "Dolphins edge pan, Rietvlei - North",
+        "district": "1",
+        "districtName": "Atlantis",
+        "waterLevel": 59,
+        "gasLevel": 40,
+        "riskLevel": "WARNING"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.104084072591874,
+          -34.11649121554947
+        ]
+      },
+      "properties": {
+        "id": 621,
+        "name": "Dolphins edge pan, Rietvlei - South",
+        "district": "1",
+        "districtName": "Atlantis",
+        "waterLevel": 38,
+        "gasLevel": 49,
+        "riskLevel": "NORMAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.103164242401895,
+          -34.22151551636098
+        ]
+      },
+      "properties": {
+        "id": 622,
+        "name": "Near truck stop, Nereide Street, Woodstock",
+        "district": "5",
+        "districtName": "Central",
+        "waterLevel": 35,
+        "gasLevel": 72,
+        "riskLevel": "CRITICAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.153426571833684,
+          -34.07292594893271
+        ]
+      },
+      "properties": {
+        "id": 623,
+        "name": "Upstream of Malibongwe Drive",
+        "district": "1",
+        "districtName": "Atlantis",
+        "waterLevel": 46,
+        "gasLevel": 41,
+        "riskLevel": "NORMAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.55583490373684,
+          -34.347501843322654
+        ]
+      },
+      "properties": {
+        "id": 624,
+        "name": "Just before confluence with Lourens River, near pump station on Beach Road, Strand",
+        "district": "4",
+        "districtName": "Cape Town (City)",
+        "waterLevel": 59,
+        "gasLevel": 14,
+        "riskLevel": "WARNING"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.11935119825455,
+          -34.51939691838908
+        ]
+      },
+      "properties": {
+        "id": 625,
+        "name": "Brooklands Road, Noordhoek. Upstream of Brooklands Water Treatment Plant",
+        "district": "8",
+        "districtName": "Muizenberg",
+        "waterLevel": 53,
+        "gasLevel": 44,
+        "riskLevel": "WARNING"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.12225504617275,
+          -34.36433231888566
+        ]
+      },
+      "properties": {
+        "id": 626,
+        "name": "Downstream of Grootboschkloof and Pagasvlei Stream at end of Willow Road",
+        "district": "8",
+        "districtName": "Muizenberg",
+        "waterLevel": 20,
+        "gasLevel": 41,
+        "riskLevel": "NORMAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.15973442802928,
+          -34.28321327831064
+        ]
+      },
+      "properties": {
+        "id": 627,
+        "name": "Access from M5, 400m before exit 15 to Racecourse Road off ramp",
+        "district": "8",
+        "districtName": "Muizenberg",
+        "waterLevel": 37,
+        "gasLevel": 36,
+        "riskLevel": "NORMAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.07238136843377,
+          -34.44238899494568
+        ]
+      },
+      "properties": {
+        "id": 628,
+        "name": "Brookwood Stream on Noordhoek Main Road",
+        "district": "8",
+        "districtName": "Muizenberg",
+        "waterLevel": 51,
+        "gasLevel": 28,
+        "riskLevel": "WARNING"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.128114849453524,
+          -34.37521485699522
+        ]
+      },
+      "properties": {
+        "id": 629,
+        "name": "Prinskasteel River, Sweet Valley Vineyard Estate at end of Lismore Avenue",
+        "district": "8",
+        "districtName": "Muizenberg",
+        "waterLevel": 57,
+        "gasLevel": 21,
+        "riskLevel": "WARNING"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.11686770042477,
+          -34.34992939218678
+        ]
+      },
+      "properties": {
+        "id": 630,
+        "name": "Spaanschemat River at Spaanschemat Road",
+        "district": "8",
+        "districtName": "Muizenberg",
+        "waterLevel": 60,
+        "gasLevel": 24,
+        "riskLevel": "WARNING"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.03129383007905,
+          -34.38088597475658
+        ]
+      },
+      "properties": {
+        "id": 631,
+        "name": "Baviaanskloof River on Baviaanskloof Road at bridge",
+        "district": "8",
+        "districtName": "Muizenberg",
+        "waterLevel": 48,
+        "gasLevel": 31,
+        "riskLevel": "NORMAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.10771161304296,
+          -34.299844228499936
+        ]
+      },
+      "properties": {
+        "id": 632,
+        "name": "Liesbeek River at Kirstenbosch Drive",
+        "district": "8",
+        "districtName": "Muizenberg",
+        "waterLevel": 68,
+        "gasLevel": 30,
+        "riskLevel": "WARNING"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.23257916431924,
+          -34.29566211103862
+        ]
+      },
+      "properties": {
+        "id": 633,
+        "name": "Edith Stephens Nature Reserve pond inlet on Jakes Gerwel Drive (first pond)",
+        "district": "6",
+        "districtName": "Bellville",
+        "waterLevel": 74,
+        "gasLevel": 71,
+        "riskLevel": "CRITICAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.23112644533346,
+          -34.29317115858279
+        ]
+      },
+      "properties": {
+        "id": 634,
+        "name": "Edith Stephens Nature Reserve pond outlet on Govan Mbeki Road (middle pond)",
+        "district": "6",
+        "districtName": "Bellville",
+        "waterLevel": 30,
+        "gasLevel": 50,
+        "riskLevel": "NORMAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.16717446124577,
+          -34.39548156686802
+        ]
+      },
+      "properties": {
+        "id": 635,
+        "name": "Langevlei canal before confluence with Sand River",
+        "district": "8",
+        "districtName": "Muizenberg",
+        "waterLevel": 52,
+        "gasLevel": 21,
+        "riskLevel": "WARNING"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.19080501938567,
+          -34.374732793078586
+        ]
+      },
+      "properties": {
+        "id": 636,
+        "name": "Main waterbody at Jack Winterbottom bird hide, Rondevlei Nature Reserve",
+        "district": "6",
+        "districtName": "Bellville",
+        "waterLevel": 57,
+        "gasLevel": 47,
+        "riskLevel": "WARNING"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.146174516213506,
+          -34.52510837733871
+        ]
+      },
+      "properties": {
+        "id": 637,
+        "name": "Palace Hill Road, Simon's Town",
+        "district": "8",
+        "districtName": "Muizenberg",
+        "waterLevel": 54,
+        "gasLevel": 25,
+        "riskLevel": "WARNING"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.1265258466803,
+          -34.39935248980159
+        ]
+      },
+      "properties": {
+        "id": 638,
+        "name": "Westlake River downstream of Pollsmoor Prison Grounds - opposite Westlake Primary School at bridge",
+        "district": "8",
+        "districtName": "Muizenberg",
+        "waterLevel": 39,
+        "gasLevel": 40,
+        "riskLevel": "NORMAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.007636369128974,
+          -33.76208383490441
+        ]
+      },
+      "properties": {
+        "id": 639,
+        "name": "Louwskloof River, tributary of Modder River upstream of Mamre town, on Dassenberg Road",
+        "district": "1",
+        "districtName": "Atlantis",
+        "waterLevel": 58,
+        "gasLevel": 34,
+        "riskLevel": "WARNING"
+      }
+    }
+  ]
+}

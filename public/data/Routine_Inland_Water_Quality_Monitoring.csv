@@ -1,0 +1,248 @@
+﻿X,Y,OBJECTID,WQM_ID,LU_TYPE_CDE_KEY,TYPE,SCN_SRV_CODE_NAME,MNTR_TYPE,WTRB_TYPE,LCTN_DSCR,MNTR_SITE_STS,CTMT_CSTL,DSTR,PLNG_RGN
+2071761.79310257,-4038950.42933026,147,INLD_362,1,INLD,CS23,Bacterial,Sea SW Outlet,Mitchells Plain stormwater west discharge,Routine,MPlain,6,S
+2055845.28598162,-4043585.80206886,162,INLD_361,1,INLD,CS22,Bacterial,Sea SW Outlet,Muizenberg Station stormwater discharge,Routine,Sand,8,S
+2055672.77438568,-4043981.51402593,165,INLD_364,1,INLD,CS26,Bacterial,Sea SW Outlet,Bailey's Cottage stormwater discharge,Routine,Muizb,8,S
+2045305.87919022,-4023428.14080833,173,INLD_357,1,INLD,CN27,Bacterial,Sea SW Outlet,Bakoven stormwater discharge,Routine,City,5,C
+2045572.14751736,-4022571.61671954,179,INLD_358,1,INLD,CN28,Bacterial,Sea SW Outlet,Camps Bay stormwater discharge,Routine,City,5,C
+2045784.50442222,-4018629.13926567,187,INLD_348,1,INLD,CN16B,Bacterial,Sea SW Outlet,Saunders Rocks stormwater discharge,Routine,City,5,C
+2046813.96563098,-4017244.46856985,193,INLD_354,1,INLD,CN24,Bacterial,Sea SW Outlet,Graaff's Pool stormwater 1 discharge,Routine,City,5,C
+2046900.61452011,-4017161.86681783,194,INLD_355,1,INLD,CN25,Bacterial,Sea SW Outlet,Graaff's Pool stormwater 2 discharge,Routine,City,5,C
+2046956.14071663,-4017015.55116176,195,INLD_356,1,INLD,CN26,Bacterial,Sea SW Outlet,Graaff's Pool stormwater 3 discharge,Routine,City,5,C
+2047506.59748261,-4016537.52442443,197,INLD_347,1,INLD,CN06B,Bacterial,Sea SW Outlet,Rocklands stormwater pipe discharge,Routine,City,5,C
+2047967.95388384,-4016228.54345374,201,INLD_349,1,INLD,CN17A,Bacterial,Sea SW Outlet,Three Anchor Bay stormwater pipe discharge at rocks (left from top) - A,Routine,City,5,C
+2048042.12838115,-4016139.21132307,202,INLD_352,1,INLD,CN17E,Bacterial,Sea SW Outlet,Three Anchor Bay stormwater pipe discharge at rocks (west of subway) - E,Routine,City,5,C
+2047969.356271,-4016228.88316346,228,INLD_350,1,INLD,CN17B,Bacterial,Sea SW Outlet,Three Anchor Bay stormwater pipe discharge at rocks (centre) - B,Routine,City,5,C
+2047970.6831431,-4016229.1900213,229,INLD_351,1,INLD,CN17C,Bacterial,Sea SW Outlet,Three Anchor Bay stormwater pipe discharge at rocks (right from top) - C,Routine,City,5,C
+2053678.59430511,-4046042.25296391,234,INLD_360,1,INLD,CS01B,Bacterial,Sea SW Outlet,Kalk Bay Harbour Beach stormwater discharge,Routine,Muizb,8,S
+2052468.73508522,-4046581.04114451,235,INLD_368,1,INLD,SRE,Bacterial,Sea SW Outlet,Silvermine River East stormwater discharge,Routine,Smine,8,S
+2052449.93104029,-4046586.20100057,236,INLD_369,1,INLD,SRW,Bacterial,Sea SW Outlet,Silvermine River West stormwater discharge,Routine,Smine,8,S
+2051888.12404711,-4047662.67615396,237,INLD_365,1,INLD,FHC,Bacterial,Sea SW Outlet,Fish Hoek stormwater culvert discharge,Routine,Smine,8,S
+2051981.72147636,-4047399.10206914,238,INLD_366,1,INLD,FHLH,Bacterial,Sea SW Outlet,Fish Hoek lighthouse stormwater discharge,Routine,Smine,8,S
+2061254.01191125,-4035897.75510546,239,INLD_1,1,INLD,ZEV2S,Chemical & Bacterial & Algal,Vlei & Wetland,Zeekoevlei opposite inlet of Big Lotus River,Routine,Zeekoe,6,S
+2060287.99991162,-4037189.27725983,240,INLD_2,1,INLD,ZEV1S,Chemical & Bacterial & Algal,Vlei & Wetland,Zeekoevlei Home Bay in front of Zeekoevlei Yacht Club,Routine,Zeekoe,6,S
+2061206.27437064,-4038269.92835277,241,INLD_3,1,INLD,ZEV3S,Chemical & Bacterial & Algal,Vlei & Wetland,Zeekoevlei in front of Cape Peninsula Aquatic Club,Routine,Zeekoe,6,S
+2060136.04883389,-4038115.15458736,242,INLD_4,1,INLD,ZEV4S,Chemical & Bacterial & Algal,Vlei & Wetland,Zeekoevlei SW corner approximately 200m from weir,Routine,Zeekoe,6,S
+2061468.94144232,-4035183.82424778,243,INLD_5,1,INLD,LR08,Chemical & Bacterial,River,Lotus River at Fisherman's Walk bridge (just upstream of vlei),Routine,Zeekoe,6,S
+2061244.39390451,-4033289.89534599,245,INLD_7,1,INLD,LR07,Chemical & Bacterial,Canal,Lotus River at Klip Road,Routine,Zeekoe,6,S
+2061394.24571131,-4031158.95471524,246,INLD_8,1,INLD,LR06,Chemical & Bacterial,Canal,Woodlands Canal at New Ottery Road (near Ottery Hypermarket),Routine,Zeekoe,6,S
+2061552.60436177,-4030867.0829763,247,INLD_9,1,INLD,LR05,Chemical & Bacterial,Canal,Lotus River at entrance to depot on Old Strandfontein Road,Routine,Zeekoe,6,S
+2062670.94392589,-4028892.89709689,248,INLD_10,1,INLD,LR04,Chemical & Bacterial,Canal,Lotus River at Govan Mbeki Road,Routine,Zeekoe,6,S
+2065876.0102411,-4029018.70279986,249,INLD_11,1,INLD,LR03,Chemical & Bacterial,Canal,Lotus River at corner Duinefontein and Govan Mbeki Road,Routine,Zeekoe,6,S
+2068050.89166295,-4025081.58357219,250,INLD_12,1,INLD,LR02,Chemical & Bacterial,Canal,Lotus River on Settler's Way (N2) about 500m from Airport Approach Road,Routine,Zeekoe,6,S
+2059941.60050428,-4033495.71428599,252,INLD_14,1,INLD,LR09,Chemical & Bacterial,Canal,Little Lotus River at Klip Road (near Montagues Gift Road),Routine,Zeekoe,6,S
+2060135.99034956,-4035233.3372507,254,INLD_16,1,INLD,LR10,Chemical & Bacterial,Canal,Little Lotus River at Eighth Avenue,Routine,Zeekoe,6,S
+2058645.22517942,-4036697.18302114,255,INLD_17,1,INLD,RVIRD,Chemical & Bacterial,Canal,Italian Road canal leading to Rondevlei,Routine,Zeekoe,6,S
+2059680.82138062,-4037564.94724313,256,INLD_18,1,INLD,RVWEIR,Chemical & Bacterial & Algal,Vlei & Wetland,Rondevlei at weir,Routine,Zeekoe,6,S
+2059876.77745883,-4038320.77038884,258,INLD_20,1,INLD,ZEWEIR,Chemical & Bacterial & Algal,Vlei & Wetland,Vlei sample at Zeekoevlei weir,Routine,Zeekoe,6,S
+2051728.9279405,-4038850.69561309,259,INLD_21,1,INLD,CR05,Chemical & Bacterial,River,Westlake River at Steenberg Road,Routine,Sand,8,S
+2053537.34608917,-4038774.01763077,260,INLD_22,1,INLD,CR03,Chemical & Bacterial,River,Westlake River at Altenburg Road - Kirstenhof,Routine,Sand,8,S
+2053875.75336528,-4038905.77691976,261,INLD_23,1,INLD,CR02,Chemical & Bacterial,River,Westlake River at Orange Street - Kirstenhof,Routine,Sand,8,S
+2054484.6916591,-4039737.40504199,262,INLD_24,1,INLD,CR01,Chemical & Bacterial,River,Westlake River corner Main Road and Chenel Way,Routine,Sand,8,S
+2050874.60249819,-4033838.64804601,265,INLD_27,1,INLD,CR11,Chemical & Bacterial,River,Downstream confluence between Grootboschkloof and Belsiebos Stream,Routine,Sand,8,S
+2053364.54695701,-4036081.78872524,269,INLD_31,1,INLD,CR06,Chemical & Bacterial,River,Spaanschemat River in greenbelt off Lismore Road (close to M3),Routine,Sand,8,S
+2055574.21084502,-4036367.74067938,273,INLD_35,1,INLD,LVI,Chemical & Bacterial & Algal,Canal,Langevlei - vlei inlet,Routine,Sand,8,S
+2055637.52262231,-4036747.59635417,274,INLD_36,1,INLD,LVO,Chemical & Bacterial & Algal,Vlei & Wetland,Langevlei - vlei outlet,Routine,Sand,8,S
+2056103.51511613,-4034746.3532095,275,INLD_37,1,INLD,DRRSC,Chemical & Bacterial,Canal,Diep River at Roscommon Road,Routine,Sand,8,S
+2056598.91603948,-4034842.50731697,276,INLD_38,1,INLD,LPVN,Chemical & Bacterial & Algal,Vlei & Wetland,Little Princessvlei - north,Routine,Sand,8,S
+2056612.49272988,-4035504.09905878,277,INLD_39,1,INLD,LPVS,Chemical & Bacterial & Algal,Vlei & Wetland,Little Princessvlei - south,Routine,Sand,8,S
+2056287.87032659,-4039521.75430717,279,INLD_41,1,INLD,CR21,Chemical & Bacterial,Canal,Sand River at Oudevlei Road (downstream of Langevlei & Sand River confluence),Routine,Sand,8,S
+2055307.63434765,-4038980.95848014,280,INLD_42,1,INLD,CR20,Chemical & Bacterial,River,Keysers River at Military Road,Routine,Sand,8,S
+2054009.95670948,-4030601.86862752,282,INLD_44,1,INLD,CR16,Chemical & Bacterial,River,Diep River at Alphen Road in canal,Routine,Sand,8,S
+2055659.98425587,-4040222.41025829,284,INLD_46,1,INLD,ZA01S,Chemical & Bacterial & Algal,Estuary,"Zandvlei - north, surface",Routine,Sand,8,S
+2055917.29954094,-4040874.86707288,285,INLD_47,1,INLD,ZA02S,Chemical & Bacterial & Algal,Estuary,"Zandvlei - centre (opposite Imperial Yacht Club), surface",Routine,Sand,8,S
+2056020.56765326,-4041627.69111471,286,INLD_48,1,INLD,ZA03S,Chemical & Bacterial & Algal,Estuary,"Zandvlei - south (opposite Playwaters), surface",Routine,Sand,8,S
+2056094.12843251,-4042208.99554976,287,INLD_49,1,INLD,ZA04S,Chemical & Bacterial & Algal,Estuary,"Outlet channel - midway to mouth, surface",Routine,Sand,8,S
+2056648.85670289,-4042712.67846189,288,INLD_50,1,INLD,ZA05S,Chemical & Bacterial & Algal,Estuary,"Outlet channel near Royal Road bridge, surface",Routine,Sand,8,S
+2056303.75460944,-4041137.06668684,289,INLD_51,1,INLD,ZA06S,Chemical & Bacterial & Algal,Estuary,"South entrance to Marina da Gama canals, surface",Routine,Sand,8,S
+2056925.42736422,-4041404.36696275,290,INLD_52,1,INLD,ZA08S,Chemical & Bacterial & Algal,Estuary,"Marina da Gama canal near ""The Anchorage"", surface",Routine,Sand,8,S
+2056164.34938138,-4040249.80167637,291,INLD_53,1,INLD,ZA07S,Chemical & Bacterial & Algal,Estuary,"North entrance to Marina da Gama canals, surface",Routine,Sand,8,S
+2056770.97013313,-4020250.81868244,294,INLD_56,1,INLD,NR08,Chemical & Bacterial,Canal,Liesbeek River downstream of Lake weir opposite Hartleyvale,Routine,Salt,5,C
+2057385.6182168,-4020200.09214358,295,INLD_57,1,INLD,NR07,Chemical & Bacterial,River,Black River on footbridge to Alexandra Institute,Routine,Salt,5,C
+2056767.94509797,-4018714.06248193,296,INLD_58,1,INLD,NR09,Chemical & Bacterial,Canal,Salt River Canal at Voortrekker Road bridge,Routine,Salt,5,C
+2056574.40927049,-4016655.44565866,297,INLD_59,1,INLD,NR10,Chemical & Bacterial,Canal,Salt River Canal at Marine Drive Bridge - Paarden Eiland,Routine,Salt,5,C
+2057901.34521051,-4021682.52332571,298,INLD_60,1,INLD,NR06,Chemical & Bacterial,River,Black River at Raapenberg Road bridge,Routine,Salt,8,S
+2060304.51785609,-4020906.64735542,299,INLD_61,1,INLD,ELS08,Chemical & Bacterial,Canal,Elsieskraal River at Nightingale Way,Routine,Salt,5,C
+2059079.45675089,-4023125.52511916,300,INLD_62,1,INLD,NR11,Chemical & Bacterial,River,Black River in Rondebosch Golf Course,Routine,Salt,8,S
+2059026.88309543,-4022542.78120617,301,INLD_63,1,INLD,NR19,Chemical & Bacterial,Canal,Vygekraal River downstream of Elsieskraal but upstream of Black River,Routine,Salt,8,S
+2059664.33833536,-4022194.92162819,302,INLD_64,1,INLD,NR04,Chemical & Bacterial,River,Vygekraal River downstream of Athlone WWTW,Routine,Salt,6,S
+2054205.08636366,-4026229.53811975,304,INLD_66,1,INLD,NR22,Chemical & Bacterial,Canal,Liesbeek River on Paradise Road,Routine,Salt,8,S
+2066275.25191011,-4017173.92168942,308,INLD_70,1,INLD,ELS04,Chemical & Bacterial,Canal,Elsieskraal River on Chelsea Street,Routine,Salt,3,N
+2062030.90434346,-4023120.71097656,311,INLD_73,1,INLD,NR02,Chemical & Bacterial,River,Vygekraal River at Cornflower Street upstream of Blomvlei Canal confluence,Routine,Salt,6,S
+2061488.67909295,-4023031.66711347,312,INLD_74,1,INLD,NR01,Chemical & Bacterial,Canal,Blomvlei Canal at Koodoo Street upstream of Vygekraal River confluence,Routine,Salt,6,S
+2061385.68387991,-4022132.70003606,313,INLD_75,1,INLD,NR16,Chemical & Bacterial,Canal,Langa Canal at N2,Routine,Salt,6,S
+2060961.20813995,-4022227.86153996,317,INLD_79,1,INLD,NR03,Chemical & Bacterial,River,Vygekraal River upstream of Athlone WWTW,Routine,Salt,6,S
+2057445.8941253,-4035293.24298488,319,INLD_81,1,INLD,PV03,Chemical & Bacterial & Algal,Vlei & Wetland,Princessvlei - centre,Routine,Zeekoe,8,S
+2057725.75914822,-4035485.53703901,322,INLD_84,1,INLD,PVWEIR,Chemical & Bacterial & Algal,Vlei & Wetland,Princessvlei near outlet weir,Routine,Zeekoe,8,S
+2042103.62673204,-4046200.95298274,326,INLD_88,1,INLD,WV08,Chemical & Bacterial & Algal,Vlei & Wetland,Wildevoelvlei mouth to sea,Routine,Nhoek,8,S
+2043788.2249876,-4046955.36499809,327,INLD_89,1,INLD,WV02,Chemical & Bacterial & Algal,Vlei & Wetland,Centre of east vlei,Routine,Nhoek,8,S
+2042870.909575,-4047115.36373645,328,INLD_90,1,INLD,WV05,Chemical & Bacterial & Algal,Vlei & Wetland,Centre of west vlei,Routine,Nhoek,8,S
+2051379.65360542,-4049934.25623125,342,INLD_104,1,INLD,GC02,Chemical & Bacterial & Algal,Vlei & Wetland,Glencairn vlei centre - at concrete berm,Routine,SPen,8,S
+2080307.11271092,-4017547.72758038,346,INLD_108,1,INLD,EK03,Chemical & Bacterial,River,Bottelary River at Amandel Road,Routine,Eerste,4,E
+2078987.99398556,-4019050.83765882,347,INLD_109,1,INLD,EK04,Chem & Bacterial & Toxicity,Canal,Kuils River at Carinus Street bridge,Routine,Eerste,4,E
+2078688.20710066,-4019748.36670626,348,INLD_110,1,INLD,EK09,Chem & Bacterial & Toxicity,Canal,Kuils River downstream of Belville WWTW discharge at Rietvlei Road,Routine,Eerste,4,E
+2078267.09893237,-4022155.17443643,349,INLD_111,1,INLD,EK05,Chemical & Bacterial,Canal,Kuils River in canal upstream of Stellenbosch Arterial Road,Routine,Eerste,4,E
+2084944.0913343,-4032090.7273767,352,INLD_114,1,INLD,EK15,Chemical & Bacterial,Canal,Kleinvlei canal,Routine,Eerste,4,E
+2084107.60437664,-4034553.48992644,353,INLD_115,1,INLD,EK08,Chem & Bacterial & Toxicity,River,Kuils River downstream of Baden Powell Drive bridge,Routine,Eerste,7,E
+2085133.1686538,-4035670.22695563,355,INLD_117,1,INLD,EK11,Chem & Bacterial & Toxicity,River,Kuils River downstream of Zandvliet discharge (dirt road bridge),Routine,Eerste,4,E
+2085924.80647423,-4034656.12070379,356,INLD_118,1,INLD,EK13,Chem & Bacterial & Toxicity,River,Eerste River on N2 Freeway (upstream of Kuils confluence),Routine,Eerste,4,E
+2088861.53459736,-4038196.87070687,358,INLD_120,1,INLD,EK12,Chem & Bacterial & Toxicity,River,Eerste River upstream of Macassar WWTW (downstream of Kuils confluence),Routine,Eerste,4,E
+2043402.50856532,-4034442.13248018,359,INLD_121,1,INLD,DR01,Chemical & Bacterial,River,Hout Bay River at Princess Street,Routine,HBay,8,S
+2043103.71744282,-4032905.34182453,360,INLD_122,1,INLD,DR02,Chemical & Bacterial,River,Hout Bay River at Victoria Road,Routine,HBay,8,S
+2046971.37659933,-4030330.75959944,362,INLD_124,1,INLD,DR04,Chemical & Bacterial,River,Hout Bay River at Longkloof Road,Routine,HBay,8,S
+2061791.47538672,-4006466.79553885,363,INLD_125,1,INLD,RTV01,Chem & Bacterial & Toxicity,River,Diep River at Blaauwberg Road bridge (upstream of Potsdam WWTW),Routine,Diep,1,C
+2058592.61282729,-4006789.81013411,364,INLD_126,1,INLD,RTV02,Chemical & Bacterial & Algal,Vlei & Wetland,Rietvlei - sample collected from pier in watersport area of vlei,Routine,Diep,1,C
+2057830.43953178,-4005917.31022786,365,INLD_127,1,INLD,RTV14,Chemical & Bacterial,Canal,"Stormwater channel from Bayside Mall, below pumpstation",Routine,Diep,1,C
+2059360.59822179,-4009787.48833971,366,INLD_128,1,INLD,RTV05,Chemical & Bacterial,River,Diep River at Otto du Plessis Drive bridge,Routine,Diep,1,C
+2061607.5552663,-4008404.9741916,367,INLD_129,1,INLD,RTV03,Chemical & Bacterial,Canal,Stormwater canal from Theo Marais Park (Montague Gardens),Routine,Diep,1,C
+2057408.14158787,-4015585.75004137,368,INLD_130,1,INLD,PEV2,Chemical & Bacterial,Vlei & Wetland,Zoarvlei (centre) at Wemyss Road footbridge,Routine,Diep,1,C
+2056846.09445102,-4016482.66310903,369,INLD_131,1,INLD,PEV1,Chemical & Bacterial,Vlei & Wetland,Zoarvlei (south end) at corner of Vrystraat and Grey Street,Routine,Diep,1,C
+2057884.94611038,-4014384.16427674,370,INLD_132,1,INLD,PEV3,Chemical & Bacterial,Vlei & Wetland,Zoarvlei at Bancroft Street,Routine,Diep,1,C
+2073894.53897944,-4013387.81549795,372,INLD_134,1,INLD,ELS10,Chemical & Bacterial,River,Elsieskraal River at Carl Cronje Road,Routine,Salt,2,N
+2066544.4731664,-4022481.2807754,373,INLD_135,1,INLD,NR17,Chemical & Bacterial,Canal,Kalksteenfontein Canal near Netreg Station,Routine,Salt,3,N
+2062060.43467264,-4022155.94517931,374,INLD_136,1,INLD,NR15,Chemical & Bacterial,Canal,Jakkalsvlei Canal at N2,Routine,Salt,6,S
+2058224.68799357,-4033784.5201316,376,INLD_138,1,INLD,SCV,Chemical & Bacterial,Canal,Southfield Canal at Victoria Road,Routine,Zeekoe,8,S
+2102223.46718884,-4039474.3507434,378,INLD_140,1,INLD,LOU01,Chemical & Bacterial,River,Lourens River at Vergelegen Estate,Routine,Lourens,4,E
+2100552.43738627,-4039955.31757731,379,INLD_141,1,INLD,LOU02,Chemical & Bacterial,River,Lourens River in P.O.S Hillcrest Road (Radloff Park),Routine,Lourens,4,E
+2099026.33631057,-4040516.61917873,380,INLD_142,1,INLD,LOU03,Chemical & Bacterial,River,Lourens River at Main Road - Somerset West,Routine,Lourens,4,E
+2095813.19651443,-4041969.13890379,381,INLD_143,1,INLD,LOU04,Chemical & Bacterial,River,Lourens River at Broadway Road,Routine,Lourens,4,E
+2094510.91604321,-4042359.20308034,382,INLD_144,1,INLD,LOU05,Chemical & Bacterial,River,Lourens River on Beach Road,Routine,Lourens,4,E
+2055096.48445013,-4040513.5357482,383,INLD_145,1,INLD,ZA10S,Chemical & Bacterial & Algal,Vlei & Wetland,Westlake Wetland opposite Rutter Road (old WLW),Routine,Sand,8,S
+2106884.43476101,-4034792.77995279,391,INLD_153,1,INLD,LOU06,Chemical & Bacterial,River,"Lourens River in Lourensford Estate at ""Red Bridge""",Routine,Lourens,4,E
+2088685.7031524,-4039523.68659632,392,INLD_154,1,INLD,EK17,Chem & Bacterial & Toxicity,Estuary,Eerste River estuary,Routine,Eerste,4,E
+2051685.22970034,-4046070.59088216,395,INLD_157,1,INLD,SIL04,Chemical & Bacterial,River,Silvermine River at wooden bridge near Winkle Road - Clovelly,Routine,Smine,8,S
+2049335.09385686,-4043740.49822689,397,INLD_159,1,INLD,SIL02,Chemical & Bacterial,River,Silvermine River near Sunbird Environmental Centre - Silvermine Nature Reserve,Routine,Smine,8,S
+2043391.13294697,-4034816.70451641,398,INLD_160,1,INLD,DR05,Bacterial,Estuary,Hout Bay River estuary,Routine,HBay,8,S
+2089294.83777774,-4037644.14243442,399,INLD_161,1,INLD,EK18,Chemical & Bacterial,River,Moddergat Spruit River at Macassar Road,Routine,Eerste,4,E
+2053526.16909937,-4035278.73027858,406,INLD_168,1,INLD,OOG01,Chemical & Bacterial & Algal,Vlei & Wetland,Die Oog at Midwood Avenue in Bergvliet,Routine,Sand,8,S
+2064752.14052918,-4000663.65960478,407,INLD_169,1,INLD,RTV06,Chemical & Bacterial,River,Diep River downstream of N7 road bridge,Routine,Diep,1,C
+2061737.10151862,-4008257.96978273,409,INLD_171,1,INLD,RTV08,Chemical & Bacterial,River,Duikersvlei Stream upstream of confluence with Theo Marais Canal,Routine,Diep,1,C
+2058333.10785316,-4012971.96323831,410,INLD_172,1,INLD,RTV09,Chemical & Bacterial & Algal,Estuary,Diep River estuary at Woodbridge Island (Loxton Road),Routine,Diep,1,C
+2057691.52080012,-4014126.5957023,411,INLD_173,1,INLD,RTV10,Chemical & Bacterial & Algal,Estuary,Diep River estuary at mouth,Routine,Diep,1,C
+2045442.80819355,-4056002.51191118,413,INLD_175,1,INLD,SCH02,Chemical & Bacterial,River,Schuster's River at Schuster's Kraal Reserve entrance,Routine,SPen,8,S
+2045264.31121976,-4055516.68176541,415,INLD_177,1,INLD,SCH04,Chemical & Bacterial,Canal,Pound canal (stormwater),Routine,SPen,8,S
+2042295.96156776,-4048457.66847662,416,INLD_178,1,INLD,BOK02,Chemical & Bacterial,Canal,Bokramspruit River upstream of Slangkop Road,Routine,SPen,8,S
+2041037.85431262,-4047118.09888314,417,INLD_179,1,INLD,BOK03,Chemical & Bacterial,River,Bokramspruit River a short distance downstream of Flamingo Road,Routine,SPen,8,S
+2043587.08083999,-4049825.8525491,418,INLD_180,1,INLD,BOK01,Chemical & Bacterial,River,Bokramspruit River upstream of Aries Street,Routine,SPen,8,S
+2057059.9112246,-4040995.14228471,419,INLD_181,1,INLD,ZA09S,Chemical & Bacterial & Algal,Estuary,"Marina da Gama canal - south of Spearhead Quay Street, surface",Routine,Sand,8,S
+2106177.1542401,-4043775.54635938,420,INLD_182,1,INLD,SIR01,Chemical & Bacterial,River,Sir Lowry's Pass River at Wedderwill Farm,Routine,SLPass,4,E
+2102782.94869127,-4045516.64883633,421,INLD_183,1,INLD,SIR02,Chemical & Bacterial,River,Sir Lowry's Pass River downstream of N2,Routine,SLPass,4,E
+2101511.3704705,-4047570.76956934,422,INLD_184,1,INLD,SIR03,Chemical & Bacterial,River,Sir Lowry's at Gustrouw Road (upstream of Gordon's Bay WWTW),Routine,SLPass,4,E
+2100824.88596423,-4048375.1443276,423,INLD_185,1,INLD,SIR04,Chemical & Bacterial,River,Sir Lowry's Pass River (original river) at Admirals Way,Routine,SLPass,4,E
+2100289.45848951,-4048031.48071876,424,INLD_186,1,INLD,SIR06,Chemical & Bacterial,Canal,Sir Lowry's Pass River downstream of Gordon's Bay WWTW (diversion canal),Routine,SLPass,4,E
+2100225.19849601,-4049625.69478774,425,INLD_187,1,INLD,SIR05,Chemical & Bacterial,River,Sir Lowry's Pass River (original river channel) Hendon Park,Routine,SLPass,4,E
+2099520.36054463,-4048153.11391999,426,INLD_188,1,INLD,SIR07,Chemical & Bacterial,Canal,Sir Lowry's Pass River at Hibiscus Road (diversion canal),Routine,SLPass,4,E
+2096942.01308562,-4045956.44821589,428,INLD_190,1,INLD,SOE02,Chemical & Bacterial,River,Soet River upstream of Greenways Road (St Andrews Drive),Routine,Soet,4,E
+2082677.61629116,-3999851.43030034,429,INLD_191,1,INLD,MOS03,Chemical & Bacterial,River,Mosselbank tributary downstream of Fisantekraal Western stream on R312 before bridge,Routine,Diep,2,N
+2082022.71680934,-4004645.80857504,430,INLD_192,1,INLD,MOS02,Chem & Bacterial & Toxicity,Canal,Maastricht Canal downstream of Kraaifontein WWTW,Routine,Diep,2,N
+2082179.03430558,-4005444.23982298,431,INLD_193,1,INLD,MOS01,Chem & Bacterial & Toxicity,Canal,Maastricht Canal upstream of Kraaifontein WWTW,Routine,Diep,2,N
+2053328.70601853,-3990368.16558232,432,INLD_194,1,INLD,SOU02,Chemical & Bacterial,River,Sout River at Otto du Plessis Drive,Routine,Sout,1,C
+2054511.46417797,-3990017.45057069,433,INLD_195,1,INLD,SOU01,Chemical & Bacterial,River,Sout River at R27 (downstream of Melkbos WWTW),Routine,Sout,1,C
+2078609.23528857,-4016690.66731185,435,INLD_197,1,INLD,EK19,Chemical & Bacterial,River,Kuils River downstream of R300 off old bridge,Routine,Eerste,4,E
+2061413.87415139,-4008151.73710463,436,INLD_198,1,INLD,RTV12,Chemical & Bacterial,Canal,Theo Marais Canal downstream of Duikersvlei Stream,Routine,Diep,1,C
+2061316.8065325,-4008026.46698702,437,INLD_199,1,INLD,RTV11,Chem & Bacterial & Toxicity,River,Diep River downstream of Potsdam WWTW,Routine,Diep,1,C
+2071994.59566823,-3986619.24227619,438,INLD_200,1,INLD,MOS04,Chemical & Bacterial,River,Mosselbank River upstream of Diep River confluence,Routine,Diep,2,N
+2071087.26327899,-3985603.29264992,439,INLD_201,1,INLD,MOS05,Chemical & Bacterial,River,Diep River upstream of Mosselbank River confluence,Routine,Diep,2,N
+2081694.99055492,-3989311.76512198,440,INLD_202,1,INLD,MOS06,Chemical & Bacterial,River,Mosselbank River near Klipheuwel,Routine,Diep,2,N
+2055272.33868067,-4040146.11939244,441,INLD_203,1,INLD,CR22,Chemical & Bacterial,River,Downstream of Westlake River and Keysers River near railway before Zandvlei,Routine,Sand,8,S
+2056603.04554362,-4034663.25681078,442,INLD_204,1,INLD,LPVMR,Chemical & Bacterial,River,Mocke River inflow to Little Princessvlei,Routine,Sand,8,S
+2056674.05667934,-4042891.71180601,443,INLD_205,1,INLD,ZAWEIR,Chemical & Bacterial & Algal,Estuary,"Zandvlei outlet channel at Rubble Weir, surface",Routine,Sand,8,S
+2056524.6979518,-4040758.14309778,444,INLD_206,1,INLD,ZA13S,Chemical & Bacterial & Algal,Estuary,"Marina da Gama canals - under Park Island Bridge (old BM23), surface",Routine,Sand,8,S
+2056991.19403939,-4040278.6180553,445,INLD_207,1,INLD,ZA12S,Chemical & Bacterial & Algal,Estuary,"Marina da Gama canals - Baalen Way, surface",Routine,Sand,8,S
+2056808.00096721,-4041245.99688961,446,INLD_208,1,INLD,ZA11S,Chemical & Bacterial & Algal,Estuary,"Marina da Gama canals - East Lake, surface",Routine,Sand,8,S
+2052441.68829934,-4046561.20485803,448,INLD_210,1,INLD,SIL06,Chemical & Bacterial,River,Silvermine River at bridge on Main Road - Clovelly,Routine,Smine,8,S
+2058020.19928465,-4005280.09931854,449,INLD_211,1,INLD,RTV04,Chemical & Bacterial,Canal,Stormwater channel from Bayside Mall downstream of Blaauwberg Road,Routine,Diep,1,C
+2100888.47948711,-4044924.14174139,451,INLD_213,1,INLD,SOEAH11,Chemical & Bacterial,Canal,"Soet River in open concrete channel, corner of Broadlands Road - next to Pryde Group",Routine,Soet,4,E
+2099578.08355741,-4043298.22201806,452,INLD_214,1,INLD,SOEAH06,Chemical & Bacterial,Canal,Soet River in concrete channel - in front of BP garage corner of N2 and Hlathi Road,Routine,Soet,4,E
+2098673.20533819,-4044425.94447113,453,INLD_215,1,INLD,SOEAH12,Chemical & Bacterial,Canal,Soet River in open channel near Erf 32524 (Combined channel 20 metres downstream of confluence),Routine,Soet,4,E
+2072349.16832767,-4010012.13404376,454,INLD_216,1,INLD,ANG01,Chemical & Bacterial & Algal,Dam,Angelier Park Amandel upper dam near Van Riebeekshof Road,Routine,Salt,2,N
+2072996.57476482,-4010067.73664898,455,INLD_217,1,INLD,ANG02,Chemical & Bacterial & Algal,Dam,Angelier Park Fynbos lower dam near Van Riebeekshof Road,Routine,Salt,2,N
+2074032.37038973,-4010614.20467754,456,INLD_219,1,INLD,DOOR01,Chemical & Bacterial,Dam,Door De Kraal Dam at large stormwater outlet on Angelier Street,Routine,Salt,2,N
+2073877.97988686,-4010835.25020971,459,INLD_218,1,INLD,DOOR03,Chemical & Bacterial & Algal,Dam,Door De Kraal Dam at South end by the dam wall,Routine,Salt,2,N
+2080936.32020329,-4037652.63368321,460,INLD_222,1,INLD,KHA02,Chemical & Bacterial,Detention Pond,Canal inlet to detention pond near litter device,Routine,MPlain,7,E
+2081408.67163197,-4037981.95613977,461,INLD_223,1,INLD,KHA03,Chemical & Bacterial,Detention Pond,Detention pond near outlet on Baden Powell Drive,Routine,MPlain,7,E
+2081577.09285758,-4038515.02550933,462,INLD_224,1,INLD,KHA04,Chemical & Bacterial,Sea SW Outlet,Outlet from Khayelitsha stormwater system to sea,Routine,MPlain,7,E
+2076796.97255003,-4031100.70464612,463,INLD_225,1,INLD,KHA01,Chemical & Bacterial,Detention Pond,Pond Site C on Mew Way,Routine,MPlain,7,E
+2083234.09285134,-3997025.35644468,485,INLD_247,1,INLD,MOS07,Chem & Bacterial & Toxicity,River,Mosselbank River upstream of Fisantekraal WWTW,Routine,Diep,2,N
+2082342.20606528,-3992904.96642046,486,INLD_248,1,INLD,MOS08,Chem & Bacterial & Toxicity,River,Mosselbank River downstream of Fisantekraal WWTW,Routine,Diep,2,N
+2044531.22183152,-4031411.96063516,487,INLD_249,1,INLD,DR06,Chemical & Bacterial,River,Disa River at Bethal Road,Routine,HBay,8,S
+2059998.51723735,-4038732.98227396,488,INLD_250,1,INLD,ZEV5,Chemical & Bacterial,Canal,At cut-off drain outfall to Zeekoe outlet canal,Routine,Zeekoe,6,S
+2098939.36994501,-4045165.93463825,496,INLD_278,1,INLD,SOEAH10,Chemical & Bacterial,River,Soet River in open channel Erf 7810 next to Onverwacht Road,Routine,Soet,4,E
+2081948.09283355,-4001639.87356246,499,INLD_266,1,INLD,MOSAH11,Chemical & Bacterial,River,Concrete water structure on farm Bakoor Jakkalsdraai,Routine,Diep,2,N
+2082641.30460811,-3989864.1858775,501,INLD_258,1,INLD,MOSAH03,Chemical & Bacterial,River,Radio Street just off R304 at Klipheuwel,Routine,Diep,2,N
+2058760.31792201,-4011638.83727218,517,INLD_281,1,INLD,RTV18,Chemical & Bacterial,Vlei & Wetland,Diep River estuary opposite Broad Way (North of the island),Routine,Diep,1,C
+2059606.67143987,-4022019.69939649,519,INLD_282,1,INLD,ELS11,Chemical & Bacterial,Canal,Elsieskraal River at N2 Bridge,Routine,Salt,5,C
+2059891.88511076,-4041762.04499268,520,INLD_291,1,INLD,ZEV08,Chemical & Bacterial & Algal,Canal,Zeekoevlei canal mouth at Baden Powell Drive,Routine,Zeekoe,6,S
+2058270.25004125,-4012885.25941359,532,INLD_303,1,INLD,MCC,Chemical & Bacterial & Algal,River,Milnerton Canoe Club (Diep River),Routine,Diep,1,C
+2064926.96891521,-4017332.09212573,535,INLD_284,1,INLD,ELS_GW,Chemical & Bacterial,Canal,Elsieskraal River near GrandWest and Goodwood Station,Routine,Salt,3,N
+2099005.4906392,-4040529.82560803,536,INLD_285,1,INLD,LOU08,Chemical & Bacterial,River,Lourens at Main Road -  between old bridge and new bridge,Routine,Lourens,4,E
+2083919.99993932,-3999167.95834308,537,INLD_286,1,INLD,MOS09,Chemical & Bacterial,River,Mosselbank tributary downstream of Fisantekraal Eastern sample on R312 East stream,Routine,Diep,2,N
+2057408.8151001,-4024277.12018497,538,INLD_287,1,INLD,NR24,Chemical & Bacterial,Canal,Black River at Sandown Road,Routine,Salt,8,S
+2060402.24300754,-4022214.60182495,539,INLD_288,1,INLD,NR25,Chemical & Bacterial,River,Vygekraal River downstream of Athlone WWTW before Jan Smuts Drive,Routine,Salt,6,S
+2065374.40418101,-4023269.20183959,540,INLD_289,1,INLD,NR26,Chemical & Bacterial,Canal,Jakkelsvlei downstream of Borcherds Quarry WWTW (N/W corner of Robert Sobukwe/N2 intersection),Routine,Salt,3,N
+2062205.24816861,-4036071.21285407,541,INLD_290,1,INLD,POC01,Chemical & Bacterial,Stormwater Outlet,Top of Philippi stormwater outlet channel,Routine,Zeekoe,6,S
+2061468.34951272,-4037526.49396851,542,INLD_306,1,INLD,ZEV9S,Chemical & Bacterial & Algal,Vlei & Wetland,Zeekoevlei Eastern shore near stormwater outlet from picnic area at traffic circle,Routine,Zeekoe,6,S
+2056546.01860628,-4039166.35983166,543,INLD_307,1,INLD,CR29,Chemical & Bacterial,Canal,Sand River at Coniston Road (upstream of litter trap),Routine,Sand,8,S
+2061083.79095015,-4008220.1245214,544,INLD_308,1,INLD,THEO_MARAIS_D_STREAM,Chemical & Bacterial,River,100m downstream of Theo Marais Park RTV System,Routine,Diep,1,C
+2102093.90613921,-4039162.04297117,545,INLD_309,1,INLD,LOU13,Chemical & Bacterial,Canal,Stormwater outlet from wetland on Vergelegen Road,Routine,Lourens,4,E
+2058357.07458313,-4007050.02692161,546,INLD_310,1,INLD,RTV17,Chemical & Bacterial & Algal,Vlei & Wetland,"Water Sport Area middle; Rietvlei",Routine,Diep,1,C
+2057998.71386272,-4006774.14575421,547,INLD_311,1,INLD,RTV19,Chemical & Bacterial & Algal,Vlei & Wetland,Rietvlei North West near Bayside canal outlet,Routine,Diep,1,C
+2058632.47142573,-4006986.81768713,548,INLD_312,1,INLD,MAC,Chemical & Bacterial & Algal,Vlei & Wetland,Milnerton Aquatic Club (Rietvlei),Routine,Diep,1,C
+2058034.92493425,-4006896.17809162,549,INLD_313,1,INLD,RTVBUOY2,Chemical & Bacterial & Algal,Vlei & Wetland,Rietvlei Water Body @ Buoy2,Routine,Diep,1,C
+2058232.52647552,-4007420.85732608,550,INLD_314,1,INLD,RTVBUOY4,Chemical & Bacterial & Algal,Vlei & Wetland,Rietvlei Water Body @ Buoy4,Routine,Diep,1,C
+2058775.17653965,-4007275.56493249,551,INLD_315,1,INLD,RTVBUOY6,Chemical & Bacterial & Algal,Vlei & Wetland,Rietvlei Water Body @ Buoy6,Routine,Diep,1,C
+2058372.11781547,-4006794.85074251,552,INLD_316,1,INLD,RTVBUOY1,Chemical & Bacterial & Algal,Vlei & Wetland,Rietvlei Water Body @ Buoy1,Routine,Diep,1,C
+2045289.34383443,-4023523.13447783,583,INLD_359,1,INLD,CN33,Bacterial,Sea SW Outlet,Bakoven stormwater next to pump station,Routine,City,5,C
+2042668.53004704,-4035045.83653759,584,INLD_367,1,INLD,HB11,Bacterial,Sea SW Outlet,Yacht Club stormwater discharge,Routine,HBay,8,S
+2062764.3909441,-4003511.50771677,585,INLD_370,1,INLD,RTV22,Chemical & Bacterial,River,Diep River at Railway Bridge from Parklands,Routine,Diep,1,C
+2050378.38552896,-4021109.46863074,588,INLD_379,1,INLD,CEN01,Chemical & Bacterial,River,"Platteklip Stream at corner of Homeleigh and Capel Road, Vredehoek",Routine,City,5,C
+2045673.56510706,-4024108.72718861,589,INLD_380,1,INLD,CEN02,Chemical & Bacterial,River,"Kasteelpoort River at 21 Fulham Road, Bakoven",Routine,City,5,C
+2046044.55178665,-4022905.10115482,590,INLD_381,1,INLD,CEN03,Chemical & Bacterial,River,"Little Glen Playground at end of 1st Crescent Street, Camps Bay",Routine,City,5,C
+2096030.06603954,-4036395.71425158,591,INLD_389,1,INLD,DTP01,Chemical & Bacterial,Detention Pond,"Detention Pond at Poinsettia Park, Pyracantha Street, Somerset West",Routine,Lourens,4,E
+2094181.66793738,-4038466.84656428,592,INLD_404,1,INLD,LOU14,Chemical & Bacterial,River,Lourens River off the N2 and Old Paardevlei Road,Routine,Lourens,4,E
+2095592.7537822,-4035271.10954411,593,INLD_421,1,INLD,STREAM01,Chemical & Bacterial,River,"Stream opposite 3 Berghowe Road, Helderberg Village",Routine,Eerste,4,E
+2098575.42016103,-4037998.47019308,594,INLD_403,1,INLD,GLT01,Chemical & Bacterial,River,"Geelsloot Stream on Jakaranda Street, Parel Vallei, Somerset West",Routine,Lourens,4,E
+2090911.18568822,-4035742.56186064,595,INLD_422,1,INLD,STREAM02,Chemical & Bacterial,River,Stream between the Huntsman and Acorn Creek on R102,Routine,Eerste,4,E
+2073573.442407,-3979473.82833978,596,INLD_388,1,INLD,DIEP12,Chemical & Bacterial,River,Diep River adjacent to Old Malmesbury Road,Routine,Diep,2,N
+2085022.84943602,-4012092.37467335,597,INLD_374,1,INLD,BOP_1,Chemical & Bacterial,Detention Pond,Botfontein pond inlet,Routine,Eerste,2,N
+2085127.67330795,-4012425.27386153,598,INLD_375,1,INLD,BOP_2,Chemical & Bacterial,Detention Pond,Botfontein pond outlet,Routine,Eerste,2,N
+2085153.74420017,-4012193.78449207,599,INLD_376,1,INLD,BOP_3,Chemical & Bacterial,Detention Pond,Botfontein pond 3,Routine,Eerste,2,N
+2085318.43100483,-4012594.11942223,600,INLD_377,1,INLD,BOP_4,Chemical & Bacterial,Detention Pond,Botfontein pond 4,Routine,Eerste,2,N
+2085767.66482285,-4007088.50030601,601,INLD_416,1,INLD,SAP_1,Chemical & Bacterial,Detention Pond,Sandringham pond South Western inflow,Routine,Diep,2,N
+2085806.34549837,-4006893.5918021,602,INLD_419,1,INLD,SAP_4,Chemical & Bacterial,Detention Pond,Sandringham pond central outflow,Routine,Diep,2,N
+2086088.37568935,-4006726.48025302,603,INLD_418,1,INLD,SAP_3,Chemical & Bacterial,Detention Pond,Sandringham pond minor inflow,Routine,Diep,2,N
+2086158.55142466,-4006657.92783574,604,INLD_417,1,INLD,SAP_2,Chemical & Bacterial,Detention Pond,Sandringham pond North inflow,Routine,Diep,2,N
+2085745.65427418,-4013927.27356057,605,INLD_390,1,INLD,EK27,Chemical & Bacterial,River,Bottelary river upstream confluence,Routine,Eerste,2,N
+2086589.69302917,-4013486.22839404,606,INLD_391,1,INLD,EK28,Chemical & Bacterial,River,Botterlary river at Botterlary Road (upstream point),Routine,Eerste,2,N
+2068921.98169426,-4011182.40355031,607,INLD_395,1,INLD,ELS32,Chemical & Bacterial,Dam,Plattekloof Dam at Meyboom Avenue in Plattekloof,Routine,Salt,3,N
+2070536.89737305,-4010113.43343565,608,INLD_396,1,INLD,ELS33,Chemical & Bacterial,Dam,Dam downstream of Kanonberg Dam on Riesling Street,Routine,Salt,2,N
+2071144.42108517,-4011978.40704075,609,INLD_397,1,INLD,ELS34,Chemical & Bacterial,Dam,Welgemoed Dam in Tygerberg Nature Reserve,Routine,Salt,2,N
+2071147.18649654,-4016362.15180405,610,INLD_398,1,INLD,ELS35,Chemical & Bacterial,River,De Kock Street at bend of M16,Routine,Salt,3,N
+2078688.66641291,-4013182.90411654,611,INLD_394,1,INLD,EK31,Chemical & Bacterial,River,"Kuils River at end of Eikenhout Avenue, Bellville",Routine,Eerste,3,N
+2073723.58464271,-4010108.45026003,612,INLD_399,1,INLD,ELS37,Chemical & Bacterial,River,"Elsieskraal River, off Van Riebeeckshof Road, just before Doordekraal Dam at bridge",Routine,Salt,2,N
+2089061.54882973,-4003616.12556399,613,INLD_408,1,INLD,MOS12,Chemical & Bacterial,River,Mosselbank River near County Fair farm on R304,Routine,Diep,2,N
+2078118.41292484,-4008126.75556367,614,INLD_392,1,INLD,EK29,Chemical & Bacterial,River,"Kuils River at Fairtrees public open space, at bridge on Ibis Street ",Routine,Eerste,2,N
+2083901.25602195,-4015825.71047091,615,INLD_393,1,INLD,EK30,Chemical & Bacterial,River,"Off Bottelary Road at Hazendal Farm, Kuilsriver",Routine,Eerste,2,N
+2060051.89128052,-3980184.91463379,616,INLD_387,1,INLD,DG03,Chemical & Bacterial,River,"Donkergat River, downstream of Wesfleur WWTW discharge point, off Brakkefontein Road",Routine,Sout,1,C
+2046460.78327749,-4021593.16858318,617,INLD_382,1,INLD,CEN04,Chemical & Bacterial,River,"Camps Bay Stream, opposite 26 Shanklin Crescent at Shanklin Crescent Park",Routine,City,5,C
+2046216.86959526,-4021425.87527541,618,INLD_383,1,INLD,CEN05,Chemical & Bacterial,River,"Diepsloot Stream at footbridge of the Glen near Camps Bay Retreat, Camps Bay",Routine,City,5,C
+2053809.12514446,-3962692.30074285,619,INLD_407,1,INLD,MOD02,Chemical & Bacterial,River,"Louwskloof River, tributary of Modder River downstream of Mamre town",Routine,Atls,1,C
+2057637.10702544,-4005954.75165429,620,INLD_414,1,INLD,RTVD5,Chemical & Bacterial,Vlei & Wetland,"Dolphins edge pan, Rietvlei - North",Routine,Diep,1,C
+2057602.34933696,-4006033.85068687,621,INLD_413,1,INLD,RTVD1,Chemical & Bacterial,Vlei & Wetland,"Dolphins edge pan, Rietvlei - South",Routine,Diep,1,C
+2054787.16704835,-4017968.50154741,622,INLD_409,1,INLD,NR30,Chemical & Bacterial,Canal,"Near truck stop, Nereide Street, Woodstock ",Routine,City,5,C
+2063407.18879469,-4002139.71582139,623,INLD_412,1,INLD,RTV38,Chemical & Bacterial,River,Upstream of Malibongwe Drive,Routine,Diep,1,C
+2094244.63010457,-4042214.38561923,624,INLD_405,1,INLD,LOU15,Chemical & Bacterial,River,"Just before confluence with Lourens River, near pump station on Beach Road, Strand",Routine,Lourens,4,E
+2048537.02000672,-4052209.80758208,625,INLD_402,1,INLD,GC08,Chemical & Bacterial,River,"Brooklands Road, Noordhoek. Upstream of Brooklands Water Treatment Plant",Routine,SPen,8,S
+2052867.88364146,-4034633.25068563,626,INLD_384,1,INLD,CR31,Chemical & Bacterial,River,Downstream of Grootboschkloof and Pagasvlei Stream at end of Willow Road,Routine,Sand,8,S
+2058525.19107398,-4026214.70513211,627,INLD_410,1,INLD,NR31,Chemical & Bacterial,River,"Access from M5, 400m before exit 15 to Racecourse Road off ramp",Routine,Salt,8,S
+2046127.16860609,-4042433.71697447,628,INLD_378,1,INLD,BWS01,Chemical & Bacterial,River,Brookwood Stream on Noordhoek Main Road ,Routine,Nhoek,8,S
+2053136.39051342,-4035998.37900958,629,INLD_385,1,INLD,CR32,Chemical & Bacterial,River,"Prinskasteel River, Sweet Valley Vineyard Estate at end of Lismore Avenue",Routine,Sand,8,S
+2052735.6205015,-4032877.84034113,630,INLD_386,1,INLD,CR33,Chemical & Bacterial,River,Spaanschemat River at Spaanschemat Road,Routine,Sand,8,S
+2043856.05414949,-4034550.73999117,631,INLD_373,1,INLD,BKR01,Chemical & Bacterial,River,Baviaanskloof River on Baviaanskloof Road at bridge,Routine,HBay,8,S
+2053177.60632104,-4026980.73130669,632,INLD_411,1,INLD,NR32,Chemical & Bacterial,River,Liesbeek River at Kirstenbosch Drive,Routine,Salt,8,S
+2065080.79168435,-4029214.16752566,633,INLD_400,1,INLD,ESDP01,Chemical & Bacterial,Detention Pond,Edith Stephens Nature Reserve pond inlet on Jakes Gerwel Drive (first pond),Routine,Zeekoe,6,S
+2065008.88655508,-4028899.01840044,634,INLD_401,1,INLD,ESDP02,Chemical & Bacterial,Detention Pond,Edith Stephens Nature Reserve pond outlet on Govan Mbeki Road (middle pond),Routine,Zeekoe,6,S
+2056290.44276026,-4039151.62659562,635,INLD_406,1,INLD,LVC,Chemical & Bacterial,River,Langevlei canal before confluence with Sand River,Routine,Sand,8,S
+2059063.41462003,-4037304.19306106,636,INLD_415,1,INLD,RVS,Chemical & Bacterial,Vlei & Wetland,"Main waterbody at Jack Winterbottom bird hide, Rondevlei Nature Reserve",Routine,Zeekoe,6,S
+2050912.28036165,-4053441.72600436,637,INLD_420,1,INLD,SMT01,Chemical & Bacterial,River,"Palace Hill Road, Simon's Town",Routine,SPen,8,S
+2052355.54479614,-4038710.13771236,638,INLD_423,1,INLD,CR04A,Chemical & Bacterial,River,Westlake River downstream of Pollsmoor Prison Grounds - opposite Westlake Primary School at bridge,Routine,Sand,8,S
+2057582.16149329,-3963603.38966988,639,INLD_424,1,INLD,MOD01,Chemical & Bacterial,River,"Louwskloof River, tributary of Modder River upstream of Mamre town, on Dassenberg Road",Routine,Atls,1,C

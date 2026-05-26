@@ -1,91 +1,106 @@
-import { MapContainer, TileLayer, Marker, Popup, CircleMarker } from "react-leaflet";
-import { useEffect, useState } from "react";
-import L from "leaflet";
+import { MapContainer, TileLayer, CircleMarker, useMap } from "react-leaflet";
+import { useEffect, useMemo, useState } from "react";
+import { predictFutureRisk, getStatus } from "@utils/advancedRiskEngine";
 
-import { manholes as baseData } from "../data/mockSensorData";
-import { calculateRisk, getStatus } from "../utils/riskCalculator";
-import { defaultIcon } from "../utils/leafletFix";
+function webMercatorToLatLng(sensor) {
+  if (!Number.isFinite(sensor.originalX) || !Number.isFinite(sensor.originalY)) {
+    return [sensor.lat ?? 0, sensor.lng ?? 0];
+  }
 
-L.Marker.prototype.options.icon = defaultIcon;
+  const radius = 6378137;
+  const longitude = (sensor.originalX / radius) * (180 / Math.PI);
+  const latitude = (2 * Math.atan(Math.exp(sensor.originalY / radius)) - Math.PI / 2) * (180 / Math.PI);
 
-export default function MapView({ rain }) {
-  const [data, setData] = useState(baseData);
+  return [latitude, longitude];
+}
 
-  const center = [-33.9249, 18.4241];
+function MapBoundsController({ points, activeDistrictName }) {
+  const map = useMap();
 
-  // 🌧️ IoT simulation engine
   useEffect(() => {
-    const interval = setInterval(() => {
-      setData(prev =>
-        prev.map(m => {
-          const coastalBoost = m.lat < -33.92 ? 1.3 : 1;
+    if (!points.length) return;
 
-          return {
-            ...m,
-            waterLevel: Math.max(0, Math.min(100,
-              m.waterLevel + (Math.random() - 0.3) * 8 * coastalBoost * (rain ? 1.5 : 1)
-            )),
-            gasLevel: Math.max(0, Math.min(100,
-              m.gasLevel + (Math.random() - 0.5) * 5
-            )),
-            moisture: Math.max(0, Math.min(100,
-              m.moisture + (Math.random() - 0.4) * 6 * (rain ? 1.3 : 1)
-            )),
-          };
-        })
-      );
-    }, 2500);
+    const nextPoints = activeDistrictName
+      ? points.filter((point) => point.districtName === activeDistrictName)
+      : points;
 
-    return () => clearInterval(interval);
-  }, [rain]);
+    if (!nextPoints.length) return;
+
+    const bounds = nextPoints.map((point) => point.position);
+
+    if (bounds.length === 1) {
+      map.setView(bounds[0], 14);
+      return;
+    }
+
+    map.fitBounds(bounds, { padding: [24, 24] });
+  }, [activeDistrictName, map, points]);
+
+  return null;
+}
+
+export default function MapView({ manholes, rain, onSelect, activeDistrictName, onClearSelection, loading }) {
+  const [mapData, setMapData] = useState([]);
+
+  const initialCenter = [-33.9315, 18.6345];
+
+  useEffect(() => {
+    setMapData(manholes);
+  }, [manholes]);
+
+  const points = useMemo(
+    () =>
+      mapData.map((manhole) => ({
+        districtName: manhole.districtName,
+        position: webMercatorToLatLng(manhole),
+      })),
+    [mapData]
+  );
+
+  if (loading && !mapData.length) {
+    return <div className="map-shell map-shell--loading">Loading CPUT Bellville sensor network…</div>;
+  }
 
   return (
-    <div style={{ flex: 1 }}>
-      <MapContainer center={center} zoom={13} style={{ height: "100vh" }}>
-        <TileLayer
-          attribution="&copy; OpenStreetMap contributors"
-          url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-        />
+    <MapContainer center={initialCenter} zoom={12} className="map-shell">
+      <TileLayer
+        attribution="&copy; OpenStreetMap contributors"
+        url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+      />
 
-        {data.map(m => {
-          const risk = calculateRisk(m);
-          const status = getStatus(risk);
+      <MapBoundsController points={points} activeDistrictName={activeDistrictName} />
 
-          const color =
-            status === "NORMAL"
-              ? "green"
-              : status === "WARNING"
-              ? "orange"
-              : "red";
+      {mapData.map((m) => {
+        const prediction = predictFutureRisk(m);
+        const status = getStatus(prediction.currentRisk);
+        const center = webMercatorToLatLng(m);
+        const isActiveDistrict = !activeDistrictName || m.districtName === activeDistrictName;
 
-          return (
-            <div key={m.id}>
-              <Marker position={[m.lat, m.lng]}>
-                <Popup>
-                  <h3>{m.name}</h3>
-                  <p>Risk Score: {risk}</p>
-                  <p>Status: {status}</p>
-                  <p>Water: {m.waterLevel.toFixed(1)}%</p>
-                  <p>Gas: {m.gasLevel.toFixed(1)}%</p>
-                  <p>Moisture: {m.moisture.toFixed(1)}%</p>
-                </Popup>
-              </Marker>
+        const color = status === "NORMAL" ? "green" : status === "WARNING" ? "orange" : "red";
 
-              {/* glow indicator */}
-              <CircleMarker
-                center={[m.lat, m.lng]}
-                radius={12}
-                pathOptions={{
-                  color,
-                  fillColor: color,
-                  fillOpacity: 0.4,
-                }}
-                className={status === "CRITICAL" ? "critical-pulse" : ""}
-              />
-            </div>
-          );
-        })}
-      </MapContainer>
-    </div>
+        return (
+          <CircleMarker
+            key={m.id}
+            center={center}
+            radius={8}
+            pathOptions={{
+              color,
+              fillColor: color,
+              fillOpacity: isActiveDistrict ? 0.6 : 0.18,
+              opacity: isActiveDistrict ? 1 : 0.25,
+            }}
+            eventHandlers={{
+              click: () => {
+                if (!isActiveDistrict && activeDistrictName) {
+                  onClearSelection?.();
+                }
+
+                onSelect({ ...m, ...prediction });
+              },
+            }}
+          />
+        );
+      })}
+    </MapContainer>
   );
 }

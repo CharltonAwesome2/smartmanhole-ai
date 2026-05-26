@@ -1,6 +1,39 @@
-export const manholes = [
-  { id: 1, name: "Cape Town Central", lat: -33.9249, lng: 18.4241, waterLevel: 40, gasLevel: 20, moisture: 30 },
-  { id: 2, name: "District 6 Zone", lat: -33.9275, lng: 18.417, waterLevel: 70, gasLevel: 55, moisture: 60 },
-  { id: 3, name: "Harbour Edge", lat: -33.917, lng: 18.428, waterLevel: 85, gasLevel: 80, moisture: 75 },
-  { id: 4, name: "Suburban North", lat: -33.91, lng: 18.44, waterLevel: 25, gasLevel: 10, moisture: 20 },
-];
+// Import ALL converted stormwater data for Cape Winelands
+import allStormwaterSensors from './allStormwaterSensors.json';
+
+// Export all data - no filtering to Bellville
+export const manholes = allStormwaterSensors;
+
+// Optional: Add helper to filter by district when needed
+export function getSensorsByDistrict(districtCode) {
+  return manholes.filter(m => m.district === districtCode);
+}
+
+export function getSensorsByRegion(regionName) {
+  return manholes.filter(m => 
+    m.districtName?.toLowerCase().includes(regionName.toLowerCase())
+  );
+}
+
+// Real-time simulation update
+export function refreshSensorReadings() {
+  return manholes.map(m => ({
+    ...m,
+    waterLevel: simulateChange(m.waterLevel, 15),
+    gasLevel: simulateChange(m.gasLevel, 10),
+    moisture: simulateChange(m.moisture, 8),
+    riskLevel: recalculateRisk(m.waterLevel, m.gasLevel)
+  }));
+}
+
+function simulateChange(current, maxChange) {
+  const change = (Math.random() - 0.5) * maxChange;
+  let newValue = current + change;
+  return Math.min(100, Math.max(0, newValue));
+}
+
+function recalculateRisk(waterLevel, gasLevel) {
+  if (waterLevel > 70 || gasLevel > 70) return 'CRITICAL';
+  if (waterLevel > 50 || gasLevel > 50) return 'WARNING';
+  return 'NORMAL';
+}
